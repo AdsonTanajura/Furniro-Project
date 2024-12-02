@@ -9,6 +9,12 @@ export default createGlobalStyle`
 
     }
 
+    #root {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     body {
         background: #FFFFFF;
         -webkit-font-smoothings: antialiased;

@@ -1,19 +1,58 @@
+import { SignedIn, SignedOut, UserButton } from '@clerk/clerk-react';
+
+import Logo from '../../assets/Logo.svg';
+import userIcon from '../../assets/User.svg';
+
 import {
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  UserButton,
-} from '@clerk/clerk-react';
+  CartButton,
+  CartIcon,
+  HeaderContainer,
+  LogoContainer,
+  LogoTitel,
+  MenuLink,
+  MenuList,
+  StyledSignInButton,
+  UserMenu,
+} from './styled';
 const Header = () => {
   return (
-    <header>
-      <SignedOut>
-        <SignInButton />
-      </SignedOut>
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
-    </header>
+    <HeaderContainer>
+      <LogoContainer>
+        <img src={Logo} alt="Logo" />
+        <LogoTitel>Furniro</LogoTitel>
+      </LogoContainer>
+
+      <nav>
+        <MenuList>
+          <li>
+            <MenuLink to={'/a'}>Home</MenuLink>
+          </li>
+          <li>
+            <MenuLink to={'/a'}>Shop</MenuLink>
+          </li>
+          <li>
+            <MenuLink to={'/a'}>About</MenuLink>
+          </li>
+          <li>
+            <MenuLink to={'/a'}>Contact</MenuLink>
+          </li>
+        </MenuList>
+      </nav>
+
+      <UserMenu>
+        <SignedOut>
+          <StyledSignInButton>
+            <img src={userIcon} alt="" />
+          </StyledSignInButton>
+        </SignedOut>
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
+        <CartButton>
+          <CartIcon />
+        </CartButton>
+      </UserMenu>
+    </HeaderContainer>
   );
 };
 

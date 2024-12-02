@@ -7,14 +7,16 @@ const Home = () => {
   console.log('test', userId);
 
   return (
-    <div>
+    <>
       <Header />
-      {isLoaded && !userId ? (
-        <h1>Você nao esta logado</h1>
-      ) : (
-        <h1>Você esta logado</h1>
-      )}
-    </div>
+      <main>
+        {isLoaded && !userId ? (
+          <h1>Você nao esta logado</h1>
+        ) : (
+          <h1>Você esta logado</h1>
+        )}
+      </main>
+    </>
   );
 };
 
