@@ -11,6 +11,12 @@ export const HeaderContainer = styled.header`
   margin: 30px 54px;
   width: 100%;
   max-width: 1440px;
+
+  @media (max-width: 724px) {
+    nav {
+      display: none; /* Esconde o menu principal */
+    }
+  }
 `;
 
 export const LogoContainer = styled.div`
@@ -35,6 +41,10 @@ export const MenuList = styled.ul`
   list-style: none;
   width: 100vw;
   max-width: 430px;
+
+  @media (max-width: 724px) {
+    flex-direction: column;
+  }
 `;
 
 export const MenuLink = styled(Link)`
@@ -82,4 +92,38 @@ export const CartButton = styled.button`
 export const CartIcon = styled(MdOutlineShoppingCart)`
   width: 28px;
   height: 28px;
+`;
+
+export const BurgerMenuButton = styled.button`
+  display: none;
+
+  @media (max-width: 724px) {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    span {
+      width: 24px;
+      height: 3px;
+      background-color: black;
+      border-radius: 2px;
+    }
+  }
+`;
+
+export const MobileMenuContainer = styled.div`
+  position: absolute;
+  top: 64px;
+  left: 0;
+  right: 0;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+
+  @media (min-width: 725px) {
+    display: none;
+  }
 `;
