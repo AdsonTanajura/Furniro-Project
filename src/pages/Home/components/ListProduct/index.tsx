@@ -11,6 +11,38 @@ const ListProduct = () => {
         title="Teste"
         isNew
       />
+
+      <ProductCard
+        description="awdadwadawdwa"
+        img="https://desafiocompass03.s3.us-east-2.amazonaws.com/sectiom3Img3.jpg"
+        price={4000000}
+        title="Teste"
+        isNew
+      />
+
+      <ProductCard
+        description="awdadwadawdwa"
+        img="https://desafiocompass03.s3.us-east-2.amazonaws.com/sectiom3Img3.jpg"
+        price={4000000}
+        title="Teste"
+        isNew
+      />
+
+      <ProductCard
+        description="awdadwadawdwa"
+        img="https://desafiocompass03.s3.us-east-2.amazonaws.com/sectiom3Img3.jpg"
+        price={4000000}
+        title="Teste"
+        isNew
+      />
+
+      <ProductCard
+        description="awdadwadawdwa"
+        img="https://desafiocompass03.s3.us-east-2.amazonaws.com/sectiom3Img3.jpg"
+        price={4000000}
+        title="Teste"
+        isNew
+      />
     </ListCotainer>
   );
 };
