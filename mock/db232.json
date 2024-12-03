@@ -1,0 +1,1604 @@
+{
+  "cards": [
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Bookshelf with ample storage",
+      "price": 196172,
+      "discount": 18,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Durable and stylish bed frame",
+      "price": 77605,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Adjustable and ergonomic chair",
+      "price": 155916,
+      "discount": 53,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Stylish Armchair",
+      "description": "Soft and durable area rug",
+      "price": 128305,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Adjustable and ergonomic chair",
+      "price": 197240,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Sleek glass-top coffee table",
+      "price": 202412,
+      "discount": 82,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Adjustable and ergonomic chair",
+      "price": 181880,
+      "discount": 10,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Wooden desk with a minimalist design",
+      "price": 96761,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Stylish Armchair",
+      "description": "Wooden desk with a minimalist design",
+      "price": 281853,
+      "discount": 56,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Smart TV Stand",
+      "description": "Stand with cable management",
+      "price": 299478,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Soft and durable area rug",
+      "price": 292047,
+      "discount": 51,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Elegant Desk",
+      "description": "Bookshelf with ample storage",
+      "price": 115226,
+      "discount": 75,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Soft Mattress",
+      "description": "Adjustable and ergonomic chair",
+      "price": 96315,
+      "discount": 26,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 161757,
+      "discount": 91,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Stylish Armchair",
+      "description": "Soft and durable area rug",
+      "price": 244374,
+      "discount": 82,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Stylish Armchair",
+      "description": "Durable and stylish bed frame",
+      "price": 250860,
+      "discount": 47,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Stylish Armchair",
+      "description": "Durable and stylish bed frame",
+      "price": 237152,
+      "discount": 36,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Sleek glass-top coffee table",
+      "price": 50469,
+      "discount": 10,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Premium mattress for restful sleep",
+      "price": 277158,
+      "discount": 35,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Soft Mattress",
+      "description": "Durable and stylish bed frame",
+      "price": 259229,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Smart TV Stand",
+      "description": "Premium mattress for restful sleep",
+      "price": 119617,
+      "discount": 52,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Soft and durable area rug",
+      "price": 285430,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Soft and durable area rug",
+      "price": 155199,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Luxury Rug",
+      "description": "Stand with cable management",
+      "price": 248537,
+      "discount": 51,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Soft and durable area rug",
+      "price": 162220,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Premium mattress for restful sleep",
+      "price": 177030,
+      "discount": 6,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Sleek glass-top coffee table",
+      "price": 292716,
+      "discount": 80,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 243475,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Adjustable and ergonomic chair",
+      "price": 172971,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Luxury Rug",
+      "description": "Elegant and comfortable armchair",
+      "price": 137527,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Sleek glass-top coffee table",
+      "price": 223029,
+      "discount": 77,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Soft Mattress",
+      "description": "Bookshelf with ample storage",
+      "price": 224025,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Soft Mattress",
+      "description": "Durable and stylish bed frame",
+      "price": 152741,
+      "discount": 75,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Bookshelf with ample storage",
+      "price": 85641,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Elegant and comfortable armchair",
+      "price": 101979,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Premium mattress for restful sleep",
+      "price": 281274,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Bookshelf with ample storage",
+      "price": 248042,
+      "discount": 51,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Soft Mattress",
+      "description": "Elegant and comfortable armchair",
+      "price": 288442,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Bookshelf with ample storage",
+      "price": 288411,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Elegant Desk",
+      "description": "Elegant and comfortable armchair",
+      "price": 145950,
+      "discount": 100,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Stylish Armchair",
+      "description": "Premium mattress for restful sleep",
+      "price": 104437,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Elegant Desk",
+      "description": "Soft and durable area rug",
+      "price": 111630,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Elegant Desk",
+      "description": "Stand with cable management",
+      "price": 229715,
+      "discount": 73,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Elegant and comfortable armchair",
+      "price": 178689,
+      "discount": 17,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Elegant Desk",
+      "description": "Stand with cable management",
+      "price": 284778,
+      "discount": 26,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Luxury Rug",
+      "description": "Durable and stylish bed frame",
+      "price": 83977,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Smart TV Stand",
+      "description": "Adjustable and ergonomic chair",
+      "price": 280611,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Smart TV Stand",
+      "description": "Premium mattress for restful sleep",
+      "price": 173694,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Elegant Desk",
+      "description": "Wooden desk with a minimalist design",
+      "price": 190269,
+      "discount": 68,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Soft Mattress",
+      "description": "Stand with cable management",
+      "price": 230745,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Elegant and comfortable armchair",
+      "price": 227792,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Luxury Rug",
+      "description": "Bookshelf with ample storage",
+      "price": 169870,
+      "discount": 26,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Soft Mattress",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 60504,
+      "discount": 85,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Soft Mattress",
+      "description": "Soft and durable area rug",
+      "price": 79284,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Premium mattress for restful sleep",
+      "price": 74459,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Adjustable and ergonomic chair",
+      "price": 100547,
+      "discount": 52,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Stylish Armchair",
+      "description": "Durable and stylish bed frame",
+      "price": 201337,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Stand with cable management",
+      "price": 265531,
+      "discount": 12,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Stand with cable management",
+      "price": 87108,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Soft Mattress",
+      "description": "Stand with cable management",
+      "price": 129998,
+      "discount": 99,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Stylish Armchair",
+      "description": "Soft and durable area rug",
+      "price": 56183,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Sleek glass-top coffee table",
+      "price": 273097,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Sleek glass-top coffee table",
+      "price": 288625,
+      "discount": 55,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Soft Mattress",
+      "description": "Bookshelf with ample storage",
+      "price": 275981,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Stylish Armchair",
+      "description": "Elegant and comfortable armchair",
+      "price": 239870,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Sleek glass-top coffee table",
+      "price": 176907,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Premium mattress for restful sleep",
+      "price": 236203,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Smart TV Stand",
+      "description": "Premium mattress for restful sleep",
+      "price": 249095,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Smart TV Stand",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 102062,
+      "discount": 56,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Wooden desk with a minimalist design",
+      "price": 215878,
+      "discount": 56,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Adjustable and ergonomic chair",
+      "price": 179455,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Elegant and comfortable armchair",
+      "price": 55108,
+      "discount": 79,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Adjustable and ergonomic chair",
+      "price": 228038,
+      "discount": 54,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Premium mattress for restful sleep",
+      "price": 191153,
+      "discount": 21,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Luxury Rug",
+      "description": "Stand with cable management",
+      "price": 175994,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Premium mattress for restful sleep",
+      "price": 82546,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Elegant Desk",
+      "description": "Stand with cable management",
+      "price": 94392,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Sleek glass-top coffee table",
+      "price": 170168,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Soft Mattress",
+      "description": "Adjustable and ergonomic chair",
+      "price": 291211,
+      "discount": 89,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Adjustable and ergonomic chair",
+      "price": 171222,
+      "discount": 62,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Elegant Desk",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 223782,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Luxury Rug",
+      "description": "Bookshelf with ample storage",
+      "price": 225680,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Elegant and comfortable armchair",
+      "price": 277894,
+      "discount": 51,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 52269,
+      "discount": 66,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Luxury Rug",
+      "description": "Premium mattress for restful sleep",
+      "price": 185449,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Bookshelf with ample storage",
+      "price": 235227,
+      "discount": 94,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Premium mattress for restful sleep",
+      "price": 224591,
+      "discount": 23,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Bookshelf with ample storage",
+      "price": 254767,
+      "discount": 96,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Stand with cable management",
+      "price": 210795,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Elegant Desk",
+      "description": "Soft and durable area rug",
+      "price": 235856,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Stylish Armchair",
+      "description": "Adjustable and ergonomic chair",
+      "price": 146965,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Soft Mattress",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 192660,
+      "discount": 100,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Premium mattress for restful sleep",
+      "price": 81358,
+      "discount": 59,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Durable and stylish bed frame",
+      "price": 222948,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Premium mattress for restful sleep",
+      "price": 286251,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Soft Mattress",
+      "description": "Durable and stylish bed frame",
+      "price": 136469,
+      "discount": 33,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Elegant Desk",
+      "description": "Elegant and comfortable armchair",
+      "price": 51844,
+      "discount": 28,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Smart TV Stand",
+      "description": "Soft and durable area rug",
+      "price": 245379,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Durable and stylish bed frame",
+      "price": 93720,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Soft Mattress",
+      "description": "Durable and stylish bed frame",
+      "price": 273277,
+      "discount": 29,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Sleek glass-top coffee table",
+      "price": 252471,
+      "discount": 95,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Luxury Rug",
+      "description": "Soft and durable area rug",
+      "price": 70417,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Elegant and comfortable armchair",
+      "price": 194391,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Stylish Armchair",
+      "description": "Elegant and comfortable armchair",
+      "price": 209577,
+      "discount": 14,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Soft and durable area rug",
+      "price": 162184,
+      "discount": 26,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Premium mattress for restful sleep",
+      "price": 189971,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Smart TV Stand",
+      "description": "Wooden desk with a minimalist design",
+      "price": 187228,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Elegant and comfortable armchair",
+      "price": 148009,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Elegant and comfortable armchair",
+      "price": 284481,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Bookshelf with ample storage",
+      "price": 266824,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Bookshelf with ample storage",
+      "price": 234465,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Luxury Rug",
+      "description": "Stand with cable management",
+      "price": 109131,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Soft and durable area rug",
+      "price": 240023,
+      "discount": 19,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Adjustable and ergonomic chair",
+      "price": 275385,
+      "discount": 24,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Bookshelf with ample storage",
+      "price": 193300,
+      "discount": 85,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Soft and durable area rug",
+      "price": 297760,
+      "discount": 38,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Bookshelf with ample storage",
+      "price": 249329,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Adjustable and ergonomic chair",
+      "price": 69943,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Stylish Armchair",
+      "description": "Soft and durable area rug",
+      "price": 52854,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Wooden desk with a minimalist design",
+      "price": 59813,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Durable and stylish bed frame",
+      "price": 259498,
+      "discount": 92,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Durable and stylish bed frame",
+      "price": 266080,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Elegant Desk",
+      "description": "Durable and stylish bed frame",
+      "price": 127424,
+      "discount": 6,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Durable and stylish bed frame",
+      "price": 81364,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Stylish Armchair",
+      "description": "Premium mattress for restful sleep",
+      "price": 101115,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Luxury Rug",
+      "description": "Stand with cable management",
+      "price": 152244,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Soft Mattress",
+      "description": "Soft and durable area rug",
+      "price": 54629,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Smart TV Stand",
+      "description": "Soft and durable area rug",
+      "price": 82176,
+      "discount": 3,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Elegant Desk",
+      "description": "Durable and stylish bed frame",
+      "price": 197320,
+      "discount": 78,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Soft Mattress",
+      "description": "Sleek glass-top coffee table",
+      "price": 107257,
+      "discount": 50,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Luxury Rug",
+      "description": "Premium mattress for restful sleep",
+      "price": 296216,
+      "discount": 75,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Stylish Armchair",
+      "description": "Elegant and comfortable armchair",
+      "price": 103286,
+      "discount": 58,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Smart TV Stand",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 248773,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Elegant and comfortable armchair",
+      "price": 113609,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Wooden desk with a minimalist design",
+      "price": 189342,
+      "discount": 22,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Adjustable and ergonomic chair",
+      "price": 139550,
+      "discount": 94,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Luxury Rug",
+      "description": "Soft and durable area rug",
+      "price": 209749,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Elegant Desk",
+      "description": "Wooden desk with a minimalist design",
+      "price": 97358,
+      "discount": 67,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 113056,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Durable and stylish bed frame",
+      "price": 240148,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Elegant and comfortable armchair",
+      "price": 196827,
+      "discount": 21,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Soft Mattress",
+      "description": "Sleek glass-top coffee table",
+      "price": 163327,
+      "discount": 66,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Adjustable and ergonomic chair",
+      "price": 132934,
+      "discount": 79,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Stylish Armchair",
+      "description": "Adjustable and ergonomic chair",
+      "price": 224587,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Premium mattress for restful sleep",
+      "price": 222279,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Stand with cable management",
+      "price": 53473,
+      "discount": 56,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Wooden desk with a minimalist design",
+      "price": 244714,
+      "discount": 20,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Soft Mattress",
+      "description": "Adjustable and ergonomic chair",
+      "price": 229339,
+      "discount": 57,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Wooden desk with a minimalist design",
+      "price": 210509,
+      "discount": 18,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Durable and stylish bed frame",
+      "price": 145104,
+      "discount": 87,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Soft Mattress",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 249317,
+      "discount": 23,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 227465,
+      "discount": 80,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Bookshelf with ample storage",
+      "price": 159905,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Stylish Armchair",
+      "description": "Bookshelf with ample storage",
+      "price": 91004,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Stylish Armchair",
+      "description": "Durable and stylish bed frame",
+      "price": 164498,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Premium mattress for restful sleep",
+      "price": 76350,
+      "discount": 27,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Soft Mattress",
+      "description": "Bookshelf with ample storage",
+      "price": 273186,
+      "discount": 94,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Elegant Desk",
+      "description": "Adjustable and ergonomic chair",
+      "price": 156691,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Elegant and comfortable armchair",
+      "price": 153615,
+      "discount": 36,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Smart TV Stand",
+      "description": "Elegant and comfortable armchair",
+      "price": 177121,
+      "discount": 59,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Durable and stylish bed frame",
+      "price": 274952,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Smart TV Stand",
+      "description": "Premium mattress for restful sleep",
+      "price": 61539,
+      "discount": 5,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Smart TV Stand",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 281862,
+      "discount": 52,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Stand with cable management",
+      "price": 208683,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Durable and stylish bed frame",
+      "price": 255579,
+      "discount": 45,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Luxury Rug",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 225423,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Bookshelf with ample storage",
+      "price": 213656,
+      "discount": 68,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Elegant and comfortable armchair",
+      "price": 191412,
+      "discount": 87,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Wooden desk with a minimalist design",
+      "price": 276573,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Premium mattress for restful sleep",
+      "price": 194736,
+      "discount": 59,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Elegant Desk",
+      "description": "Bookshelf with ample storage",
+      "price": 175840,
+      "discount": 58,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Elegant Desk",
+      "description": "Adjustable and ergonomic chair",
+      "price": 293449,
+      "discount": 74,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Stylish Armchair",
+      "description": "Stand with cable management",
+      "price": 241379,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Smart TV Stand",
+      "description": "Wooden desk with a minimalist design",
+      "price": 290494,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Stylish Armchair",
+      "description": "Adjustable and ergonomic chair",
+      "price": 256559,
+      "discount": 51,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Elegant Desk",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 72668,
+      "discount": 73,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 182149,
+      "discount": 12,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Smart TV Stand",
+      "description": "Soft and durable area rug",
+      "price": 57497,
+      "discount": 0,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Stand with cable management",
+      "price": 191599,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Soft and durable area rug",
+      "price": 53501,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Stylish Armchair",
+      "description": "Stand with cable management",
+      "price": 277827,
+      "discount": 60,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Soft and durable area rug",
+      "price": 255872,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Stylish Armchair",
+      "description": "Adjustable and ergonomic chair",
+      "price": 201976,
+      "discount": 91,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Elegant Desk",
+      "description": "Bookshelf with ample storage",
+      "price": 255111,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Durable and stylish bed frame",
+      "price": 57182,
+      "discount": 48,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Stand with cable management",
+      "price": 244223,
+      "discount": 2,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Elegant Desk",
+      "description": "Wooden desk with a minimalist design",
+      "price": 217140,
+      "discount": 28,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Luxury Rug",
+      "description": "Durable and stylish bed frame",
+      "price": 102829,
+      "discount": 28,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Luxury Rug",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 163136,
+      "discount": 81,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Modern Coffee Table",
+      "description": "Wooden desk with a minimalist design",
+      "price": 235593,
+      "discount": 38,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Wooden desk with a minimalist design",
+      "price": 274438,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Soft Mattress",
+      "description": "Elegant and comfortable armchair",
+      "price": 127497,
+      "discount": 85,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Stylish Armchair",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 242520,
+      "discount": 66,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Premium mattress for restful sleep",
+      "price": 152375,
+      "discount": 75,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Elegant and comfortable armchair",
+      "price": 131313,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Elegant Desk",
+      "description": "Durable and stylish bed frame",
+      "price": 151269,
+      "discount": 18,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Ergonomic Chair",
+      "description": "Elegant and comfortable armchair",
+      "price": 289341,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Wooden Bookshelf",
+      "description": "Adjustable and ergonomic chair",
+      "price": 251472,
+      "discount": 0,
+      "isNew": true
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Cozy Floor Lamp",
+      "description": "Soft light for a relaxing ambiance",
+      "price": 235750,
+      "discount": 41,
+      "isNew": false
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Minimalist Bed Frame",
+      "description": "Premium mattress for restful sleep",
+      "price": 108251,
+      "discount": 0,
+      "isNew": false
+    }
+  ]
+}
