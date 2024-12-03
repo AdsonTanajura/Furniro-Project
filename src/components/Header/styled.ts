@@ -115,6 +115,7 @@ export const BurgerMenuButton = styled.button`
 `;
 
 export const MobileMenuContainer = styled.div`
+  z-index: 10;
   position: absolute;
   top: 64px;
   left: 0;

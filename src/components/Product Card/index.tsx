@@ -1,5 +1,19 @@
-import calcularDesconto from '../../u/calcularDesconto';
+import { useEffect, useState } from 'react';
+import calcularDesconto from '../../utils/calcularDesconto';
 import { ProductCardProps } from './types';
+import {
+  Container,
+  Description,
+  Details,
+  DiscountBoll,
+  NewBoll,
+  Price,
+  PriceContainer,
+  PriceWithdiscount,
+  TagContainer,
+  Title,
+} from './styles';
+import formatCurrency from '../../utils/formatCurrency';
 
 const ProductCard = ({
   img,
@@ -7,23 +21,34 @@ const ProductCard = ({
   price,
   title,
   discount,
+  isNew,
 }: ProductCardProps) => {
-  const priceWithdiscount = calcularDesconto(price, discount!);
+  const [priceWithdiscount, setPriceWithDiscount] = useState(0);
+  useEffect(() => {
+    if (discount) {
+      setPriceWithDiscount(calcularDesconto(price, discount));
+    }
+  }, [price, discount]);
 
   return (
-    <div>
-      <div>
-        <img src={img} alt={title} />
-      </div>
-      <div>
-        <h2>{title}</h2>
-        <span>{description}</span>
-        <div>
-          {discount ? <p>{priceWithdiscount}</p> : <p>{price}</p>}
-          {discount && <p>{price}</p>}
-        </div>
-      </div>
-    </div>
+    <Container url={img}>
+      <TagContainer>
+        {discount && <DiscountBoll>-{discount}%</DiscountBoll>}
+        {isNew && <NewBoll>New</NewBoll>}
+      </TagContainer>
+      <Details>
+        <Title>{title}</Title>
+        <Description>{description}</Description>
+        <PriceContainer>
+          {discount ? (
+            <PriceWithdiscount>
+              {discount === 100 ? 'Free' : formatCurrency(priceWithdiscount)}
+            </PriceWithdiscount>
+          ) : null}
+          <Price isDiscount={discount! > 0}>{formatCurrency(price)}</Price>
+        </PriceContainer>
+      </Details>
+    </Container>
   );
 };
 

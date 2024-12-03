@@ -18,6 +18,7 @@ import {
   OurProductsSections,
   OurProductsSectionsTitle,
 } from './styled';
+import ProductCard from '../../components/Product Card';
 
 const Home = () => {
   const { userId } = useAuth();
@@ -80,6 +81,13 @@ const Home = () => {
 
         <OurProductsSections>
           <OurProductsSectionsTitle>Our Products</OurProductsSectionsTitle>
+          <ProductCard
+            description="awdadwadawdwa"
+            img="https://desafiocompass03.s3.us-east-2.amazonaws.com/sectiom3Img3.jpg"
+            price={4000000}
+            title="Teste"
+            discount={100}
+          />
         </OurProductsSections>
       </main>
     </>
