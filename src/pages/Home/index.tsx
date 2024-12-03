@@ -1,8 +1,17 @@
 import Header from '../../components/Header';
 import { useAuth } from '@clerk/clerk-react';
+import {
+  HeroBackgroundContainer,
+  HeroCard,
+  HeroSection,
+  HeroCardTag,
+  HeroCardTitle,
+  HeroCardButton,
+  HeroCardDescription,
+} from './styled';
 
 const Home = () => {
-  const { userId, isLoaded } = useAuth();
+  const { userId } = useAuth();
 
   console.log('test', userId);
 
@@ -10,11 +19,22 @@ const Home = () => {
     <>
       <Header />
       <main>
-        {isLoaded && !userId ? (
-          <h1>Você nao esta logado</h1>
-        ) : (
-          <h1>Você esta logado</h1>
-        )}
+        <HeroSection>
+          <HeroBackgroundContainer>
+            <HeroCard>
+              <HeroCardTag>New Arrival</HeroCardTag>
+              <HeroCardTitle>
+                Discover Our <br />
+                New Collection
+              </HeroCardTitle>
+              <HeroCardDescription>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis.
+              </HeroCardDescription>
+              <HeroCardButton>BUY NOW</HeroCardButton>
+            </HeroCard>
+          </HeroBackgroundContainer>
+        </HeroSection>
       </main>
     </>
   );
