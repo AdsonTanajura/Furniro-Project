@@ -15,3 +15,19 @@ export const ListCotainer = styled.div`
     align-items: center;
   }
 `;
+
+export const ShowMoreButton = styled.button`
+  background-color: #ffffff;
+  color: #b88e2f;
+  border: 1px solid #b88e2f;
+  font-weight: 600;
+  font-size: 16px;
+  width: 245px;
+  padding: 12px 74px;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: #b88e2f;
+    color: #ffffff;
+  }
+`;
