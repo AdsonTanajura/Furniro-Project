@@ -14,6 +14,9 @@ import {
   BrowseSectionTitleContainer,
   BrowseSectionTitle,
   BrowseSectionDescription,
+  BrowseCardDescription,
+  OurProductsSections,
+  OurProductsSectionsTitle,
 } from './styled';
 
 const Home = () => {
@@ -56,24 +59,28 @@ const Home = () => {
                 src="https://desafiocompass03.s3.us-east-2.amazonaws.com/sectiom3Img3.jpg"
                 alt=""
               />
-              <span>Dining</span>
+              <BrowseCardDescription>Dining</BrowseCardDescription>
             </BrowseCard>
             <BrowseCard>
               <img
                 src="https://desafiocompass03.s3.us-east-2.amazonaws.com/section2Img1.png"
                 alt=""
               />
-              <span>BrowseCardving</span>
+              <BrowseCardDescription>BrowseCardving</BrowseCardDescription>
             </BrowseCard>
             <BrowseCard>
               <img
                 src="https://desafiocompass03.s3.us-east-2.amazonaws.com/section2Img2.png"
                 alt=""
               />
-              <span>Bedroom</span>
+              <BrowseCardDescription>Bedroom</BrowseCardDescription>
             </BrowseCard>
           </BrowseCardList>
         </BrowseSection>
+
+        <OurProductsSections>
+          <OurProductsSectionsTitle>Our Products</OurProductsSectionsTitle>
+        </OurProductsSections>
       </main>
     </>
   );

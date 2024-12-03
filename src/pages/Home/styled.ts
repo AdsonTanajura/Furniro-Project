@@ -136,3 +136,16 @@ export const BrowseCardDescription = styled.samp`
   font-weight: 600;
   color: #333333;
 `;
+
+export const OurProductsSections = styled.section`
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const OurProductsSectionsTitle = styled.h2`
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 120%;
+`;
