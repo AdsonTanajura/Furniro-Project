@@ -1,14 +1,11 @@
 import Header from '../../components/Header';
 import { useAuth } from '@clerk/clerk-react';
-import {
-  OurProductsSections,
-  OurProductsSectionsTitle,
-  RoomSection,
-} from './styled';
+import { OurProductsSections, OurProductsSectionsTitle } from './styled';
 import ListProduct from './components/ListProduct';
-import Carousel from './components/Carousel';
 import HeroSection from './components/HeroSection';
 import BrowseSection from './components/BrowseSection';
+import RoomSection from './components/RoomSection';
+import FuniroFurnitureSection from './components/FuniroFurnitureSection';
 
 const Home = () => {
   const { userId } = useAuth();
@@ -27,19 +24,9 @@ const Home = () => {
           <ListProduct />
         </OurProductsSections>
 
-        <RoomSection>
-          <div>
-            <h2>50+ Beautiful rooms inspiration</h2>
-            <p>
-              Our designer already made a lot of beautiful prototipe of rooms
-              that inspire you
-            </p>
-            <button>Explore More</button>
-          </div>
-          <div>
-            <Carousel />
-          </div>
-        </RoomSection>
+        <RoomSection />
+
+        <FuniroFurnitureSection />
       </main>
     </>
   );

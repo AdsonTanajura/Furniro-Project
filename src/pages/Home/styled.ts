@@ -17,12 +17,3 @@ export const OurProductsSectionsTitle = styled.h2`
   line-height: 120%;
   margin-bottom: 32px;
 `;
-
-export const RoomSection = styled.section`
-  display: flex;
-  flex-direction: row;
-  background-color: #fcf8f3;
-  padding-left: 102px;
-  padding-top: 44px;
-  gap: 42px;
-`;
