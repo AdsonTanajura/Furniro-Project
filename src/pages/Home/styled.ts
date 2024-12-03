@@ -17,6 +17,11 @@ export const HeroBackgroundContainer = styled.div`
   background-size: cover; /* Cobre todo o contêiner */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat;
+
+  @media (max-width: 780px) {
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const HeroCard = styled.div`
@@ -29,6 +34,11 @@ export const HeroCard = styled.div`
   padding: 62px 43px 37px 39px;
   max-width: 643px;
   max-height: 443px;
+
+  @media (max-width: 780px) {
+    width: 400px;
+    margin-right: 0px;
+  }
 `;
 
 export const HeroCardTag = styled.span`
@@ -45,6 +55,11 @@ export const HeroCardTitle = styled.h2`
   font-weight: bold;
   color: #b88e2f;
   margin-bottom: 17px;
+
+  @media (max-width: 780px) {
+    font-size: 24px;
+    line-height: normal; /* Define a altura da linha */
+  }
 `;
 
 export const HeroCardDescription = styled.p`
@@ -64,6 +79,10 @@ export const HeroCardButton = styled.button`
   border: none;
   background-color: #b88e2f;
   color: #ffffff;
+
+  @media (max-width: 780px) {
+    padding: 18px 40px;
+  }
 `;
 
 export const BrowseSection = styled.section`
@@ -99,6 +118,10 @@ export const BrowseCardList = styled.ul`
   flex-wrap: wrap;
   flex-direction: row;
   gap: 20px;
+
+  @media (max-width: 780px) {
+    justify-content: center;
+  }
 `;
 
 export const BrowseCard = styled.li`
