@@ -12,7 +12,7 @@ export const HeaderContainer = styled.header`
   width: 100%;
   max-width: 1440px;
 
-  @media (max-width: 724px) {
+  @media (max-width: 780px) {
     nav {
       display: none; /* Esconde o menu principal */
     }
@@ -42,7 +42,7 @@ export const MenuList = styled.ul`
   width: 100vw;
   max-width: 430px;
 
-  @media (max-width: 724px) {
+  @media (max-width: 780px) {
     flex-direction: column;
   }
 `;
@@ -97,7 +97,7 @@ export const CartIcon = styled(MdOutlineShoppingCart)`
 export const BurgerMenuButton = styled.button`
   display: none;
 
-  @media (max-width: 724px) {
+  @media (max-width: 780px) {
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -123,7 +123,7 @@ export const MobileMenuContainer = styled.div`
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 16px;
 
-  @media (min-width: 725px) {
+  @media (min-width: 780px) {
     display: none;
   }
 `;
