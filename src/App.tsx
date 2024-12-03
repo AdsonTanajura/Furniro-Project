@@ -8,7 +8,7 @@ import GlobalStyles from './styles/global';
 export default function App() {
   return (
     <StyleSheetManager>
-      <RouterProvider router={router} />;
+      <RouterProvider router={router} />
       <GlobalStyles />
     </StyleSheetManager>
   );

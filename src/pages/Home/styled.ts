@@ -1,10 +1,12 @@
 import { styled } from 'styled-components';
 export const HeroSection = styled.section`
   max-width: 1440px;
+  margin-bottom: 56px;
 `;
 
 export const HeroBackgroundContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: end;
   align-items: center;
   height: 716px;
@@ -19,6 +21,7 @@ export const HeroBackgroundContainer = styled.div`
 
 export const HeroCard = styled.div`
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   background-color: #fff3e3;
   border-radius: 10px;
@@ -61,4 +64,52 @@ export const HeroCardButton = styled.button`
   border: none;
   background-color: #b88e2f;
   color: #ffffff;
+`;
+
+export const BrowseSection = styled.section`
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const BrowseSectionTitleContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 62px;
+`;
+
+export const BrowseSectionTitle = styled.h2`
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+`;
+
+export const BrowseSectionDescription = styled.h2`
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+`;
+
+export const BrowseCardList = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+`;
+
+export const BrowseCard = styled.li`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+`;
+export const BrowseCardDescription = styled.samp`
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
 `;
