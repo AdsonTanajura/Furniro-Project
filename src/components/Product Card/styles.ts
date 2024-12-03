@@ -2,16 +2,59 @@ import { css, styled } from 'styled-components';
 import { ContainerProps, PriceProps } from './types';
 
 export const Container = styled.div<ContainerProps>`
+  position: relative;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 100%;
+  width: 285px;
   height: 446px;
   max-width: 285px;
   background-image: url(${(props) => props.url});
   background-size: cover; /* Cobre todo o contêiner */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat;
+`;
+
+export const AddCardHover = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  gap: 24px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 446px;
+  max-width: 285px;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 1;
+  }
+  &:focus {
+    opacity: 1;
+  }
+`;
+
+export const AddCardButton = styled.button`
+  text-align: center;
+  background-color: #ffffff;
+  color: #b88e2f;
+  border: none;
+  max-width: 202px;
+  padding: 12px 52px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: #b88e2f;
+    color: #ffffff;
+  }
 `;
 
 export const TagContainer = styled.div`

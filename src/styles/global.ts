@@ -5,7 +5,10 @@ export default createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        outline: 0;
+
+        &:not(:focus-visible){
+            outline: 0;
+        }
 
     }
 

@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import calcularDesconto from '../../utils/calcularDesconto';
 import { ProductCardProps } from './types';
 import {
+  AddCardButton,
+  AddCardHover,
   Container,
   Description,
   Details,
@@ -14,6 +16,7 @@ import {
   Title,
 } from './styles';
 import formatCurrency from '../../utils/formatCurrency';
+import SocialMedia from './Components/SocialMedia';
 
 const ProductCard = ({
   img,
@@ -32,6 +35,10 @@ const ProductCard = ({
 
   return (
     <Container url={img}>
+      <AddCardHover>
+        <AddCardButton>Add to cart</AddCardButton>
+        <SocialMedia />
+      </AddCardHover>
       <TagContainer>
         {discount && <DiscountBoll>-{discount}%</DiscountBoll>}
         {isNew && <NewBoll>New</NewBoll>}

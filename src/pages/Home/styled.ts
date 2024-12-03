@@ -2,6 +2,11 @@ import { styled } from 'styled-components';
 export const HeroSection = styled.section`
   max-width: 1440px;
   margin-bottom: 56px;
+  @media (max-width: 780px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const HeroBackgroundContainer = styled.div`
@@ -76,9 +81,18 @@ export const HeroCardButton = styled.button`
   padding: 25px 75px;
   max-width: 228px;
   font-weight: bold;
+  border: 1px solid transparent;
   border: none;
   background-color: #b88e2f;
   color: #ffffff;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #b88e2f;
+    border-radius: 4px;
+    border-bottom: 2px solid #b88e2f;
+  }
 
   @media (max-width: 780px) {
     padding: 18px 40px;
@@ -90,6 +104,11 @@ export const BrowseSection = styled.section`
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+  padding: 0px 102px;
+
+  @media (max-width: 780px) {
+    padding: 0px;
+  }
 `;
 
 export const BrowseSectionTitleContainer = styled.div`
@@ -115,6 +134,8 @@ export const BrowseSectionDescription = styled.h2`
 
 export const BrowseCardList = styled.ul`
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 20px;
@@ -142,10 +163,15 @@ export const OurProductsSections = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0px 102px;
+  @media (max-width: 780px) {
+    padding: 0;
+  }
 `;
 
 export const OurProductsSectionsTitle = styled.h2`
-  font-size: 40px;
   font-weight: bold;
+  font-size: 40px;
   line-height: 120%;
+  margin-bottom: 32px;
 `;
