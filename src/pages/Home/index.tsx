@@ -1,24 +1,14 @@
 import Header from '../../components/Header';
 import { useAuth } from '@clerk/clerk-react';
 import {
-  HeroBackgroundContainer,
-  HeroCard,
-  HeroSection,
-  HeroCardTag,
-  HeroCardTitle,
-  HeroCardButton,
-  HeroCardDescription,
-  BrowseSection,
-  BrowseCardList,
-  BrowseCard,
-  BrowseSectionTitleContainer,
-  BrowseSectionTitle,
-  BrowseSectionDescription,
-  BrowseCardDescription,
   OurProductsSections,
   OurProductsSectionsTitle,
+  RoomSection,
 } from './styled';
 import ListProduct from './components/ListProduct';
+import Carousel from './components/Carousel';
+import HeroSection from './components/HeroSection';
+import BrowseSection from './components/BrowseSection';
 
 const Home = () => {
   const { userId } = useAuth();
@@ -29,60 +19,27 @@ const Home = () => {
     <>
       <Header />
       <main>
-        <HeroSection>
-          <HeroBackgroundContainer>
-            <HeroCard>
-              <HeroCardTag>New Arrival</HeroCardTag>
-              <HeroCardTitle>
-                Discover Our <br />
-                New Collection
-              </HeroCardTitle>
-              <HeroCardDescription>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis.
-              </HeroCardDescription>
-              <HeroCardButton>BUY NOW</HeroCardButton>
-            </HeroCard>
-          </HeroBackgroundContainer>
-        </HeroSection>
-
-        <BrowseSection>
-          <BrowseSectionTitleContainer>
-            <BrowseSectionTitle>Browse The Range</BrowseSectionTitle>
-            <BrowseSectionDescription>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </BrowseSectionDescription>
-          </BrowseSectionTitleContainer>
-
-          <BrowseCardList>
-            <BrowseCard>
-              <img
-                src="https://desafiocompass03.s3.us-east-2.amazonaws.com/sectiom3Img3.jpg"
-                alt=""
-              />
-              <BrowseCardDescription>Dining</BrowseCardDescription>
-            </BrowseCard>
-            <BrowseCard>
-              <img
-                src="https://desafiocompass03.s3.us-east-2.amazonaws.com/section2Img1.png"
-                alt=""
-              />
-              <BrowseCardDescription>BrowseCardving</BrowseCardDescription>
-            </BrowseCard>
-            <BrowseCard>
-              <img
-                src="https://desafiocompass03.s3.us-east-2.amazonaws.com/section2Img2.png"
-                alt=""
-              />
-              <BrowseCardDescription>Bedroom</BrowseCardDescription>
-            </BrowseCard>
-          </BrowseCardList>
-        </BrowseSection>
+        <HeroSection />
+        <BrowseSection />
 
         <OurProductsSections>
           <OurProductsSectionsTitle>Our Products</OurProductsSectionsTitle>
           <ListProduct />
         </OurProductsSections>
+
+        <RoomSection>
+          <div>
+            <h2>50+ Beautiful rooms inspiration</h2>
+            <p>
+              Our designer already made a lot of beautiful prototipe of rooms
+              that inspire you
+            </p>
+            <button>Explore More</button>
+          </div>
+          <div>
+            <Carousel />
+          </div>
+        </RoomSection>
       </main>
     </>
   );
