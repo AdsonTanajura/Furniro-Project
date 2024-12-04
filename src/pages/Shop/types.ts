@@ -6,6 +6,7 @@ export type ProductDataProps = {
   price: number;
   discount?: number;
   isNew?: boolean;
+  categories: string[];
 };
 
 export type FetchDataProps = {

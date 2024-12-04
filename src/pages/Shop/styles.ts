@@ -10,6 +10,7 @@ export const ProductList = styled.div`
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 64px;
   gap: 32px;
 
   @media (max-width: 780px) {

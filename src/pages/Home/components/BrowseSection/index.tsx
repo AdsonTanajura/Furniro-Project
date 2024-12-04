@@ -8,7 +8,9 @@ import {
   BrowseCardDescription,
 } from './styles';
 
+import { useNavigate } from 'react-router-dom';
 const BrowseSection = () => {
+  const navigate = useNavigate();
   return (
     <Section>
       <BrowseSectionTitleContainer>
@@ -19,21 +21,21 @@ const BrowseSection = () => {
       </BrowseSectionTitleContainer>
 
       <BrowseCardList>
-        <BrowseCard>
+        <BrowseCard onClick={() => navigate('/home/shop?category=dining')}>
           <img
             src="https://desafiocompass03.s3.us-east-2.amazonaws.com/sectiom3Img3.jpg"
             alt=""
           />
           <BrowseCardDescription>Dining</BrowseCardDescription>
         </BrowseCard>
-        <BrowseCard>
+        <BrowseCard onClick={() => navigate('/home/shop?category=living')}>
           <img
             src="https://desafiocompass03.s3.us-east-2.amazonaws.com/section2Img1.png"
             alt=""
           />
-          <BrowseCardDescription>BrowseCardving</BrowseCardDescription>
+          <BrowseCardDescription>Living</BrowseCardDescription>
         </BrowseCard>
-        <BrowseCard>
+        <BrowseCard onClick={() => navigate('/home/shop?category=bedroom')}>
           <img
             src="https://desafiocompass03.s3.us-east-2.amazonaws.com/section2Img2.png"
             alt=""

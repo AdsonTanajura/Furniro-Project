@@ -36,11 +36,20 @@ export const FilterResult = styled.span`
   padding-left: 32px;
 `;
 
-export const FilterButtomContainer = styled.div`
+export const FilterButtomContainer = styled.button`
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: row;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
   gap: 12px;
+
+  &:hover {
+    border-bottom: 2px solid #000000;
+  }
 `;
 
 export const FilterInputContainer = styled.div`

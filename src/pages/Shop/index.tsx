@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import FilterBar from './components/FilterBar';
 import ShopBaner from './components/ShopBaner';
 import {
@@ -12,9 +13,31 @@ import axios from 'axios';
 import ProductCard from '../../components/Product Card';
 
 const Shop = () => {
+  // pegue query params
   const [data, setData] = useState<ProductDataProps[]>([]);
+  const [productsList, setProductsList] = useState<ProductDataProps[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
+  const [filters, setFilters] = useState<string[]>([]);
+
+  const [searchParams] = useSearchParams();
+  useEffect(() => {
+    const paramValue = searchParams.get('category');
+    if (paramValue) {
+      setFilters([paramValue]);
+    }
+  }, [searchParams]);
+
+  useEffect(() => {
+    const filteredProducts =
+      filters.length === 0
+        ? data
+        : data.filter((product) =>
+            filters.every((filter) => product.categories.includes(filter))
+          );
+
+    setProductsList(filteredProducts);
+  }, [data, filters]);
 
   const fetchData = async ({ page = 1, per = 16 }: FetchDataProps) => {
     try {
@@ -47,9 +70,9 @@ const Shop = () => {
     <>
       {loading && <span>Carregando</span>}
       <ShopBaner />
-      <FilterBar />
+      <FilterBar filters={filters} setFilters={setFilters} />
       <ProductList>
-        {data.map((card) => (
+        {productsList?.map((card) => (
           <ProductCard
             description={card.description}
             img={card.img}
