@@ -12,6 +12,17 @@ export default createGlobalStyle`
 
     }
 
+    ul, ol {
+  list-style-type: none; /* Remove os marcadores */
+  padding: 0;           /* Remove o preenchimento padrão */
+  margin: 0;            /* Remove a margem padrão */
+}
+
+li {
+  margin: 0;            /* Remove a margem padrão do li, se necessário */
+  padding: 0;           /* Remove o preenchimento padrão do li, se necessário */
+}
+
     #root {
         display: flex;
         flex-direction: column;
@@ -30,6 +41,7 @@ export default createGlobalStyle`
 
     h1, h2, h3, h4, h5, h6, strong {
         font-weight: 500;
+        margin: 0;
     }
 
     button {

@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection';
 import BrowseSection from './components/BrowseSection';
 import RoomSection from './components/RoomSection';
 import FuniroFurnitureSection from './components/FuniroFurnitureSection';
+import Footer from '../../components/Footer';
 
 const Home = () => {
   const { userId } = useAuth();
@@ -28,6 +29,7 @@ const Home = () => {
 
         <FuniroFurnitureSection />
       </main>
+      <Footer />
     </>
   );
 };
