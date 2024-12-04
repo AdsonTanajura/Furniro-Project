@@ -1,25 +1,72 @@
-import { styled } from 'styled-components';
+import { css, styled } from 'styled-components';
 
-export const ShopBaner = styled.div`
+type PageButtonProps = {
+  isCurrenPage: boolean;
+};
+
+export const ProductList = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  width: 100vw;
-  min-height: 316px;
-  background-image: url('https://desafiocompass03.s3.us-east-2.amazonaws.com/ShopPageImgs/Rectangle+1.png');
-  background-size: cover; /* Cobre todo o contêiner */
-  background-position: center; /* Centraliza a imagem */
-  background-repeat: no-repeat;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+
+  @media (max-width: 780px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
-export const ShopBanerTitle = styled.h1`
-  color: #000000;
-  font-size: 48px;
-  font-weight: 500;
+export const PageButtonContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 38px;
 `;
 
-export const ShopBanerCurrentLocation = styled.span`
+export const PageButton = styled.button<PageButtonProps>`
+  text-align: center;
+  border: none;
+  margin-top: 70px;
+  border-radius: 10px;
+  min-width: 60px;
+  min-height: 60px;
+  transition: all 0.2s;
+
+  ${(props) =>
+    props.isCurrenPage
+      ? css`
+          background-color: #b88e2f;
+          color: #ffffff;
+        `
+      : css`
+          background-color: #f9f1e7;
+          color: #000000;
+        `}
+
+  &:hover {
+    background-color: #b88e2f;
+    color: #ffffff;
+  }
+`;
+
+export const NextPageButton = styled.button`
+  text-align: center;
+  border: none;
+  background-color: #f9f1e7;
   color: #000000;
-  font-size: 19px;
+  margin-top: 70px;
+  border-radius: 10px;
+  min-width: 98px;
+  min-height: 60px;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: #b88e2f;
+    color: #ffffff;
+  }
 `;

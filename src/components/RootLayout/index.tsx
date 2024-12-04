@@ -14,7 +14,7 @@ const RootLayout = () => {
 
   return (
     <ClerkProvider
-      routerPush={(to) => navigate(to)}
+      routerPush={() => navigate('/home')}
       routerReplace={(to) => navigate(to, { replace: true })}
       publishableKey={PUBLISHABLE_KEY}
     >
