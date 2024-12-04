@@ -1,1352 +1,1804 @@
 {
   "cards": [
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
-      "title": "Title 5",
-      "description": "Description 92",
-      "price": 644170,
-      "isNew": true
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 797",
+      "description": "Description for Product 797",
+      "price": 8114564,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "bathroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Product 30",
+      "description": "Description for Product 30",
+      "price": 4681499,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "dining", "bathroom", "bedroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
-      "title": "Title 78",
-      "description": "Description 218",
-      "price": 980476,
-      "isNew": false
+      "title": "Product 146",
+      "description": "Description for Product 146",
+      "price": 9470198,
+      "discount": 25,
+      "isNew": false,
+      "categories": ["dining", "bathroom", "living"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 121",
-      "description": "Description 14",
-      "price": 135451,
-      "discount": 64
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 116",
-      "description": "Description 295",
-      "price": 412752,
-      "discount": 75
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 73",
-      "description": "Description 460",
-      "price": 235512,
-      "discount": 30
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Product 176",
+      "description": "Description for Product 176",
+      "price": 2485500,
+      "discount": 52,
+      "isNew": false,
+      "categories": ["bedroom", "dining"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 167",
-      "description": "Description 201",
-      "price": 776670,
-      "discount": 60
+      "title": "Product 3",
+      "description": "Description for Product 3",
+      "price": 9872253,
+      "discount": 69,
+      "isNew": false,
+      "categories": ["living"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 2",
-      "description": "Description 104",
-      "price": 770615
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 528",
+      "description": "Description for Product 528",
+      "price": 6373582,
+      "discount": 17,
+      "isNew": false,
+      "categories": ["living", "bedroom"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 84",
-      "description": "Description 377",
-      "price": 766494,
-      "isNew": false
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 88",
+      "description": "Description for Product 88",
+      "price": 1652110,
+      "discount": 74,
+      "isNew": false,
+      "categories": ["living", "dining", "bedroom"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 22",
-      "description": "Description 245",
-      "price": 563203
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 264",
+      "description": "Description for Product 264",
+      "price": 3238502,
+      "discount": 24,
+      "isNew": false,
+      "categories": ["dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 962",
+      "description": "Description for Product 962",
+      "price": 9533728,
+      "discount": 41,
+      "isNew": false,
+      "categories": ["bedroom", "living", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 244",
+      "description": "Description for Product 244",
+      "price": 4212548,
+      "discount": 74,
+      "isNew": false,
+      "categories": ["bathroom", "bedroom", "living", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 516",
+      "description": "Description for Product 516",
+      "price": 9396695,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "bathroom", "dining", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 900",
+      "description": "Description for Product 900",
+      "price": 4391465,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "bedroom", "bathroom", "dining"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
-      "title": "Title 82",
-      "description": "Description 41",
-      "price": 898703,
-      "discount": 73
+      "title": "Product 131",
+      "description": "Description for Product 131",
+      "price": 1765870,
+      "discount": 26,
+      "isNew": false,
+      "categories": ["bathroom"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 43",
-      "description": "Description 194",
-      "price": 905618,
-      "discount": 98
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 175",
-      "description": "Description 224",
-      "price": 357531,
-      "discount": 99
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 160",
-      "description": "Description 165",
-      "price": 838678,
-      "isNew": false
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Product 912",
+      "description": "Description for Product 912",
+      "price": 1527594,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "bathroom", "bedroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 137",
-      "description": "Description 131",
-      "price": 433008
+      "title": "Product 135",
+      "description": "Description for Product 135",
+      "price": 892038,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "dining", "living", "bathroom"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 53",
-      "description": "Description 491",
-      "price": 470306,
-      "discount": 79
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 339",
+      "description": "Description for Product 339",
+      "price": 9298776,
+      "discount": 36,
+      "isNew": false,
+      "categories": ["bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 893",
+      "description": "Description for Product 893",
+      "price": 4637330,
+      "discount": 80,
+      "isNew": false,
+      "categories": ["bedroom", "living"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 80",
-      "description": "Description 256",
-      "price": 586860,
-      "isNew": false
+      "title": "Product 397",
+      "description": "Description for Product 397",
+      "price": 3305710,
+      "discount": 29,
+      "isNew": false,
+      "categories": ["living", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 625",
+      "description": "Description for Product 625",
+      "price": 3631844,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "dining", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 235",
+      "description": "Description for Product 235",
+      "price": 7543365,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "dining", "bathroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 174",
-      "description": "Description 394",
-      "price": 455263,
-      "discount": 36
+      "title": "Product 541",
+      "description": "Description for Product 541",
+      "price": 8195923,
+      "discount": 58,
+      "isNew": false,
+      "categories": ["living", "bedroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
-      "title": "Title 66",
-      "description": "Description 473",
-      "price": 881600,
-      "isNew": true
+      "title": "Product 770",
+      "description": "Description for Product 770",
+      "price": 5802173,
+      "discount": 12,
+      "isNew": false,
+      "categories": ["living", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Product 140",
+      "description": "Description for Product 140",
+      "price": 3735503,
+      "discount": 67,
+      "isNew": false,
+      "categories": ["living", "bedroom", "dining", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 258",
+      "description": "Description for Product 258",
+      "price": 4464194,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 755",
+      "description": "Description for Product 755",
+      "price": 5683786,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "living", "bedroom", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 748",
+      "description": "Description for Product 748",
+      "price": 2251086,
+      "discount": 10,
+      "isNew": false,
+      "categories": ["dining", "bedroom", "bathroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 66",
+      "description": "Description for Product 66",
+      "price": 6327292,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Product 173",
+      "description": "Description for Product 173",
+      "price": 9436344,
+      "discount": 87,
+      "isNew": false,
+      "categories": ["bedroom", "living", "bathroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 836",
+      "description": "Description for Product 836",
+      "price": 1656730,
+      "discount": 24,
+      "isNew": false,
+      "categories": ["living", "bedroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Product 991",
+      "description": "Description for Product 991",
+      "price": 7203562,
+      "discount": 32,
+      "isNew": false,
+      "categories": ["bedroom", "dining", "bathroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 956",
+      "description": "Description for Product 956",
+      "price": 3791875,
+      "discount": 65,
+      "isNew": false,
+      "categories": ["living", "bathroom", "bedroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 939",
+      "description": "Description for Product 939",
+      "price": 6604247,
+      "discount": 48,
+      "isNew": false,
+      "categories": ["bedroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 752",
+      "description": "Description for Product 752",
+      "price": 627818,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "bedroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 988",
+      "description": "Description for Product 988",
+      "price": 8770311,
+      "discount": 5,
+      "isNew": false,
+      "categories": ["dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 819",
+      "description": "Description for Product 819",
+      "price": 3069190,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
-      "title": "Title 117",
-      "description": "Description 187",
-      "price": 860831,
-      "discount": 37
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 130",
-      "description": "Description 183",
-      "price": 466374,
-      "discount": 92
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 87",
-      "description": "Description 470",
-      "price": 794486,
-      "discount": 15
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 22",
-      "description": "Description 169",
-      "price": 306194,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 1",
-      "description": "Description 367",
-      "price": 585335,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 200",
-      "description": "Description 68",
-      "price": 656528,
-      "discount": 49
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 154",
-      "description": "Description 286",
-      "price": 963736,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 59",
-      "description": "Description 55",
-      "price": 768030,
-      "discount": 27
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 49",
-      "description": "Description 123",
-      "price": 8217,
-      "discount": 71
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 195",
-      "description": "Description 116",
-      "price": 396586
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 1",
-      "description": "Description 357",
-      "price": 209700,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 37",
-      "description": "Description 418",
-      "price": 994905,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 46",
-      "description": "Description 434",
-      "price": 902187
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 7",
-      "description": "Description 129",
-      "price": 358261
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 141",
-      "description": "Description 302",
-      "price": 934110
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 3",
-      "description": "Description 412",
-      "price": 214775,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 103",
-      "description": "Description 219",
-      "price": 482031,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 71",
-      "description": "Description 491",
-      "price": 814256,
-      "discount": 99
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 34",
-      "description": "Description 340",
-      "price": 239565,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 109",
-      "description": "Description 273",
-      "price": 236518,
-      "discount": 3
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 24",
-      "description": "Description 433",
-      "price": 593463,
-      "discount": 43
+      "title": "Product 373",
+      "description": "Description for Product 373",
+      "price": 7606233,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
-      "title": "Title 65",
-      "description": "Description 456",
-      "price": 947190,
-      "discount": 8
+      "title": "Product 725",
+      "description": "Description for Product 725",
+      "price": 889923,
+      "discount": 29,
+      "isNew": false,
+      "categories": ["dining", "bedroom"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 73",
-      "description": "Description 41",
-      "price": 269088,
-      "discount": 100
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 93",
+      "description": "Description for Product 93",
+      "price": 5228823,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 13",
-      "description": "Description 141",
-      "price": 132043,
-      "discount": 14
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 103",
-      "description": "Description 340",
-      "price": 810687,
-      "isNew": true
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 10",
-      "description": "Description 244",
-      "price": 680593,
-      "discount": 68
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
-      "title": "Title 107",
-      "description": "Description 67",
-      "price": 877476,
-      "isNew": true
+      "title": "Product 447",
+      "description": "Description for Product 447",
+      "price": 7330411,
+      "discount": 97,
+      "isNew": false,
+      "categories": ["living"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 15",
-      "description": "Description 274",
-      "price": 821128,
-      "discount": 72
+      "title": "Product 856",
+      "description": "Description for Product 856",
+      "price": 1054351,
+      "discount": 76,
+      "isNew": false,
+      "categories": ["bathroom", "dining", "living"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 129",
-      "description": "Description 150",
-      "price": 917937,
-      "discount": 71
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 693",
+      "description": "Description for Product 693",
+      "price": 7775961,
+      "discount": 32,
+      "isNew": false,
+      "categories": ["bathroom"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 170",
-      "description": "Description 235",
-      "price": 937832,
-      "isNew": false
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 334",
+      "description": "Description for Product 334",
+      "price": 3199049,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "dining", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 933",
+      "description": "Description for Product 933",
+      "price": 3990132,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Product 883",
+      "description": "Description for Product 883",
+      "price": 1559496,
+      "discount": 38,
+      "isNew": false,
+      "categories": ["bedroom", "living", "bathroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
-      "title": "Title 87",
-      "description": "Description 38",
-      "price": 912981,
-      "discount": 16
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 97",
-      "description": "Description 459",
-      "price": 384084,
-      "discount": 66
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 121",
-      "description": "Description 251",
-      "price": 913177,
-      "discount": 40
+      "title": "Product 738",
+      "description": "Description for Product 738",
+      "price": 2721649,
+      "discount": 11,
+      "isNew": false,
+      "categories": ["living", "dining"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
-      "title": "Title 66",
-      "description": "Description 34",
-      "price": 308301
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 131",
-      "description": "Description 292",
-      "price": 513874
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 174",
-      "description": "Description 236",
-      "price": 669629,
-      "discount": 12
+      "title": "Product 176",
+      "description": "Description for Product 176",
+      "price": 9767639,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 72",
-      "description": "Description 34",
-      "price": 574779,
-      "isNew": false
+      "title": "Product 790",
+      "description": "Description for Product 790",
+      "price": 5794425,
+      "discount": 40,
+      "isNew": false,
+      "categories": ["living", "bedroom", "bathroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 21",
-      "description": "Description 422",
-      "price": 581106,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 199",
-      "description": "Description 321",
-      "price": 210855,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 140",
-      "description": "Description 78",
-      "price": 297810
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 85",
-      "description": "Description 196",
-      "price": 245624
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 144",
-      "description": "Description 277",
-      "price": 168650,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 30",
-      "description": "Description 80",
-      "price": 929207
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
-      "title": "Title 185",
-      "description": "Description 112",
-      "price": 149918,
-      "discount": 35
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 41",
-      "description": "Description 18",
-      "price": 318633,
-      "discount": 87
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 44",
-      "description": "Description 192",
-      "price": 587803,
-      "discount": 40
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 96",
-      "description": "Description 208",
-      "price": 752048,
-      "discount": 74
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
-      "title": "Title 140",
-      "description": "Description 203",
-      "price": 113685
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 89",
-      "description": "Description 86",
-      "price": 367587,
-      "isNew": true
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 114",
-      "description": "Description 468",
-      "price": 435085,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 91",
-      "description": "Description 373",
-      "price": 748751
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 95",
-      "description": "Description 139",
-      "price": 220205,
-      "discount": 74
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
-      "title": "Title 36",
-      "description": "Description 254",
-      "price": 849392,
-      "discount": 8
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 167",
-      "description": "Description 449",
-      "price": 179165
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 19",
-      "description": "Description 74",
-      "price": 266878,
-      "discount": 13
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 15",
-      "description": "Description 16",
-      "price": 976923,
-      "discount": 19
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 43",
-      "description": "Description 351",
-      "price": 705002
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 59",
-      "description": "Description 11",
-      "price": 251745,
-      "isNew": true
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 185",
-      "description": "Description 4",
-      "price": 898465,
-      "discount": 51
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 19",
-      "description": "Description 24",
-      "price": 53442,
-      "discount": 99
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 23",
-      "description": "Description 145",
-      "price": 446039
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 146",
-      "description": "Description 424",
-      "price": 870288,
-      "discount": 44
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 48",
-      "description": "Description 105",
-      "price": 302589,
-      "discount": 48
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 101",
-      "description": "Description 99",
-      "price": 983361,
-      "discount": 81
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 55",
-      "description": "Description 274",
-      "price": 2405,
-      "isNew": true
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 127",
-      "description": "Description 99",
-      "price": 845749,
-      "discount": 55
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 31",
-      "description": "Description 17",
-      "price": 973953,
-      "isNew": true
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 182",
-      "description": "Description 432",
-      "price": 590501,
-      "discount": 95
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 9",
-      "description": "Description 362",
-      "price": 799770,
-      "discount": 16
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 74",
-      "description": "Description 258",
-      "price": 110148
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 47",
-      "description": "Description 404",
-      "price": 289002,
-      "discount": 26
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 168",
-      "description": "Description 326",
-      "price": 948583,
-      "discount": 55
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 165",
-      "description": "Description 159",
-      "price": 513989,
-      "discount": 34
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 177",
-      "description": "Description 192",
-      "price": 961378,
-      "discount": 74
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 107",
-      "description": "Description 450",
-      "price": 752469
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 68",
-      "description": "Description 466",
-      "price": 616485,
-      "discount": 63
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 81",
-      "description": "Description 368",
-      "price": 171374
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 104",
-      "description": "Description 126",
-      "price": 913141
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 72",
-      "description": "Description 148",
-      "price": 349706,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 111",
-      "description": "Description 187",
-      "price": 362567,
-      "discount": 22
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 37",
-      "description": "Description 350",
-      "price": 760170,
-      "discount": 54
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 33",
-      "description": "Description 79",
-      "price": 902521,
-      "isNew": true
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 39",
-      "description": "Description 77",
-      "price": 281424
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 116",
-      "description": "Description 6",
-      "price": 66233,
-      "isNew": true
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 133",
-      "description": "Description 229",
-      "price": 757245,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 197",
-      "description": "Description 164",
-      "price": 923779,
-      "discount": 60
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 189",
-      "description": "Description 358",
-      "price": 450995,
-      "discount": 24
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 142",
-      "description": "Description 380",
-      "price": 597567
+      "title": "Product 957",
+      "description": "Description for Product 957",
+      "price": 5544249,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "dining"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
-      "title": "Title 92",
-      "description": "Description 185",
-      "price": 241728
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 171",
-      "description": "Description 137",
-      "price": 706597,
-      "discount": 4
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 149",
-      "description": "Description 140",
-      "price": 508265
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 140",
-      "description": "Description 436",
-      "price": 563103,
-      "discount": 80
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 188",
-      "description": "Description 66",
-      "price": 692671
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 24",
-      "description": "Description 131",
-      "price": 707743
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 68",
-      "description": "Description 463",
-      "price": 748084,
-      "isNew": false
+      "title": "Product 47",
+      "description": "Description for Product 47",
+      "price": 4672528,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "dining"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 172",
-      "description": "Description 96",
-      "price": 543235,
-      "isNew": false
+      "title": "Product 785",
+      "description": "Description for Product 785",
+      "price": 990639,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "living", "bedroom"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
-      "title": "Title 131",
-      "description": "Description 23",
-      "price": 133048,
-      "discount": 100
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 231",
+      "description": "Description for Product 231",
+      "price": 2203170,
+      "discount": 64,
+      "isNew": false,
+      "categories": ["bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 90",
+      "description": "Description for Product 90",
+      "price": 7344174,
+      "discount": 45,
+      "isNew": false,
+      "categories": ["bedroom", "living", "dining", "bathroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 192",
-      "description": "Description 288",
-      "price": 838309,
-      "isNew": true
+      "title": "Product 210",
+      "description": "Description for Product 210",
+      "price": 2109140,
+      "discount": 59,
+      "isNew": false,
+      "categories": ["living", "bathroom", "dining", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 617",
+      "description": "Description for Product 617",
+      "price": 2841598,
+      "discount": 35,
+      "isNew": false,
+      "categories": ["dining", "bedroom", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 761",
+      "description": "Description for Product 761",
+      "price": 1743464,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Product 816",
+      "description": "Description for Product 816",
+      "price": 8195312,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "bathroom", "dining", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 783",
+      "description": "Description for Product 783",
+      "price": 2837175,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "living", "dining", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 735",
+      "description": "Description for Product 735",
+      "price": 3141071,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Product 925",
+      "description": "Description for Product 925",
+      "price": 2854550,
+      "discount": 45,
+      "isNew": false,
+      "categories": ["living", "bathroom", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Product 99",
+      "description": "Description for Product 99",
+      "price": 1676057,
+      "discount": 96,
+      "isNew": false,
+      "categories": ["living", "dining", "bathroom", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 481",
+      "description": "Description for Product 481",
+      "price": 7632405,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Product 44",
+      "description": "Description for Product 44",
+      "price": 3533914,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "dining", "bathroom", "bedroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 192",
-      "description": "Description 484",
-      "price": 987880,
-      "discount": 28
+      "title": "Product 414",
+      "description": "Description for Product 414",
+      "price": 2620024,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "living", "bathroom", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 219",
+      "description": "Description for Product 219",
+      "price": 7711036,
+      "discount": 46,
+      "isNew": false,
+      "categories": ["dining", "bathroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 589",
+      "description": "Description for Product 589",
+      "price": 447084,
+      "discount": 71,
+      "isNew": false,
+      "categories": ["dining", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Product 737",
+      "description": "Description for Product 737",
+      "price": 2270794,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "dining", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 720",
+      "description": "Description for Product 720",
+      "price": 2001361,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Product 772",
+      "description": "Description for Product 772",
+      "price": 2054362,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 538",
+      "description": "Description for Product 538",
+      "price": 9376061,
+      "discount": 75,
+      "isNew": false,
+      "categories": ["dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 114",
+      "description": "Description for Product 114",
+      "price": 9615105,
+      "discount": 19,
+      "isNew": false,
+      "categories": ["bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 268",
+      "description": "Description for Product 268",
+      "price": 5916891,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "living", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 65",
+      "description": "Description for Product 65",
+      "price": 6168555,
+      "discount": 77,
+      "isNew": false,
+      "categories": ["living", "bathroom", "bedroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Product 630",
+      "description": "Description for Product 630",
+      "price": 4131182,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "bathroom", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Product 394",
+      "description": "Description for Product 394",
+      "price": 2283455,
+      "discount": 18,
+      "isNew": false,
+      "categories": ["dining", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 203",
+      "description": "Description for Product 203",
+      "price": 4439603,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "bathroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
-      "title": "Title 23",
-      "description": "Description 95",
-      "price": 86643,
-      "discount": 53
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 129",
-      "description": "Description 492",
-      "price": 212089
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 99",
-      "description": "Description 159",
-      "price": 4303,
-      "discount": 30
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
-      "title": "Title 155",
-      "description": "Description 442",
-      "price": 918155,
-      "isNew": false
+      "title": "Product 631",
+      "description": "Description for Product 631",
+      "price": 1558523,
+      "discount": 35,
+      "isNew": false,
+      "categories": ["living", "dining", "bedroom", "bathroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 67",
-      "description": "Description 7",
-      "price": 152962,
-      "discount": 72
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 53",
-      "description": "Description 291",
-      "price": 812058,
-      "isNew": true
+      "title": "Product 762",
+      "description": "Description for Product 762",
+      "price": 5414924,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "dining", "living", "bedroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 13",
-      "description": "Description 343",
-      "price": 42913,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 183",
-      "description": "Description 180",
-      "price": 50798
+      "title": "Product 943",
+      "description": "Description for Product 943",
+      "price": 5353503,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "bedroom", "living", "bathroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 182",
-      "description": "Description 411",
-      "price": 664578
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 198",
-      "description": "Description 270",
-      "price": 885482
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 12",
-      "description": "Description 331",
-      "price": 738571,
-      "discount": 15
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 104",
-      "description": "Description 94",
-      "price": 324832,
-      "discount": 2
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 172",
-      "description": "Description 93",
-      "price": 790365,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 116",
-      "description": "Description 459",
-      "price": 444666,
-      "discount": 1
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 186",
-      "description": "Description 115",
-      "price": 936361
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 175",
-      "description": "Description 20",
-      "price": 223733,
-      "discount": 53
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 74",
-      "description": "Description 155",
-      "price": 262030
+      "title": "Product 930",
+      "description": "Description for Product 930",
+      "price": 1583719,
+      "discount": 63,
+      "isNew": false,
+      "categories": ["bathroom", "bedroom", "dining", "living"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 76",
-      "description": "Description 279",
-      "price": 376066
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 153",
-      "description": "Description 51",
-      "price": 724365,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 199",
-      "description": "Description 395",
-      "price": 970463
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 61",
-      "description": "Description 176",
-      "price": 749522,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 176",
-      "description": "Description 283",
-      "price": 205386
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 91",
-      "description": "Description 433",
-      "price": 485984,
-      "discount": 97
+      "title": "Product 890",
+      "description": "Description for Product 890",
+      "price": 3995275,
+      "discount": 10,
+      "isNew": false,
+      "categories": ["bathroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
-      "title": "Title 128",
-      "description": "Description 241",
-      "price": 677321,
-      "isNew": false
+      "title": "Product 417",
+      "description": "Description for Product 417",
+      "price": 3928896,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "bathroom", "living"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
-      "title": "Title 91",
-      "description": "Description 347",
-      "price": 539165,
-      "discount": 69
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 676",
+      "description": "Description for Product 676",
+      "price": 1590091,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 111",
-      "description": "Description 303",
-      "price": 564744,
-      "discount": 21
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 563",
+      "description": "Description for Product 563",
+      "price": 3202454,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "dining", "living", "bathroom"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 9",
-      "description": "Description 265",
-      "price": 786693,
-      "isNew": true
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 328",
+      "description": "Description for Product 328",
+      "price": 6492075,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "dining", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 492",
+      "description": "Description for Product 492",
+      "price": 3001492,
+      "discount": 74,
+      "isNew": false,
+      "categories": ["living", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 855",
+      "description": "Description for Product 855",
+      "price": 7175946,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "bathroom", "living", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 922",
+      "description": "Description for Product 922",
+      "price": 7519091,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 3",
+      "description": "Description for Product 3",
+      "price": 3914554,
+      "discount": 95,
+      "isNew": false,
+      "categories": ["living"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
-      "title": "Title 104",
-      "description": "Description 306",
-      "price": 400263,
-      "isNew": true
+      "title": "Product 245",
+      "description": "Description for Product 245",
+      "price": 8703881,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 199",
-      "description": "Description 386",
-      "price": 551050
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 41",
-      "description": "Description 271",
-      "price": 256043,
-      "discount": 3
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 13",
-      "description": "Description 249",
-      "price": 921968
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 77",
-      "description": "Description 172",
-      "price": 321641,
-      "isNew": true
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 632",
+      "description": "Description for Product 632",
+      "price": 2560877,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "bedroom", "bathroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 91",
-      "description": "Description 155",
-      "price": 394871,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 100",
-      "description": "Description 173",
-      "price": 55164
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 6",
-      "description": "Description 435",
-      "price": 92978,
-      "discount": 13
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 42",
-      "description": "Description 392",
-      "price": 625429
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 100",
-      "description": "Description 325",
-      "price": 780882,
-      "discount": 26
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 171",
-      "description": "Description 151",
-      "price": 231572,
-      "discount": 18
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 119",
-      "description": "Description 46",
-      "price": 726433
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 11",
-      "description": "Description 401",
-      "price": 235556,
-      "isNew": true
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 190",
-      "description": "Description 317",
-      "price": 561525,
-      "discount": 38
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 181",
-      "description": "Description 248",
-      "price": 899916
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 172",
-      "description": "Description 105",
-      "price": 264367,
-      "isNew": true
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 153",
-      "description": "Description 232",
-      "price": 579233,
-      "discount": 9
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 34",
-      "description": "Description 178",
-      "price": 817136
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 35",
-      "description": "Description 315",
-      "price": 708238,
-      "discount": 99
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 49",
-      "description": "Description 466",
-      "price": 229334
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 54",
-      "description": "Description 309",
-      "price": 70299,
-      "discount": 38
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 64",
-      "description": "Description 184",
-      "price": 917779,
-      "discount": 28
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 7",
-      "description": "Description 109",
-      "price": 94935
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
-      "title": "Title 160",
-      "description": "Description 465",
-      "price": 582058,
-      "isNew": true
+      "title": "Product 197",
+      "description": "Description for Product 197",
+      "price": 8240241,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "bedroom", "dining", "living"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
-      "title": "Title 55",
-      "description": "Description 216",
-      "price": 15664
+      "title": "Product 569",
+      "description": "Description for Product 569",
+      "price": 2840188,
+      "discount": 32,
+      "isNew": false,
+      "categories": ["bedroom", "living", "dining"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
-      "title": "Title 2",
-      "description": "Description 73",
-      "price": 503060,
-      "discount": 48
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 48",
+      "description": "Description for Product 48",
+      "price": 5400921,
+      "discount": 71,
+      "isNew": false,
+      "categories": ["dining"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 56",
-      "description": "Description 367",
-      "price": 698567,
-      "isNew": true
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 923",
+      "description": "Description for Product 923",
+      "price": 8723962,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "bedroom"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 40",
-      "description": "Description 167",
-      "price": 423714,
-      "discount": 88
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 284",
+      "description": "Description for Product 284",
+      "price": 6533204,
+      "discount": 94,
+      "isNew": false,
+      "categories": ["bedroom", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 612",
+      "description": "Description for Product 612",
+      "price": 2662416,
+      "discount": 79,
+      "isNew": false,
+      "categories": ["bedroom", "bathroom", "dining", "living"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 90",
-      "description": "Description 239",
-      "price": 339315,
-      "isNew": true
+      "title": "Product 932",
+      "description": "Description for Product 932",
+      "price": 7022664,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 102",
+      "description": "Description for Product 102",
+      "price": 2082967,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 178",
+      "description": "Description for Product 178",
+      "price": 6370342,
+      "discount": 21,
+      "isNew": false,
+      "categories": ["living"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
-      "title": "Title 178",
-      "description": "Description 172",
-      "price": 433284,
-      "discount": 63
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 34",
-      "description": "Description 157",
-      "price": 112076,
-      "discount": 36
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 4",
-      "description": "Description 307",
-      "price": 639274,
-      "discount": 29
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 94",
-      "description": "Description 29",
-      "price": 336429,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 113",
-      "description": "Description 494",
-      "price": 480881,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 198",
-      "description": "Description 156",
-      "price": 629451,
-      "discount": 96
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 90",
-      "description": "Description 383",
-      "price": 393786,
-      "discount": 77
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 173",
-      "description": "Description 184",
-      "price": 170274,
-      "discount": 63
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 27",
-      "description": "Description 141",
-      "price": 502952
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 194",
-      "description": "Description 355",
-      "price": 866326,
-      "discount": 16
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
-      "title": "Title 12",
-      "description": "Description 201",
-      "price": 319380,
-      "discount": 9
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 23",
-      "description": "Description 442",
-      "price": 718612,
-      "discount": 97
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 59",
-      "description": "Description 339",
-      "price": 201543,
-      "discount": 95
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 160",
-      "description": "Description 365",
-      "price": 792602,
-      "discount": 69
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 131",
-      "description": "Description 387",
-      "price": 980629,
-      "isNew": true
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 94",
-      "description": "Description 356",
-      "price": 636604
+      "title": "Product 725",
+      "description": "Description for Product 725",
+      "price": 183520,
+      "discount": 19,
+      "isNew": false,
+      "categories": ["living", "dining"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
-      "title": "Title 170",
-      "description": "Description 135",
-      "price": 453355,
-      "isNew": true
+      "title": "Product 877",
+      "description": "Description for Product 877",
+      "price": 234510,
+      "discount": 4,
+      "isNew": false,
+      "categories": ["living", "bathroom", "bedroom"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 27",
-      "description": "Description 239",
-      "price": 236190,
-      "discount": 53
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Product 794",
+      "description": "Description for Product 794",
+      "price": 9280067,
+      "discount": 96,
+      "isNew": false,
+      "categories": ["bedroom", "living", "dining"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
-      "title": "Title 63",
-      "description": "Description 9",
-      "price": 883481
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Product 26",
+      "description": "Description for Product 26",
+      "price": 8348031,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "bathroom", "dining"]
     },
     {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
-      "title": "Title 156",
-      "description": "Description 22",
-      "price": 191073
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 50",
+      "description": "Description for Product 50",
+      "price": 6255581,
+      "discount": 60,
+      "isNew": false,
+      "categories": ["bathroom", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Product 424",
+      "description": "Description for Product 424",
+      "price": 2229884,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "bedroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
-      "title": "Title 28",
-      "description": "Description 285",
-      "price": 237500,
-      "discount": 45
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
-      "title": "Title 156",
-      "description": "Description 136",
-      "price": 464190
+      "title": "Product 694",
+      "description": "Description for Product 694",
+      "price": 1369361,
+      "discount": 6,
+      "isNew": false,
+      "categories": ["dining", "living", "bedroom", "bathroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
-      "title": "Title 110",
-      "description": "Description 369",
-      "price": 747177,
-      "discount": 44
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
-      "title": "Title 2",
-      "description": "Description 392",
-      "price": 998727,
-      "isNew": false
-    },
-    {
-      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 111",
-      "description": "Description 66",
-      "price": 218341,
-      "discount": 20
+      "title": "Product 467",
+      "description": "Description for Product 467",
+      "price": 9067641,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "living", "bathroom", "bedroom"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
-      "title": "Title 103",
-      "description": "Description 363",
-      "price": 751098,
-      "isNew": false
+      "title": "Product 577",
+      "description": "Description for Product 577",
+      "price": 4690870,
+      "discount": 3,
+      "isNew": false,
+      "categories": ["living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 672",
+      "description": "Description for Product 672",
+      "price": 6368388,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "bathroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 534",
+      "description": "Description for Product 534",
+      "price": 6738096,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining"]
     },
     {
       "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
-      "title": "Title 42",
-      "description": "Description 391",
-      "price": 368178
+      "title": "Product 471",
+      "description": "Description for Product 471",
+      "price": 2923647,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Product 471",
+      "description": "Description for Product 471",
+      "price": 336433,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Product 314",
+      "description": "Description for Product 314",
+      "price": 2064497,
+      "discount": 20,
+      "isNew": false,
+      "categories": ["dining", "bedroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 85",
+      "description": "Description for Product 85",
+      "price": 1037018,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Product 713",
+      "description": "Description for Product 713",
+      "price": 5458535,
+      "discount": 70,
+      "isNew": false,
+      "categories": ["bedroom", "dining", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 637",
+      "description": "Description for Product 637",
+      "price": 4661116,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Product 994",
+      "description": "Description for Product 994",
+      "price": 2882046,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 283",
+      "description": "Description for Product 283",
+      "price": 3986080,
+      "discount": 10,
+      "isNew": false,
+      "categories": ["bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Product 458",
+      "description": "Description for Product 458",
+      "price": 9484537,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Product 529",
+      "description": "Description for Product 529",
+      "price": 133524,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "bedroom", "living", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Product 297",
+      "description": "Description for Product 297",
+      "price": 6604624,
+      "discount": 51,
+      "isNew": false,
+      "categories": ["bedroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 641",
+      "description": "Description for Product 641",
+      "price": 2486572,
+      "discount": 35,
+      "isNew": false,
+      "categories": ["bathroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 618",
+      "description": "Description for Product 618",
+      "price": 8221344,
+      "discount": 100,
+      "isNew": false,
+      "categories": ["dining", "living", "bathroom", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 284",
+      "description": "Description for Product 284",
+      "price": 6099243,
+      "discount": 8,
+      "isNew": false,
+      "categories": ["bedroom", "bathroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 922",
+      "description": "Description for Product 922",
+      "price": 7483578,
+      "discount": 17,
+      "isNew": false,
+      "categories": ["dining", "bedroom", "living", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Product 534",
+      "description": "Description for Product 534",
+      "price": 8121725,
+      "discount": 34,
+      "isNew": false,
+      "categories": ["dining", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 464",
+      "description": "Description for Product 464",
+      "price": 7036877,
+      "discount": 56,
+      "isNew": false,
+      "categories": ["bathroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 599",
+      "description": "Description for Product 599",
+      "price": 7527524,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 36",
+      "description": "Description for Product 36",
+      "price": 459638,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "bathroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 942",
+      "description": "Description for Product 942",
+      "price": 1907583,
+      "discount": 36,
+      "isNew": false,
+      "categories": ["bedroom", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 486",
+      "description": "Description for Product 486",
+      "price": 1457946,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 163",
+      "description": "Description for Product 163",
+      "price": 8162110,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "bedroom", "dining", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Product 857",
+      "description": "Description for Product 857",
+      "price": 1631341,
+      "discount": 59,
+      "isNew": false,
+      "categories": ["living", "dining", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Product 754",
+      "description": "Description for Product 754",
+      "price": 8374780,
+      "discount": 45,
+      "isNew": false,
+      "categories": ["dining", "bedroom", "living", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Product 513",
+      "description": "Description for Product 513",
+      "price": 7677393,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "bedroom", "bathroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 889",
+      "description": "Description for Product 889",
+      "price": 3549135,
+      "discount": 51,
+      "isNew": false,
+      "categories": ["living", "bedroom", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 934",
+      "description": "Description for Product 934",
+      "price": 7710777,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "bathroom", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Product 552",
+      "description": "Description for Product 552",
+      "price": 9739219,
+      "discount": 37,
+      "isNew": false,
+      "categories": ["dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 849",
+      "description": "Description for Product 849",
+      "price": 6973600,
+      "discount": 66,
+      "isNew": false,
+      "categories": ["bedroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 86",
+      "description": "Description for Product 86",
+      "price": 8125401,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "living", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 337",
+      "description": "Description for Product 337",
+      "price": 5278361,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Product 547",
+      "description": "Description for Product 547",
+      "price": 1035399,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Product 331",
+      "description": "Description for Product 331",
+      "price": 6309784,
+      "discount": 94,
+      "isNew": false,
+      "categories": ["dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 698",
+      "description": "Description for Product 698",
+      "price": 7928811,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 730",
+      "description": "Description for Product 730",
+      "price": 5993217,
+      "discount": 8,
+      "isNew": false,
+      "categories": ["living", "dining", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 616",
+      "description": "Description for Product 616",
+      "price": 6278015,
+      "discount": 12,
+      "isNew": false,
+      "categories": ["bedroom", "living", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Product 785",
+      "description": "Description for Product 785",
+      "price": 7038532,
+      "discount": 15,
+      "isNew": false,
+      "categories": ["bathroom", "dining", "living", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 623",
+      "description": "Description for Product 623",
+      "price": 6151745,
+      "discount": 84,
+      "isNew": false,
+      "categories": ["living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Product 555",
+      "description": "Description for Product 555",
+      "price": 9130118,
+      "discount": 83,
+      "isNew": false,
+      "categories": ["dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Product 777",
+      "description": "Description for Product 777",
+      "price": 8470192,
+      "discount": 22,
+      "isNew": false,
+      "categories": ["bathroom", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Product 545",
+      "description": "Description for Product 545",
+      "price": 486889,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "living", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg",
+      "title": "Product 129",
+      "description": "Description for Product 129",
+      "price": 354372,
+      "discount": 48,
+      "isNew": false,
+      "categories": ["dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 539",
+      "description": "Description for Product 539",
+      "price": 1995747,
+      "discount": 91,
+      "isNew": false,
+      "categories": ["bedroom", "living", "dining", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 509",
+      "description": "Description for Product 509",
+      "price": 8180908,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 383",
+      "description": "Description for Product 383",
+      "price": 7279703,
+      "discount": 26,
+      "isNew": false,
+      "categories": ["dining", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Product 561",
+      "description": "Description for Product 561",
+      "price": 522729,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "living", "bedroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 337",
+      "description": "Description for Product 337",
+      "price": 9613163,
+      "discount": 29,
+      "isNew": false,
+      "categories": ["bathroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 801",
+      "description": "Description for Product 801",
+      "price": 1818840,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "bedroom", "bathroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 51",
+      "description": "Description for Product 51",
+      "price": 5719189,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "dining", "bedroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 571",
+      "description": "Description for Product 571",
+      "price": 8070465,
+      "discount": 16,
+      "isNew": false,
+      "categories": ["bathroom", "living", "bedroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 438",
+      "description": "Description for Product 438",
+      "price": 9396470,
+      "discount": 38,
+      "isNew": false,
+      "categories": ["bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 943",
+      "description": "Description for Product 943",
+      "price": 8668557,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "bedroom", "bathroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 625",
+      "description": "Description for Product 625",
+      "price": 280804,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "bedroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Product 962",
+      "description": "Description for Product 962",
+      "price": 5008504,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "dining", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 175",
+      "description": "Description for Product 175",
+      "price": 6927071,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Product 818",
+      "description": "Description for Product 818",
+      "price": 9742318,
+      "discount": 62,
+      "isNew": false,
+      "categories": ["living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 588",
+      "description": "Description for Product 588",
+      "price": 9669412,
+      "discount": 32,
+      "isNew": false,
+      "categories": ["bathroom", "living", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 820",
+      "description": "Description for Product 820",
+      "price": 9236163,
+      "discount": 39,
+      "isNew": false,
+      "categories": ["dining", "living", "bathroom", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Product 36",
+      "description": "Description for Product 36",
+      "price": 6589429,
+      "discount": 72,
+      "isNew": false,
+      "categories": ["bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 78",
+      "description": "Description for Product 78",
+      "price": 2107562,
+      "discount": 13,
+      "isNew": false,
+      "categories": ["bedroom", "bathroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 42",
+      "description": "Description for Product 42",
+      "price": 1643831,
+      "discount": 25,
+      "isNew": false,
+      "categories": ["living", "bedroom", "bathroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 705",
+      "description": "Description for Product 705",
+      "price": 6787921,
+      "discount": 4,
+      "isNew": false,
+      "categories": ["dining", "bathroom", "bedroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Product 583",
+      "description": "Description for Product 583",
+      "price": 5428843,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 587",
+      "description": "Description for Product 587",
+      "price": 9326126,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 548",
+      "description": "Description for Product 548",
+      "price": 7970245,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "living", "bedroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard5.jpg",
+      "title": "Product 672",
+      "description": "Description for Product 672",
+      "price": 3338288,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard8.jpg",
+      "title": "Product 904",
+      "description": "Description for Product 904",
+      "price": 9554091,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard9.jpg",
+      "title": "Product 589",
+      "description": "Description for Product 589",
+      "price": 4368477,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 450",
+      "description": "Description for Product 450",
+      "price": 9669426,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 608",
+      "description": "Description for Product 608",
+      "price": 2857056,
+      "discount": 69,
+      "isNew": false,
+      "categories": ["bathroom", "bedroom", "living", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 385",
+      "description": "Description for Product 385",
+      "price": 5391813,
+      "discount": 57,
+      "isNew": false,
+      "categories": ["bedroom", "bathroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 991",
+      "description": "Description for Product 991",
+      "price": 446579,
+      "discount": 86,
+      "isNew": false,
+      "categories": ["dining", "living", "bedroom", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 397",
+      "description": "Description for Product 397",
+      "price": 1807265,
+      "discount": 34,
+      "isNew": false,
+      "categories": ["living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 978",
+      "description": "Description for Product 978",
+      "price": 8210082,
+      "discount": 18,
+      "isNew": false,
+      "categories": ["bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 765",
+      "description": "Description for Product 765",
+      "price": 3113679,
+      "discount": 37,
+      "isNew": false,
+      "categories": ["dining", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 28",
+      "description": "Description for Product 28",
+      "price": 8264113,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "bedroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 113",
+      "description": "Description for Product 113",
+      "price": 2009506,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "bedroom", "bathroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 22",
+      "description": "Description for Product 22",
+      "price": 792519,
+      "discount": 55,
+      "isNew": false,
+      "categories": ["dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 159",
+      "description": "Description for Product 159",
+      "price": 4174632,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 420",
+      "description": "Description for Product 420",
+      "price": 1817582,
+      "discount": 61,
+      "isNew": false,
+      "categories": ["living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 524",
+      "description": "Description for Product 524",
+      "price": 2105808,
+      "discount": 31,
+      "isNew": false,
+      "categories": ["dining", "bathroom", "bedroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 369",
+      "description": "Description for Product 369",
+      "price": 3488358,
+      "discount": 59,
+      "isNew": false,
+      "categories": ["living", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 718",
+      "description": "Description for Product 718",
+      "price": 9800584,
+      "discount": 32,
+      "isNew": false,
+      "categories": ["bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard10.jpg",
+      "title": "Product 697",
+      "description": "Description for Product 697",
+      "price": 3422463,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bedroom", "bathroom", "living"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard4.jpg",
+      "title": "Product 555",
+      "description": "Description for Product 555",
+      "price": 6009439,
+      "discount": null,
+      "isNew": true,
+      "categories": ["living", "bedroom", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard11.jpg",
+      "title": "Product 277",
+      "description": "Description for Product 277",
+      "price": 8735177,
+      "discount": null,
+      "isNew": true,
+      "categories": ["bathroom", "bedroom", "dining"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard6.jpg",
+      "title": "Product 807",
+      "description": "Description for Product 807",
+      "price": 6738024,
+      "discount": 80,
+      "isNew": false,
+      "categories": ["bedroom", "living", "dining", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard3.jpg",
+      "title": "Product 2",
+      "description": "Description for Product 2",
+      "price": 450104,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "bedroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard2.jpg",
+      "title": "Product 535",
+      "description": "Description for Product 535",
+      "price": 4828581,
+      "discount": null,
+      "isNew": true,
+      "categories": ["dining", "bedroom", "living", "bathroom"]
+    },
+    {
+      "img": "https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard1.jpg",
+      "title": "Product 911",
+      "description": "Description for Product 911",
+      "price": 3687663,
+      "discount": 33,
+      "isNew": false,
+      "categories": ["bathroom", "dining", "bedroom", "living"]
     }
   ]
 }
