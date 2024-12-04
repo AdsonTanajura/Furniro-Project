@@ -1,4 +1,3 @@
-import Header from '../../components/Header';
 import { useAuth } from '@clerk/clerk-react';
 import { OurProductsSections, OurProductsSectionsTitle } from './styled';
 import ListProduct from './components/ListProduct';
@@ -6,7 +5,6 @@ import HeroSection from './components/HeroSection';
 import BrowseSection from './components/BrowseSection';
 import RoomSection from './components/RoomSection';
 import FuniroFurnitureSection from './components/FuniroFurnitureSection';
-import Footer from '../../components/Footer';
 
 const Home = () => {
   const { userId } = useAuth();
@@ -15,21 +13,17 @@ const Home = () => {
 
   return (
     <>
-      <Header />
-      <main>
-        <HeroSection />
-        <BrowseSection />
+      <HeroSection />
+      <BrowseSection />
 
-        <OurProductsSections>
-          <OurProductsSectionsTitle>Our Products</OurProductsSectionsTitle>
-          <ListProduct />
-        </OurProductsSections>
+      <OurProductsSections>
+        <OurProductsSectionsTitle>Our Products</OurProductsSectionsTitle>
+        <ListProduct />
+      </OurProductsSections>
 
-        <RoomSection />
+      <RoomSection />
 
-        <FuniroFurnitureSection />
-      </main>
-      <Footer />
+      <FuniroFurnitureSection />
     </>
   );
 };

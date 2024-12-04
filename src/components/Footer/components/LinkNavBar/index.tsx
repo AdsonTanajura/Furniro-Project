@@ -12,10 +12,10 @@ const LinkNavBar = () => {
       <nav>
         <LinkNavBarList>
           <li>
-            <StyledLink to={'/'}>Home</StyledLink>
+            <StyledLink to={'/home'}>Home</StyledLink>
           </li>
           <li>
-            <StyledLink to={'/'}>Shop</StyledLink>
+            <StyledLink to={'/home/shop'}>Shop</StyledLink>
           </li>
           <li>
             <StyledLink to={'/'}>About</StyledLink>

@@ -35,10 +35,10 @@ const Header = () => {
       <nav>
         <MenuList>
           <li>
-            <MenuLink to={'/a'}>Home</MenuLink>
+            <MenuLink to={'/home'}>Home</MenuLink>
           </li>
           <li>
-            <MenuLink to={'/a'}>Shop</MenuLink>
+            <MenuLink to={'/home/shop'}>Shop</MenuLink>
           </li>
           <li>
             <MenuLink to={'/a'}>About</MenuLink>
@@ -59,10 +59,10 @@ const Header = () => {
         <MobileMenuContainer>
           <MenuList>
             <li>
-              <MenuLink to={'/a'}>Home</MenuLink>
+              <MenuLink to={'/home'}>Home</MenuLink>
             </li>
             <li>
-              <MenuLink to={'/a'}>Shop</MenuLink>
+              <MenuLink to={'/home/shop'}>Shop</MenuLink>
             </li>
             <li>
               <MenuLink to={'/a'}>About</MenuLink>
