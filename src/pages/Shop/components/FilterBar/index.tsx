@@ -15,13 +15,16 @@ import {
 } from './srtyles';
 import { useState } from 'react';
 import FilterModal from '../FilterModal';
-type FilterBarProps = {
-  filters: Array<string>;
-  setFilters: (filters: Array<string>) => void;
-};
+import { FilterBarProps } from './types';
 
-const FilterBar = ({ filters, setFilters }: FilterBarProps) => {
+const FilterBar = ({
+  filters,
+  setFilters,
+  showManyCards,
+  setShowManyCards,
+}: FilterBarProps) => {
   const [filterIsOpen, setFilterIsOpen] = useState(false);
+  console.log('🚀 ~ showManyCards:', showManyCards);
 
   return (
     <>
@@ -40,7 +43,11 @@ const FilterBar = ({ filters, setFilters }: FilterBarProps) => {
         <FilterInputContainer>
           <InputsContainer>
             <FilterLabel htmlFor="">Show</FilterLabel>
-            <FilterShowInput type="number" placeholder="16" />
+            <FilterShowInput
+              type="number"
+              value={showManyCards}
+              onChange={(e) => setShowManyCards(e.target.value)}
+            />
           </InputsContainer>
           <InputsContainer>
             <FilterLabel htmlFor="">Short by</FilterLabel>

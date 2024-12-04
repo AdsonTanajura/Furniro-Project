@@ -11,5 +11,13 @@ export type ProductDataProps = {
 
 export type FetchDataProps = {
   page?: number;
-  per?: number;
+  per?: string;
+};
+
+export type DataObjectProps = {
+  first: number;
+  items: number;
+  last: number;
+  next: number;
+  pages: number;
 };
