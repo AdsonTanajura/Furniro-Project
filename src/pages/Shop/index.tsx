@@ -16,7 +16,6 @@ const Shop = () => {
   // pegue query params
   const [data, setData] = useState<ProductDataProps[]>([]);
   const [dataObject, setDataObject] = useState<DataObjectProps>();
-
   const [showManyCards, setShowManyCards] = useState('16');
   const [productsList, setProductsList] = useState<ProductDataProps[]>([]);
   const [error, setError] = useState<string | null>(null);
@@ -122,6 +121,8 @@ const Shop = () => {
       {loading && <span>Carregando</span>}
       <ShopBaner />
       <FilterBar
+        currentPage={currentPage}
+        dataObject={dataObject}
         filters={filters}
         setFilters={setFilters}
         showManyCards={showManyCards}
@@ -150,7 +151,11 @@ const Shop = () => {
             )}
             {fristButton > 0 && fristButton <= dataObject.last ? (
               <PageButton
-                isCurrenPage={dataObject.next - 1 === fristButton}
+                isCurrenPage={
+                  dataObject.next
+                    ? dataObject.next - 1 === fristButton
+                    : dataObject.last === fristButton
+                }
                 onClick={handleClickButtonPage}
               >
                 {fristButton}
@@ -159,7 +164,11 @@ const Shop = () => {
 
             {secondButton > 0 && secondButton <= dataObject.last ? (
               <PageButton
-                isCurrenPage={dataObject.next - 1 === secondButton}
+                isCurrenPage={
+                  dataObject.next
+                    ? dataObject.next - 1 === secondButton
+                    : dataObject.last === secondButton
+                }
                 onClick={handleClickButtonPage}
               >
                 {secondButton}
@@ -168,7 +177,11 @@ const Shop = () => {
 
             {thirdButton > 0 && thirdButton <= dataObject.last ? (
               <PageButton
-                isCurrenPage={dataObject.next - 1 === thirdButton}
+                isCurrenPage={
+                  dataObject.next
+                    ? dataObject.next - 1 === thirdButton
+                    : dataObject.last === thirdButton
+                }
                 onClick={handleClickButtonPage}
               >
                 {thirdButton}

@@ -18,12 +18,37 @@ import FilterModal from '../FilterModal';
 import { FilterBarProps } from './types';
 
 const FilterBar = ({
+  currentPage,
+  dataObject,
   filters,
   setFilters,
   showManyCards,
   setShowManyCards,
 }: FilterBarProps) => {
   const [filterIsOpen, setFilterIsOpen] = useState(false);
+
+  const startToEnd = () => {
+    if (currentPage && dataObject) {
+      const itemsPerPage = Number(showManyCards) || dataObject.data.length; // Itens por página
+      const totalItems = dataObject.items; // Total de itens disponíveis
+      const firstItem = (currentPage - 1) * itemsPerPage + 1; // Primeiro item da página atual
+      const lastItem = Math.min(currentPage * itemsPerPage, totalItems); // Último item da página atual
+
+      console.log({
+        currentPage,
+        itemsPerPage,
+        firstItem,
+        lastItem,
+        totalItems,
+      });
+
+      return { firstItem, lastItem, totalItems };
+    }
+
+    return { firstItem: 0, lastItem: 0, totalItems: 0 }; // Valores padrão para evitar erros
+  };
+
+  const { firstItem, lastItem, totalItems } = startToEnd();
 
   return (
     <>
@@ -37,7 +62,9 @@ const FilterBar = ({
             <HiViewGrid />
             <BsViewList />
           </FilterInformation>
-          <FilterResult>Showing 1–16 of 32 results</FilterResult>
+          <FilterResult>
+            Showing {firstItem}–{lastItem} of {totalItems} results
+          </FilterResult>
         </FilterContent>
         <FilterInputContainer>
           <InputsContainer>
