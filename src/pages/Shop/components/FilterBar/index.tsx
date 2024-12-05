@@ -24,7 +24,6 @@ const FilterBar = ({
   setShowManyCards,
 }: FilterBarProps) => {
   const [filterIsOpen, setFilterIsOpen] = useState(false);
-  console.log('🚀 ~ showManyCards:', showManyCards);
 
   return (
     <>

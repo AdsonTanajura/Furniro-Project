@@ -16,11 +16,53 @@ const Shop = () => {
   // pegue query params
   const [data, setData] = useState<ProductDataProps[]>([]);
   const [dataObject, setDataObject] = useState<DataObjectProps>();
+
   const [showManyCards, setShowManyCards] = useState('16');
   const [productsList, setProductsList] = useState<ProductDataProps[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [filters, setFilters] = useState<string[]>([]);
+
+  //States para funcionalidade do botão de page
+  const [currentPage, setCurrentPage] = useState(1);
+  const [fristButton, setFristButton] = useState(1);
+  const [secondButton, setSecondButton] = useState(2);
+  const [thirdButton, setThirdButton] = useState(3);
+
+  const handleClickNexPage = (e: React.MouseEvent<HTMLButtonElement>) => {
+    const isBack = e.currentTarget.textContent === 'Volta';
+
+    if (isBack) {
+      if (currentPage <= 1) return; // Evitar páginas negativas ou zero
+      setCurrentPage((currentValue) => currentValue - 1);
+
+      // Atualizar os botões ao voltar para o início de um grupo
+      if ((currentPage - 1) % 3 === 0) {
+        setFristButton((currentValue) => currentValue - 3);
+        setSecondButton((currentValue) => currentValue - 3);
+        setThirdButton((currentValue) => currentValue - 3);
+      }
+      return;
+    }
+
+    // Avançar para a próxima página
+    if (currentPage >= dataObject!.last) return; // Evitar ultrapassar a última página
+    setCurrentPage((currentValue) => currentValue + 1);
+
+    // Atualizar os botões ao avançar para um novo grupo
+    if (currentPage % 3 === 0) {
+      setFristButton((currentValue) => currentValue + 3);
+      setSecondButton((currentValue) => currentValue + 3);
+      setThirdButton((currentValue) => currentValue + 3);
+    }
+  };
+
+  const handleClickButtonPage = (e: React.MouseEvent<HTMLButtonElement>) => {
+    if (e.currentTarget.textContent) {
+      setCurrentPage(Number(e.currentTarget.textContent));
+      return;
+    }
+  };
 
   const [searchParams] = useSearchParams();
   useEffect(() => {
@@ -54,9 +96,6 @@ const Shop = () => {
 
         setData((prevData) => {
           if (prevData.length === data.length) {
-            console.log(
-              'CAI NO dawdadawdawdawdadawdaO dawdadawdawdawdadawdaO dawdadawdawdawdadawdaO dawdadawdawdawdadawdaO dawdadawdawdawdadawdaO dawdadawdawdawdadawdaO dawdadawdawdawdadawdaO dawdadawdawdawdadawdaO dawdadawdawdawdadawdaO dawdadawdawdawdadawdaO dawdadawdawdawdadawda'
-            );
             return [...prevData, ...result];
           }
           return result;
@@ -72,11 +111,8 @@ const Shop = () => {
   );
 
   useEffect(() => {
-    fetchData({ per: showManyCards });
-  }, [fetchData, showManyCards]);
-
-  console.log('Data:', dataObject);
-  console.log('Show Many Cards:', showManyCards);
+    fetchData({ page: currentPage, per: showManyCards });
+  }, [fetchData, showManyCards, currentPage]);
 
   if (error) {
     return <h1>Teve um erro!</h1>;
@@ -105,10 +141,42 @@ const Shop = () => {
         ))}
       </ProductList>
       <PageButtonContainer>
-        <PageButton isCurrenPage>1</PageButton>
-        <PageButton isCurrenPage={false}>2</PageButton>
-        <PageButton isCurrenPage={false}>3</PageButton>
-        <NextPageButton>Next</NextPageButton>
+        {!dataObject ? null : (
+          <>
+            {fristButton === dataObject.first ? null : (
+              <NextPageButton onClick={handleClickNexPage}>
+                Volta
+              </NextPageButton>
+            )}
+            {fristButton > 0 && fristButton <= dataObject.last ? (
+              <PageButton
+                isCurrenPage={dataObject.next - 1 === fristButton}
+                onClick={handleClickButtonPage}
+              >
+                {fristButton}
+              </PageButton>
+            ) : null}
+
+            {secondButton > 0 && secondButton <= dataObject.last ? (
+              <PageButton
+                isCurrenPage={dataObject.next - 1 === secondButton}
+                onClick={handleClickButtonPage}
+              >
+                {secondButton}
+              </PageButton>
+            ) : null}
+
+            {thirdButton > 0 && thirdButton <= dataObject.last ? (
+              <PageButton
+                isCurrenPage={dataObject.next - 1 === thirdButton}
+                onClick={handleClickButtonPage}
+              >
+                {thirdButton}
+              </PageButton>
+            ) : null}
+            <NextPageButton onClick={handleClickNexPage}>Next</NextPageButton>
+          </>
+        )}
       </PageButtonContainer>
     </>
   );
