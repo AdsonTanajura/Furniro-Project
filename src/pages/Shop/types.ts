@@ -15,7 +15,7 @@ export type FetchDataProps = {
 };
 
 export type DataObjectProps = {
-  data: Array<object>;
+  data: Array<ProductDataProps>;
   first: number;
   items: number;
   last: number;
