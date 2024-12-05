@@ -1,36 +1,42 @@
-import { Container } from './styles';
+import {
+  Container,
+  ProductImagen,
+  ProductImagenContainer,
+  ProductImagenPreview,
+  ProductPreviewContainer,
+} from './styles';
 
-const ImagensSide = () => {
+const ProductImage = () => {
   return (
     <Container>
       {/* div das imagens perquena */}
-      <div>
-        <img
+      <ProductPreviewContainer>
+        <ProductImagenPreview
           src="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
           alt="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
         />
-        <img
+        <ProductImagenPreview
           src="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
           alt="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
         />
-        <img
+        <ProductImagenPreview
           src="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
           alt="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
         />
-        <img
+        <ProductImagenPreview
           src="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
           alt=""
         />
-      </div>
+      </ProductPreviewContainer>
       {/* Div da imagem grande */}
-      <div>
-        <img
+      <ProductImagenContainer>
+        <ProductImagen
           src="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
           alt=""
         />
-      </div>
+      </ProductImagenContainer>
     </Container>
   );
 };
 
-export default ImagensSide;
+export default ProductImage;

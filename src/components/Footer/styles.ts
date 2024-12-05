@@ -16,12 +16,19 @@ export const FooterContainer = styled.footer`
 `;
 
 export const FooterContent = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   justify-content: space-between;
   flex-direction: row;
   border-bottom: 2px solid #d9d9d9;
   padding-bottom: 48px;
-  @media (max-width: 780px) {
+
+  @media (min-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 996px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 `;
 
