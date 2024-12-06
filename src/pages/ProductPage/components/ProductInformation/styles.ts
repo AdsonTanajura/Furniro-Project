@@ -120,7 +120,15 @@ export const ProductQuantityInputContainer = styled.div`
   border-radius: 10px;
   min-width: 123px;
   min-height: 64px;
-  border: 2px solid #9f9f9f;
+  border: 1px solid #9f9f9f;
+`;
+
+export const ProductQuantityAddCardButton = styled.button`
+  border-radius: 15px;
+  padding: 17px 48px;
+  border: 1px solid #000000;
+  text-align: center;
+  background-color: transparent;
 `;
 
 export const ProductQuantityAddButtonInput = styled.button`
