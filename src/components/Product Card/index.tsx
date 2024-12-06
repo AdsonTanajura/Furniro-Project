@@ -17,6 +17,7 @@ import {
 } from './styles';
 import formatCurrency from '../../utils/formatCurrency';
 import SocialMedia from './Components/SocialMedia';
+import { useNavigate } from 'react-router-dom';
 
 const ProductCard = ({
   img,
@@ -25,8 +26,16 @@ const ProductCard = ({
   title,
   discount,
   isNew,
+  id,
 }: ProductCardProps) => {
   const [priceWithdiscount, setPriceWithDiscount] = useState(0);
+
+  const navigate = useNavigate();
+
+  const handleClickView = () => {
+    navigate(`/home/shop/${id}`);
+  };
+
   useEffect(() => {
     if (discount) {
       setPriceWithDiscount(calcularDesconto(price, discount));
@@ -37,6 +46,7 @@ const ProductCard = ({
     <Container url={img}>
       <AddCardHover>
         <AddCardButton>Add to cart</AddCardButton>
+        <AddCardButton onClick={handleClickView}>View</AddCardButton>
         <SocialMedia />
       </AddCardHover>
       <TagContainer>

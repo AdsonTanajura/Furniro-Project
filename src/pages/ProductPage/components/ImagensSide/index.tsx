@@ -5,35 +5,21 @@ import {
   ProductImagenPreview,
   ProductPreviewContainer,
 } from './styles';
+import { ImagensSideProps } from './types';
 
-const ProductImage = () => {
+const ProductImage = ({ img, title }: ImagensSideProps) => {
   return (
     <Container>
       {/* div das imagens perquena */}
       <ProductPreviewContainer>
-        <ProductImagenPreview
-          src="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
-          alt="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
-        />
-        <ProductImagenPreview
-          src="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
-          alt="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
-        />
-        <ProductImagenPreview
-          src="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
-          alt="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
-        />
-        <ProductImagenPreview
-          src="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
-          alt=""
-        />
+        <ProductImagenPreview src={img} alt={title} />
+        <ProductImagenPreview src={img} alt={title} />
+        <ProductImagenPreview src={img} alt={title} />
+        <ProductImagenPreview src={img} alt={title} />
       </ProductPreviewContainer>
       {/* Div da imagem grande */}
       <ProductImagenContainer>
-        <ProductImagen
-          src="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
-          alt=""
-        />
+        <ProductImagen src={img} alt={title} />
       </ProductImagenContainer>
     </Container>
   );

@@ -12,6 +12,8 @@ import { DataObjectProps, ProductDataProps } from './types';
 import axios from 'axios';
 import ProductCard from '../../components/Product Card';
 
+const BASEURL = import.meta.env.VITE_BASE_URL;
+
 const Shop = () => {
   // pegue query params
   const [data, setData] = useState<ProductDataProps[]>([]);
@@ -87,7 +89,7 @@ const Shop = () => {
       try {
         setLoading(true);
         const response = await axios.get(
-          `http://localhost:3000/cards?_page=${page}&_per_page=${per}`
+          `${BASEURL}/cards?_page=${page}&_per_page=${per}`
         );
         const result = response.data.data;
 
@@ -137,6 +139,7 @@ const Shop = () => {
             title={card.title}
             discount={card.discount}
             isNew={card.isNew}
+            id={card.id}
             key={card.id}
           />
         ))}

@@ -5,6 +5,7 @@ export type ProductCardProps = {
   price: number;
   discount?: number;
   isNew?: boolean;
+  id: string;
 };
 
 export type ContainerProps = {

@@ -26,14 +26,21 @@ import {
 import { IoLogoFacebook } from 'react-icons/io5';
 import { FaLinkedin } from 'react-icons/fa';
 import { AiFillTwitterCircle } from 'react-icons/ai';
+import { ProductInformationProps } from './types';
+import formatCurrency from '../../../../utils/formatCurrency';
 
-const ProductInformation = () => {
+const ProductInformation = ({
+  price,
+  title,
+  categories,
+  id,
+}: ProductInformationProps) => {
   return (
     <div>
       {/* Dive que coloca a barra embaixo */}
       <ProductInformationContainer>
-        <ProductTitle>Asgaard sofa</ProductTitle>
-        <ProductPrice>Rs. 250,000.00</ProductPrice>
+        <ProductTitle>{title}</ProductTitle>
+        <ProductPrice>{formatCurrency(price)}</ProductPrice>
         <RankContainer>
           {/* Dive que tem a barrinha seprando  */}
           <StarsContainer>
@@ -79,11 +86,11 @@ const ProductInformation = () => {
       <SkuInfo>
         <span>SKU</span>
         <SkuInfoItems>
-          : <span>SS001</span>
+          : <span>{id}</span>
         </SkuInfoItems>
         <span>Category</span>
         <SkuInfoItems>
-          : <span>Sofas</span>
+          : <span>{categories.join(', ')}</span>
         </SkuInfoItems>
         <span>Tags</span>
         <SkuInfoItems>

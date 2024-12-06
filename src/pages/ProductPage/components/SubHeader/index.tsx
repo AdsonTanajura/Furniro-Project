@@ -1,11 +1,11 @@
-import React from 'react';
 import { SubHeaderContainer } from './styles';
+import { SubHeaderProps } from './types';
 
-const SubHeader = () => {
+const SubHeader = ({ title }: SubHeaderProps) => {
   return (
     <SubHeaderContainer>
       <div>{'Home > Shop'}</div>
-      <div>Asgaard sofa</div>
+      <div>{title}</div>
     </SubHeaderContainer>
   );
 };

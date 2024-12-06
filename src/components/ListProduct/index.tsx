@@ -9,6 +9,9 @@ import {
 } from './types';
 import ProductCard from '../Product Card';
 
+const BASEURL = import.meta.env.VITE_BASE_URL;
+console.log('🚀 ~ BASEURL:', BASEURL);
+
 const ListProduct = ({ page, per }: ListProductProps) => {
   const [data, setData] = useState<DataProps[]>([]);
   const [apiResult, setApiResult] = useState<ApiResultProps>();
@@ -18,7 +21,7 @@ const ListProduct = ({ page, per }: ListProductProps) => {
   const fetchData = async ({ page = 1, per = 8 }: FetchDataProps) => {
     try {
       const response = await axios.get(
-        `http://localhost:3000/cards?_page=${page}&_per_page=${per}`
+        `${BASEURL}/cards?_page=${page}&_per_page=${per}`
       );
       setApiResult(response.data);
       const result: DataProps[] = await response.data.data;
@@ -59,6 +62,7 @@ const ListProduct = ({ page, per }: ListProductProps) => {
           title={card.title}
           discount={card.discount}
           isNew={card.isNew}
+          id={card.id}
           key={card.id}
         />
       ))}
