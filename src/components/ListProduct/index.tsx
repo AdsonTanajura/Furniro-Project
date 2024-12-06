@@ -1,10 +1,15 @@
-import ProductCard from '../../../../components/Product Card';
 import axios from 'axios';
 import { ListCotainer, ShowMoreButton } from './styles';
 import { useEffect, useState } from 'react';
-import { ApiResultProps, DataProps, FetchDataProps } from './types';
+import {
+  ApiResultProps,
+  DataProps,
+  FetchDataProps,
+  ListProductProps,
+} from './types';
+import ProductCard from '../Product Card';
 
-const ListProduct = () => {
+const ListProduct = ({ page, per }: ListProductProps) => {
   const [data, setData] = useState<DataProps[]>([]);
   const [apiResult, setApiResult] = useState<ApiResultProps>();
   const [error, setError] = useState<string | null>(null);
@@ -32,11 +37,11 @@ const ListProduct = () => {
   };
 
   const handleShowMore = async () => {
-    await fetchData({ page: apiResult?.next });
+    await fetchData({ page: apiResult?.next, per: per });
   };
 
   useEffect(() => {
-    fetchData({});
+    fetchData({ page: page, per: per });
   }, []);
 
   if (error) {

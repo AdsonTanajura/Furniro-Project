@@ -16,3 +16,8 @@ export type ApiResultProps = {
   next: number;
   last: number;
 };
+
+export type ListProductProps = {
+  page?: number;
+  per?: number;
+};

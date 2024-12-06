@@ -1,10 +1,10 @@
 import { useAuth } from '@clerk/clerk-react';
 import { OurProductsSections, OurProductsSectionsTitle } from './styled';
-import ListProduct from './components/ListProduct';
 import HeroSection from './components/HeroSection';
 import BrowseSection from './components/BrowseSection';
 import RoomSection from './components/RoomSection';
 import FuniroFurnitureSection from './components/FuniroFurnitureSection';
+import ListProduct from '../../components/ListProduct';
 
 const Home = () => {
   const { userId } = useAuth();
