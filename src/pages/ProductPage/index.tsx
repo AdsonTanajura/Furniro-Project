@@ -1,3 +1,4 @@
+import DescriptionSection from './components/DescriptionSection';
 import ProductImage from './components/ImagensSide';
 import ProductInformation from './components/ProductInformation';
 import SubHeader from './components/SubHeader';
@@ -13,6 +14,7 @@ const ProductPage = () => {
           <ProductInformation />
         </ProductContainer>
       </section>
+      <DescriptionSection />
     </>
   );
 };
