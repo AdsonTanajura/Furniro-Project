@@ -1,25 +1,23 @@
 import { useState } from 'react';
-import { SignedIn, SignedOut, UserButton } from '@clerk/clerk-react';
 
 import Logo from '../../assets/Logo.svg';
-import userIcon from '../../assets/User.svg';
 
 import {
-  CartButton,
-  CartIcon,
   HeaderContainer,
   LogoContainer,
   LogoTitel,
   MenuLink,
   MenuList,
-  StyledSignInButton,
-  UserMenu,
   BurgerMenuButton,
   MobileMenuContainer,
+  Test,
 } from './styled';
+import CartModal from './components/CartModal';
+import UserMenu from './components/UserMenu';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isCartOpen, setIsCartOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
@@ -31,7 +29,6 @@ const Header = () => {
         <img src={Logo} alt="Logo" />
         <LogoTitel>Furniro</LogoTitel>
       </LogoContainer>
-
       <nav>
         <MenuList>
           <li>
@@ -48,13 +45,11 @@ const Header = () => {
           </li>
         </MenuList>
       </nav>
-
       <BurgerMenuButton onClick={toggleMenu}>
         <span />
         <span />
         <span />
       </BurgerMenuButton>
-
       {isMenuOpen && (
         <MobileMenuContainer>
           <MenuList>
@@ -73,20 +68,9 @@ const Header = () => {
           </MenuList>
         </MobileMenuContainer>
       )}
-
-      <UserMenu>
-        <SignedOut>
-          <StyledSignInButton>
-            <img src={userIcon} alt="" />
-          </StyledSignInButton>
-        </SignedOut>
-        <SignedIn>
-          <UserButton />
-        </SignedIn>
-        <CartButton>
-          <CartIcon />
-        </CartButton>
-      </UserMenu>
+      <UserMenu setIsCartOpen={setIsCartOpen} />
+      {isCartOpen && <Test></Test>}
+      {isCartOpen && <CartModal setIsCartOpen={setIsCartOpen} />}
     </HeaderContainer>
   );
 };

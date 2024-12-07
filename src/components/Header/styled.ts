@@ -1,5 +1,3 @@
-import { SignInButton } from '@clerk/clerk-react';
-import { MdOutlineShoppingCart } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import { styled } from 'styled-components';
 
@@ -8,9 +6,10 @@ export const HeaderContainer = styled.header`
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 30px 54px;
+  padding: 30px 54px;
   width: 100%;
   max-width: 1440px;
+  position: relative;
 
   @media (max-width: 780px) {
     nav {
@@ -58,42 +57,6 @@ export const MenuLink = styled(Link)`
   }
 `;
 
-export const UserMenu = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-`;
-
-export const StyledSignInButton = styled(SignInButton)`
-  cursor: pointer;
-  padding: 8px;
-  transition: border-bottom 0.2s;
-
-  &:hover {
-    border-bottom: 2px #000000 solid;
-  }
-`;
-
-export const CartButton = styled.button`
-  display: flex;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 4px;
-
-  transition: border-bottom 0.2s;
-  &:hover {
-    border-bottom: 2px #000000 solid;
-  }
-`;
-
-export const CartIcon = styled(MdOutlineShoppingCart)`
-  width: 28px;
-  height: 28px;
-`;
-
 export const BurgerMenuButton = styled.button`
   display: none;
 
@@ -127,4 +90,14 @@ export const MobileMenuContainer = styled.div`
   @media (min-width: 780px) {
     display: none;
   }
+`;
+
+export const Test = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Preto com 50% de opacidade */
+  z-index: 15; /* Certifique-se de que esteja acima de outros elementos */
 `;
