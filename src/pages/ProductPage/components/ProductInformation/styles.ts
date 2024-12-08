@@ -131,54 +131,6 @@ export const ProductQuantityAddCardButton = styled.button`
   background-color: transparent;
 `;
 
-export const ProductQuantityAddButtonInput = styled.button`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  border: none;
-  width: 100%;
-  height: 100%;
-  font-size: 16px;
-  font-weight: 400;
-  border-radius: 0px 7px 7px 0px;
-  transition: background-color 0.2s;
-  &:hover {
-    background-color: #9f9f9f;
-  }
-`;
-
-export const ProductQuantityLessButtonInput = styled.button`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  border: none;
-  width: 100%;
-  height: 100%;
-  font-size: 16px;
-  font-weight: 400;
-  border-radius: 7px 0px 0px 7px;
-  transition: background-color 0.2s;
-
-  &:hover {
-    background-color: #9f9f9f;
-  }
-`;
-
-export const ProductQuantityInput = styled.input`
-  all: unset;
-  text-align: center;
-  &::-webkit-inner-spin-button,
-  &::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-  -moz-appearance: textfield;
-  max-width: 70px;
-  font-size: 16px;
-`;
-
 export const SkuInfo = styled.div`
   display: grid;
   color: #9f9f9f;

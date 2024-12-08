@@ -14,10 +14,6 @@ import {
   ProductColorOption,
   ProductOptionBollButton,
   ProductQuantityContainer,
-  ProductQuantityInputContainer,
-  ProductQuantityInput,
-  ProductQuantityLessButtonInput,
-  ProductQuantityAddButtonInput,
   SkuInfo,
   SkuInfoSociaMediaLogos,
   SkuInfoItems,
@@ -29,6 +25,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { ProductInformationProps } from './types';
 import formatCurrency from '../../../../utils/formatCurrency';
+import ProductPageInputQuantity from '../ProductPageInputQuantity';
 
 const ProductInformation = ({
   price,
@@ -82,12 +79,7 @@ const ProductInformation = ({
         </ProductColorOption>
 
         <ProductQuantityContainer>
-          <ProductQuantityInputContainer>
-            <ProductQuantityLessButtonInput>-</ProductQuantityLessButtonInput>
-            <ProductQuantityInput type="number" placeholder="1" />
-            <ProductQuantityAddButtonInput>+</ProductQuantityAddButtonInput>
-          </ProductQuantityInputContainer>
-
+          <ProductPageInputQuantity />
           <ProductQuantityAddCardButton>
             Add To Cart
           </ProductQuantityAddCardButton>
