@@ -32,9 +32,18 @@ export const ProductSubtotal = styled.h3`
   margin-right: 49px;
 `;
 
-export const ProductTrashButton = styled.h3`
+export const ProductTrashButton = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
   border: none;
   color: #b88e2f;
+  font-size: 24px;
   padding: 2px 4px;
+  transition: all 0.2s;
+
+  &:hover {
+    color: #000;
+  }
 `;

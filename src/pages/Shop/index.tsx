@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import FilterBar from './components/FilterBar';
-import ShopBaner from './components/ShopBaner';
 import {
   NextPageButton,
   PageButton,
@@ -11,6 +10,7 @@ import {
 import { DataObjectProps, ProductDataProps } from './types';
 import axios from 'axios';
 import ProductCard from '../../components/Product Card';
+import Baner from '../../components/Baner';
 
 const BASEURL = import.meta.env.VITE_BASE_URL;
 
@@ -121,7 +121,7 @@ const Shop = () => {
   return (
     <>
       {loading && <span>Carregando</span>}
-      <ShopBaner />
+      <Baner name="Shop" />
       <FilterBar
         currentPage={currentPage}
         dataObject={dataObject}

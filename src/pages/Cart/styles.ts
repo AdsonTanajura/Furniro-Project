@@ -83,4 +83,10 @@ export const CartTotalsCheckOut = styled.button`
   margin-top: 42px;
   border-radius: 15px;
   padding: 14px 58px;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: #000000;
+    color: #fff;
+  }
 `;

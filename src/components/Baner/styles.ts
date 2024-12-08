@@ -13,13 +13,13 @@ export const Container = styled.div`
   background-repeat: no-repeat;
 `;
 
-export const ShopBanerTitle = styled.h1`
+export const BanerTitle = styled.h1`
   color: #000000;
   font-size: 48px;
   font-weight: 500;
 `;
 
-export const ShopBanerCurrentLocation = styled.span`
+export const BanerCurrentLocation = styled.span`
   color: #000000;
   font-size: 19px;
 `;
