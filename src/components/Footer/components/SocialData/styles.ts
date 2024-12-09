@@ -28,7 +28,7 @@ export const SocialMideaLinks = styled.ul`
   gap: 16px;
 `;
 
-export const SocialMideaStyleLine = styled.li`
+export const SocialMideaStyleLine = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,6 +38,7 @@ export const SocialMideaStyleLine = styled.li`
   background-color: #fff;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
   transition: border 0.2s;
+  color: #000000;
 
   &:hover {
     border: 2px solid #000000;

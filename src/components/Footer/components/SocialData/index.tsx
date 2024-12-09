@@ -22,19 +22,22 @@ const SocialData = () => {
       </BusinessAddress>
 
       <SocialMideaLinks>
-        <SocialMideaStyleLine>
+        <SocialMideaStyleLine href="https://www.facebook.com/" target="_blank">
           <BiLogoFacebook />
         </SocialMideaStyleLine>
 
-        <SocialMideaStyleLine>
+        <SocialMideaStyleLine href="https://www.instagram.com/" target="_blank">
           <IoLogoInstagram />
         </SocialMideaStyleLine>
 
-        <SocialMideaStyleLine>
+        <SocialMideaStyleLine href="https://x.com/?lang=pt-br" target="_blank">
           <FaTwitter />
         </SocialMideaStyleLine>
 
-        <SocialMideaStyleLine>
+        <SocialMideaStyleLine
+          href="https://www.linkedin.com/in/adson-nunes/"
+          target="_blank"
+        >
           <TiSocialLinkedin />
         </SocialMideaStyleLine>
       </SocialMideaLinks>
