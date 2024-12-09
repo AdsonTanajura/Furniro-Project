@@ -1,50 +1,95 @@
-# React + TypeScript + Vite
+# Furniro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Furniro is a modern project developed to simulate a product management application. This repository uses various modern technologies to ensure efficiency, modularity, and ease of maintenance.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Library for building user interfaces.
+- **TypeScript**: Superset of JavaScript that adds static typing.
+- **Vite**: Fast and lightweight build tool for front-end development.
+- **Redux Toolkit**: Centralized state management for React applications.
+- **Styled-components**: Component styling using CSS-in-JS.
+- **Clerk**: Authentication and user management.
+- **Axios**: HTTP client for making API requests.
+- **React Router DOM**: Route management for React applications.
+- **Formik & Yup**: Tools for form management and data validation.
+- **JSON-Server**: Mock REST API for development and testing.
 
-## Expanding the ESLint configuration
+## Available Scripts
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- `dev`: Starts the development server using Vite.
+- `build`: Builds the project for production.
+- `lint`: Runs ESLint for static code analysis.
+- `preview`: Starts a preview of the build.
+- `db`: Starts JSON-Server to serve the mock API located at `./mock/db.json`.
 
-- Configure the top-level `parserOptions` property like this:
+## How to Run the Project
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. Clone this repository:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+   ```bash
+   git clone https://github.com/your-username/furniro.git
+   ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+2. Navigate to the project directory:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+   ```bash
+   cd furniro
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. To simulate a REST API with JSON-Server, run:
+   ```bash
+   npm run db
+   ```
+
+## Project Structure
+
+- **src/**: Contains the project's source code.
+
+  - **components/**: Reusable components.
+  - **pages/**: Application pages.
+  - **store/**: Redux configuration and slices.
+  - **styles/**: Global styles and styled-components configurations.
+  - **services/**: API configurations and requests using Axios.
+  - **utils/**: Reusable functions and helpers.
+
+- **mock/**: Contains the `db.json` file used by JSON-Server to mock a REST API.
+
+## Features
+
+- Centralized state management with Redux Toolkit.
+- User authentication using Clerk.
+- Dynamic navigation with React Router DOM.
+- Form validation with Formik and Yup.
+- Mock API for local development with JSON-Server.
+
+## Contribution
+
+Contributions are welcome! Follow the steps below to contribute:
+
+1. Fork the repository.
+2. Create a branch for your feature or fix:
+   ```bash
+   git checkout -b my-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "My new feature"
+   ```
+4. Push to the remote repository:
+   ```bash
+   git push origin my-feature
+   ```
+5. Open a Pull Request for review.
