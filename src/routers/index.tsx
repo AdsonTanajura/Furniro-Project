@@ -7,6 +7,7 @@ import Cart from '../pages/Cart';
 import Checkout from '../pages/Checkout';
 import PrivateLayout from '../components/PriviteRoter';
 import SignInPage from '../components/SignIn';
+import Contact from '../pages/Contact';
 
 export const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
       {
         path: '/home/cart',
         element: <Cart />,
+      },
+      {
+        path: '/home/contact',
+        element: <Contact />,
       },
       {
         element: <PrivateLayout />,

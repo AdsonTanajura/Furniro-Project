@@ -19,9 +19,9 @@ export type FormProps = {
 };
 
 export type FormInputProps = {
-  isErro: boolean;
+  isErro?: boolean;
 };
 
 export type FormLabelProps = {
-  isErro: boolean;
+  isErro?: boolean;
 };

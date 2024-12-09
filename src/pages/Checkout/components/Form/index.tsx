@@ -1,3 +1,4 @@
+import axios from 'axios';
 import {
   FormContainer,
   FormFirtLastName,
@@ -12,6 +13,15 @@ import {
 import { FormProps } from './types';
 
 const Form = ({ formik }: FormProps) => {
+  const handleZipCode = async (zipCode: string) => {
+    if (zipCode.length < 8) {
+      return;
+    }
+    const result = await axios.get(`https://viacep.com.br/ws/${zipCode}/json/`);
+    const data = result.data;
+    formik.setFieldValue('streetAddress', data.logradouro || '');
+    formik.setFieldValue('townCity', data.localidade || '');
+  };
   return (
     <FormContainer>
       <FormTitle>Billing details</FormTitle>
@@ -75,7 +85,10 @@ const Form = ({ formik }: FormProps) => {
             type="text"
             id="zipCode"
             name="zipCode"
-            onChange={formik.handleChange}
+            onChange={(event) => {
+              handleZipCode(event.target.value);
+              formik.handleChange(event);
+            }}
             onBlur={formik.handleBlur}
             value={formik.values.zipCode}
           />
