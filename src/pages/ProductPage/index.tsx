@@ -47,6 +47,7 @@ const ProductPage = () => {
               title={data.title}
               categories={data.categories}
               id={data.id}
+              img={data.img}
             />
           </ProductContainer>
         </section>

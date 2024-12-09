@@ -7,4 +7,5 @@ export type ProductInformationProps = {
   price: number;
   categories: string[];
   id: string;
+  img: string;
 };

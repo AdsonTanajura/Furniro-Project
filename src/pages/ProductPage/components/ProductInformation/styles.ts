@@ -129,6 +129,12 @@ export const ProductQuantityAddCardButton = styled.button`
   border: 1px solid #000000;
   text-align: center;
   background-color: transparent;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: #000000;
+    color: #fff;
+  }
 `;
 
 export const SkuInfo = styled.div`

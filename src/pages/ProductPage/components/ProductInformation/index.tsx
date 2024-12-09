@@ -26,13 +26,33 @@ import { AiFillTwitterCircle } from 'react-icons/ai';
 import { ProductInformationProps } from './types';
 import formatCurrency from '../../../../utils/formatCurrency';
 import ProductPageInputQuantity from '../ProductPageInputQuantity';
+import { useState } from 'react';
+import { useAppDispatch } from '../../../../hooks';
+import { addItem } from '../../../Cart/CartSlice';
 
 const ProductInformation = ({
   price,
   title,
   categories,
   id,
+  img,
 }: ProductInformationProps) => {
+  const [inputQuantity, setInputQuantity] = useState(1);
+  const dispatch = useAppDispatch();
+
+  const handleAddToCart = () => {
+    dispatch(
+      addItem({
+        product: {
+          id: id,
+          name: title,
+          price: price,
+          image: img,
+        },
+        quantity: inputQuantity,
+      })
+    );
+  };
   return (
     <div>
       {/* Dive que coloca a barra embaixo */}
@@ -79,8 +99,11 @@ const ProductInformation = ({
         </ProductColorOption>
 
         <ProductQuantityContainer>
-          <ProductPageInputQuantity />
-          <ProductQuantityAddCardButton>
+          <ProductPageInputQuantity
+            inputQuantity={inputQuantity}
+            setInputQuantity={setInputQuantity}
+          />
+          <ProductQuantityAddCardButton onClick={handleAddToCart}>
             Add To Cart
           </ProductQuantityAddCardButton>
         </ProductQuantityContainer>
