@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import {
   HeroBackgroundContainer,
   HeroCard,
@@ -9,6 +10,10 @@ import {
 } from './styles';
 
 const HeroSection = () => {
+  const navigate = useNavigate();
+  const handleBuyNow = () => {
+    navigate('shop');
+  };
   return (
     <Section>
       <HeroBackgroundContainer>
@@ -22,7 +27,7 @@ const HeroSection = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis.
           </HeroCardDescription>
-          <HeroCardButton>BUY NOW</HeroCardButton>
+          <HeroCardButton onClick={handleBuyNow}>BUY NOW</HeroCardButton>
         </HeroCard>
       </HeroBackgroundContainer>
     </Section>

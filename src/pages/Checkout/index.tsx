@@ -1,34 +1,71 @@
 import Baner from '../../components/Baner';
+import { useAppSelector } from '../../hooks';
+import formatCurrencyRp from '../../utils/formatCurrency';
 import Form from './components/Form';
 import {
   CheckoutContainer,
   CheckoutItem,
   CheckoutItemContainer,
+  CheckoutItemDesc,
+  CheckoutItemName,
+  CheckoutItemSubName,
   Container,
+  EndDesc,
   PlaceOrderButton,
+  PlaceOrderButtonContainer,
+  PorductItem,
+  PorductItemName,
+  PorductItemPrice,
   PorductList,
   PorductListContainer,
   PorductListHeader,
   PorductListTitle,
+  PorductQuantity,
+  PorductTitleSubTotal,
+  PorductTitleSubtotalPrice,
+  ProductItemQuantity,
+  ProductTotalPrice,
 } from './styles';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 
 const Checkout = () => {
   const validationSchema = Yup.object({
-    firstName: Yup.string().required('First Name is required'),
-    lastName: Yup.string().required('Last Name is required'),
-    companyName: Yup.string(),
-    zipCode: Yup.string().required('ZIP code is required'),
-    country: Yup.string().required('Country / Region is required'),
-    streetAddress: Yup.string().required('Street address is required'),
-    townCity: Yup.string().required('Town / City is required'),
-    province: Yup.string().required('Province is required'),
-    addOnAddress: Yup.string(),
+    firstName: Yup.string()
+      .min(3, 'First Name must be at least 3 characters')
+      .required('First Name is required'),
+    lastName: Yup.string()
+      .min(3, 'Last Name must be at least 3 characters')
+      .required('Last Name is required'),
+    companyName: Yup.string().min(
+      3,
+      'Company Name must be at least 3 characters'
+    ),
+    zipCode: Yup.string()
+      .min(3, 'ZIP code must be at least 3 characters')
+      .required('ZIP code is required'),
+    country: Yup.string()
+      .min(3, 'Country / Region must be at least 3 characters')
+      .required('Country / Region is required'),
+    streetAddress: Yup.string()
+      .min(3, 'Street address must be at least 3 characters')
+      .required('Street address is required'),
+    townCity: Yup.string()
+      .min(3, 'Town / City must be at least 3 characters')
+      .required('Town / City is required'),
+    province: Yup.string()
+      .min(3, 'Province must be at least 3 characters')
+      .required('Province is required'),
+    addOnAddress: Yup.string()
+      .min(3, 'Additional address must be at least 3 characters')
+      .required('Additional address is required'),
     email: Yup.string()
       .email('Invalid email address')
       .required('Email address is required'),
-    additionalInfo: Yup.string(),
+    additionalInfo: Yup.string().min(
+      3,
+      'Additional info must be at least 3 characters'
+    ),
   });
 
   const formik = useFormik({
@@ -50,6 +87,9 @@ const Checkout = () => {
       console.log('Form Submitted', values);
     },
   });
+
+  const cart = useAppSelector((state) => state.cart);
+
   return (
     <>
       <Baner name="Checkout" />
@@ -61,54 +101,74 @@ const Checkout = () => {
               <h2>Product</h2>
               <h2>Subtotal</h2>
             </PorductListHeader>
+            <PorductQuantity>
+              {cart.items.map((item) => (
+                <PorductItem>
+                  <PorductItemName>
+                    {item.name}{' '}
+                    <ProductItemQuantity>X {item.quantity}</ProductItemQuantity>
+                  </PorductItemName>
+                  <PorductItemPrice>
+                    {formatCurrencyRp(item.price)}
+                  </PorductItemPrice>
+                </PorductItem>
+              ))}
+            </PorductQuantity>
             <PorductListTitle>
-              <h3>
-                Asgaard sofa <span>X 1</span>
-              </h3>
-              <h3>Rs. 250,000.00</h3>
+              <PorductTitleSubTotal>Subtotal</PorductTitleSubTotal>
+              <PorductTitleSubtotalPrice>
+                {formatCurrencyRp(cart.subtotal)}
+              </PorductTitleSubtotalPrice>
             </PorductListTitle>
             <PorductListTitle>
-              <h2>Subtotal</h2>
-              <h2>Rs. 250,000.00</h2>
-            </PorductListTitle>
-            <PorductListTitle>
-              <h2>Total</h2>
-              <h2>Rs. Rs. 250,000.00</h2>
+              <PorductTitleSubTotal>Total</PorductTitleSubTotal>
+              <ProductTotalPrice>
+                {formatCurrencyRp(cart.total)}
+              </ProductTotalPrice>
             </PorductListTitle>
           </PorductList>
 
           <CheckoutContainer>
             <CheckoutItemContainer>
               <CheckoutItem>
-                <input type="checkbox" /> <h3>Direct Bank Transfer</h3>
+                <input type="checkbox" />{' '}
+                <CheckoutItemName>Direct Bank Transfer</CheckoutItemName>
               </CheckoutItem>
-              <p>
+              <CheckoutItemDesc>
                 Make your payment directly into our bank account. Please use
                 your Order ID as the payment reference. Your order will not be
                 shipped until the funds have cleared in our account.
-              </p>
+              </CheckoutItemDesc>
             </CheckoutItemContainer>
             <CheckoutItem>
-              <input type="checkbox" /> <h3>Direct Bank Transfer</h3>
+              <input type="checkbox" />
+              <CheckoutItemSubName>Direct Bank Transfer</CheckoutItemSubName>
             </CheckoutItem>
             <CheckoutItem>
-              <input type="checkbox" /> <h3>Cash On Delivery</h3>
+              <input type="checkbox" />{' '}
+              <CheckoutItemSubName>Cash On Delivery</CheckoutItemSubName>
             </CheckoutItem>
-            <p>
+            <EndDesc>
               Your personal data will be used to support your experience
               throughout this website, to manage access to your account, and for
-              other purposes described in our privacy policy.
-            </p>
+              other purposes described in our <p>privacy policy.</p>
+            </EndDesc>
           </CheckoutContainer>
-
-          <PlaceOrderButton
-            onClick={(e) => {
-              e.preventDefault(); // Previne comportamento padrão de clique
-              formik.handleSubmit(); // Chama o handler do Formik
-            }}
-          >
-            Place order
-          </PlaceOrderButton>
+          <PlaceOrderButtonContainer>
+            <PlaceOrderButton
+              onClick={(e) => {
+                e.preventDefault(); // Previne comportamento padrão de clique
+                if (formik.isValid) {
+                  formik.handleSubmit(); // Chama o handler do Formik
+                  console.log(formik.values);
+                } else {
+                  formik.handleSubmit(); // Chama o handler do Formik
+                }
+              }}
+            >
+              Place order
+            </PlaceOrderButton>
+          </PlaceOrderButtonContainer>
         </PorductListContainer>
       </Container>
     </>

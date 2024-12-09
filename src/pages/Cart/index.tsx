@@ -19,12 +19,18 @@ import {
 } from './styles';
 import { useSelector } from 'react-redux';
 import formatCurrencyRp from '../../utils/formatCurrency';
+import { useNavigate } from 'react-router-dom';
 
 const Cart = () => {
   const cart = useAppSelector((state) => state.cart);
   const subtotal = useSelector((state: RootState) => state.cart.subtotal);
   const total = useSelector((state: RootState) => state.cart.total);
 
+  const navigate = useNavigate();
+
+  const handleClickCheckOut = () => {
+    navigate('/home/checkout');
+  };
   return (
     <>
       <Baner name="Cart" />
@@ -67,7 +73,9 @@ const Cart = () => {
               {formatCurrencyRp(total)}
             </CartTotalsTotalPrice>
           </CartTotalsSubContainer>
-          <CartTotalsCheckOut>Check Out</CartTotalsCheckOut>
+          <CartTotalsCheckOut onClick={handleClickCheckOut}>
+            Check Out
+          </CartTotalsCheckOut>
         </CartTotalsContainer>
       </Container>
     </>
