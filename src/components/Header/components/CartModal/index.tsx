@@ -17,10 +17,20 @@ import {
 } from '../CardProductItem/styles';
 import { FaWindowClose } from 'react-icons/fa';
 import { CartModalProps } from './types';
+import { useNavigate } from 'react-router-dom';
 
 const CartModal = ({ setIsCartOpen }: CartModalProps) => {
+  const navigate = useNavigate();
+
   const handleClickCloseButton = () => {
     setIsCartOpen(false);
+  };
+  const handleCheckoutButton = () => {
+    navigate('home/checkout');
+  };
+
+  const handleCartButton = () => {
+    navigate('home/cart');
   };
   return (
     <Container>
@@ -45,8 +55,8 @@ const CartModal = ({ setIsCartOpen }: CartModalProps) => {
         </SubtotalContainer>
       </ProductContainer>
       <ButtonContainer>
-        <Button>Cart</Button>
-        <Button>Checkout</Button>
+        <Button onClick={handleCartButton}>Cart</Button>
+        <Button onClick={handleCheckoutButton}>Checkout</Button>
         <Button>Comparison</Button>
       </ButtonContainer>
     </Container>
