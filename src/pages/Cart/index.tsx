@@ -1,5 +1,8 @@
 import Baner from '../../components/Baner';
 import ProductItem from './components/ProductItem';
+import { useAppSelector } from '../../hooks';
+
+import { RootState } from '../../store';
 import {
   CartDetails,
   CartTotalsContainer,
@@ -14,8 +17,14 @@ import {
   CartTotalsTotalPrice,
   CartTotalsCheckOut,
 } from './styles';
+import { useSelector } from 'react-redux';
+import formatCurrencyRp from '../../utils/formatCurrency';
 
 const Cart = () => {
+  const cart = useAppSelector((state) => state.cart);
+  const subtotal = useSelector((state: RootState) => state.cart.subtotal);
+  const total = useSelector((state: RootState) => state.cart.total);
+
   return (
     <>
       <Baner name="Cart" />
@@ -31,20 +40,32 @@ const Cart = () => {
           </HeaderTags>
 
           <ProductList>
-            <ProductItem />
-            <ProductItem />
-            <ProductItem />
+            {cart.items.map((item) => (
+              <ProductItem
+                productImage={item.image}
+                productName={item.name}
+                productSubtotal={item.subtotal}
+                key={item.id}
+                productPrice={item.price}
+                productId={item.id}
+                productQuantity={item.quantity}
+              />
+            ))}
           </ProductList>
         </CartDetails>
         <CartTotalsContainer>
           <CartTotalsTitle>Cart Totals</CartTotalsTitle>
           <CartTotalsSubContainer>
             <CartTotalsSubTitles>Subtotal</CartTotalsSubTitles>
-            <CartTotalsSubtotalPrice>Rs. 250,000.00</CartTotalsSubtotalPrice>
+            <CartTotalsSubtotalPrice>
+              {formatCurrencyRp(subtotal)}
+            </CartTotalsSubtotalPrice>
           </CartTotalsSubContainer>
           <CartTotalsSubContainer>
             <CartTotalsSubTitles>Total</CartTotalsSubTitles>
-            <CartTotalsTotalPrice>Rs. 250,000.00</CartTotalsTotalPrice>
+            <CartTotalsTotalPrice>
+              {formatCurrencyRp(total)}
+            </CartTotalsTotalPrice>
           </CartTotalsSubContainer>
           <CartTotalsCheckOut>Check Out</CartTotalsCheckOut>
         </CartTotalsContainer>

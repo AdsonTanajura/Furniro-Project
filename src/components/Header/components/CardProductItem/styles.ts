@@ -69,9 +69,11 @@ export const CloseButton = styled.button`
 
 export const ProductList = styled.div`
   display: flex;
+  overflow-y: scroll;
   flex-direction: column;
   margin: 42px 0px;
   gap: 20px;
+  height: calc(100vh - 300px);
 `;
 
 export const SubtotalContainer = styled.div`

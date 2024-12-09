@@ -18,6 +18,8 @@ import {
 import { FaWindowClose } from 'react-icons/fa';
 import { CartModalProps } from './types';
 import { useNavigate } from 'react-router-dom';
+import { useAppSelector } from '../../../../hooks';
+import formatCurrencyRp from '../../../../utils/formatCurrency';
 
 const CartModal = ({ setIsCartOpen }: CartModalProps) => {
   const navigate = useNavigate();
@@ -32,6 +34,8 @@ const CartModal = ({ setIsCartOpen }: CartModalProps) => {
   const handleCartButton = () => {
     navigate('home/cart');
   };
+
+  const cart = useAppSelector((state) => state.cart);
   return (
     <Container>
       <ProductContainer>
@@ -46,12 +50,20 @@ const CartModal = ({ setIsCartOpen }: CartModalProps) => {
           </div>
         </TitleContainer>
         <ProductList>
-          <CardProductItem />
-          <CardProductItem />
+          {cart.items.map((item) => (
+            <CardProductItem
+              productImage={item.image}
+              productPrice={item.price}
+              productQuantity={item.quantity}
+              productTitle={item.name}
+              productId={item.id}
+              key={item.id}
+            />
+          ))}
         </ProductList>
         <SubtotalContainer>
           <Subtotal>Subtotal</Subtotal>
-          <SubtotalPrice>Rs. 520,000.00</SubtotalPrice>
+          <SubtotalPrice>{formatCurrencyRp(cart.subtotal)}</SubtotalPrice>
         </SubtotalContainer>
       </ProductContainer>
       <ButtonContainer>

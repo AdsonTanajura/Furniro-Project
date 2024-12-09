@@ -18,6 +18,8 @@ import {
 import formatCurrency from '../../utils/formatCurrency';
 import SocialMedia from './Components/SocialMedia';
 import { useNavigate } from 'react-router-dom';
+import { useAppDispatch } from '../../hooks';
+import { addItem } from '../../pages/Cart/CartSlice';
 
 const ProductCard = ({
   img,
@@ -30,10 +32,25 @@ const ProductCard = ({
 }: ProductCardProps) => {
   const [priceWithdiscount, setPriceWithDiscount] = useState(0);
 
+  const dispatch = useAppDispatch();
   const navigate = useNavigate();
 
   const handleClickView = () => {
     navigate(`/home/shop/${id}`);
+  };
+
+  const handleAddItem = () => {
+    dispatch(
+      addItem({
+        product: {
+          id: id,
+          name: title,
+          price: price,
+          image: img,
+        },
+        quantity: 1,
+      })
+    );
   };
 
   useEffect(() => {
@@ -45,7 +62,7 @@ const ProductCard = ({
   return (
     <Container url={img}>
       <AddCardHover>
-        <AddCardButton>Add to cart</AddCardButton>
+        <AddCardButton onClick={handleAddItem}>Add to cart</AddCardButton>
         <AddCardButton onClick={handleClickView}>View</AddCardButton>
         <SocialMedia />
       </AddCardHover>

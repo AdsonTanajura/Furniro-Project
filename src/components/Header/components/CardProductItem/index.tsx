@@ -12,24 +12,36 @@ import {
 } from './styles';
 
 import { RiCloseCircleFill } from 'react-icons/ri';
+import { CardProductItemProps } from './types';
+import formatCurrencyRp from '../../../../utils/formatCurrency';
+import { useAppDispatch } from '../../../../hooks';
+import { removeItem } from '../../../../pages/Cart/CartSlice';
 
-const CardProductItem = () => {
+const CardProductItem = ({
+  productImage,
+  productQuantity,
+  productTitle,
+  productPrice,
+  productId,
+}: CardProductItemProps) => {
+  const dispatch = useAppDispatch();
+
+  const handleRemoveItem = () => {
+    dispatch(removeItem({ id: productId, all: true }));
+  };
   return (
     <Conatiner>
-      <Imagen
-        src="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
-        alt=""
-      />
+      <Imagen src={productImage} alt="" />
       <DetailsContainer>
-        <Title>Asgaard sofa</Title>
+        <Title>{productTitle}</Title>
         <QuantityContainer>
-          <Quantity>1</Quantity>
+          <Quantity>{productQuantity}</Quantity>
           <X>X</X>
-          <Value>Rs. 250,000.00</Value>
+          <Value>{formatCurrencyRp(productPrice)}</Value>
         </QuantityContainer>
       </DetailsContainer>
       <CloseButtonContainer>
-        <CloseButton>
+        <CloseButton onClick={handleRemoveItem}>
           <RiCloseCircleFill />
         </CloseButton>
       </CloseButtonContainer>

@@ -9,21 +9,60 @@ import {
 } from './styles';
 
 import { TbTrashFilled } from 'react-icons/tb';
+import { ProductItemProps } from './types';
+import formatCurrencyRp from '../../../../utils/formatCurrency';
+import { useAppDispatch } from '../../../../hooks';
+import { addItem, removeItem } from '../../CartSlice';
 
-const ProductItem = () => {
+const ProductItem = ({
+  productImage,
+  productName,
+  productSubtotal,
+  productPrice,
+  productId,
+  productQuantity,
+}: ProductItemProps) => {
+  const dispatch = useAppDispatch();
+  const handleAddItem = () => {
+    dispatch(
+      addItem({
+        product: {
+          id: productId,
+          name: productImage,
+          price: productPrice,
+          image: productImage,
+        },
+        quantity: 1,
+      })
+    );
+  };
+  const handleRemoveItem = (isAll?: boolean) => {
+    dispatch(removeItem({ id: productId, all: isAll }));
+  };
   return (
     <Container>
-      <ProductImagen
-        src="https://desafiocompass03.s3.us-east-2.amazonaws.com/CardImg/pdCard7.jpg"
-        alt=""
+      <ProductImagen src={productImage} alt="" />
+      <ProductName>{productName}</ProductName>
+      <ProductPrice>{formatCurrencyRp(productPrice)}</ProductPrice>
+      <CartInputQuantity
+        handleRemoveItem={handleRemoveItem}
+        productQuantity={productQuantity}
+        handleAddItem={handleAddItem}
       />
-      <ProductName>Asgaard sofa</ProductName>
-      <ProductPrice>Rs. 250,000.00</ProductPrice>
-      <CartInputQuantity />
-      <ProductSubtotal>Rs. 250,000.00</ProductSubtotal>
-      <ProductTrashButton>
-        <TbTrashFilled />
-      </ProductTrashButton>
+      <ProductSubtotal>{formatCurrencyRp(productSubtotal)}</ProductSubtotal>
+      <div
+        style={{
+          display: 'flex',
+          width: '100%',
+          height: '100%',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <ProductTrashButton onClick={() => handleRemoveItem(true)}>
+          <TbTrashFilled />
+        </ProductTrashButton>
+      </div>
     </Container>
   );
 };

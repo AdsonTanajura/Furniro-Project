@@ -4,13 +4,26 @@ import {
   ProductQuantityInputContainer,
   ProductQuantityLessButtonInput,
 } from './styles';
+import { CartInputQuantityProps } from './types';
 
-const CartInputQuantity = () => {
+const CartInputQuantity = ({
+  handleAddItem,
+  productQuantity,
+  handleRemoveItem,
+}: CartInputQuantityProps) => {
   return (
     <ProductQuantityInputContainer>
-      <ProductQuantityLessButtonInput>-</ProductQuantityLessButtonInput>
-      <ProductQuantityInput type="number" placeholder="1" />
-      <ProductQuantityAddButtonInput>+</ProductQuantityAddButtonInput>
+      <ProductQuantityLessButtonInput onClick={handleRemoveItem}>
+        -
+      </ProductQuantityLessButtonInput>
+      <ProductQuantityInput
+        type="number"
+        placeholder="1"
+        value={productQuantity}
+      />
+      <ProductQuantityAddButtonInput onClick={handleAddItem}>
+        +
+      </ProductQuantityAddButtonInput>
     </ProductQuantityInputContainer>
   );
 };

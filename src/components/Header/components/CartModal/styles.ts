@@ -6,7 +6,7 @@ export const Container = styled.div`
   z-index: 20;
   right: 0;
   top: 0;
-  max-height: 746px;
+  height: 100vh;
 `;
 
 export const ProductContainer = styled.div`
