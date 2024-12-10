@@ -38,10 +38,10 @@ const Header = () => {
             <MenuLink to={'/home/shop'}>Shop</MenuLink>
           </li>
           <li>
-            <MenuLink to={'/a'}>About</MenuLink>
+            <MenuLink to={'/'}>About</MenuLink>
           </li>
           <li>
-            <MenuLink to={'/a'}>Contact</MenuLink>
+            <MenuLink to={'/home/contact'}>Contact</MenuLink>
           </li>
         </MenuList>
       </nav>
@@ -63,7 +63,7 @@ const Header = () => {
               <MenuLink to={'/a'}>About</MenuLink>
             </li>
             <li>
-              <MenuLink to={'/a'}>Contact</MenuLink>
+              <MenuLink to={'/home/contact'}>Contact</MenuLink>
             </li>
           </MenuList>
         </MobileMenuContainer>

@@ -1,17 +1,26 @@
-import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import Baner from '../../components/Baner';
-import { FaLocationDot } from 'react-icons/fa6';
-import { FaPhoneAlt } from 'react-icons/fa';
-import { FaClock } from 'react-icons/fa6';
 import {
+  ContactBlock,
+  ContactContainer,
+  ContactDescription,
+  ContactTitle,
+  ContactTitleContainer,
+  Description,
   FormContainer,
   FormInput,
   FormInputContainer,
   FormInputError,
   FormLabel,
+  IconClock,
+  IconContainer,
+  IconLocantion,
+  IconPhone,
   MainDiv,
+  SubmitButton,
+  Title,
+  TitleContainer,
 } from './styles';
 
 const Contact = () => {
@@ -38,43 +47,61 @@ const Contact = () => {
       message: '',
     },
     validationSchema,
-    onSubmit: (values) => {
+    onSubmit: (values, { resetForm }) => {
       console.log('Form data:', values);
-      // Aqui você pode enviar os dados para uma API ou fazer outra ação
+      resetForm();
     },
   });
 
   return (
     <div>
       <Baner name="Contact" />
-      <div>
-        <h1>Get In Touch With Us</h1>
-        <p>
+      <TitleContainer>
+        <Title>Get In Touch With Us</Title>
+        <Description>
           For More Information About Our Product & Services. Please Feel Free To
           Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not
           Hesitate!
-        </p>
-      </div>
+        </Description>
+      </TitleContainer>
       <MainDiv>
-        <div>
-          <div>
-            <FaLocationDot />
-            <h2>Address</h2>
-            <p>236 5th SE Avenue, New York NY10000, United States</p>
-          </div>
-          <div>
-            <FaPhoneAlt />
-            <h2>Phone</h2>
-            <p>Mobile: +(84) 546-6789</p>
-            <p>Hotline: +(84) 456-6789</p>
-          </div>
-          <div>
-            <FaClock />
-            <h2>Working Time</h2>
-            <p>Monday-Friday: 9:00 - 22:00</p>
-            <p>Saturday-Sunday: 9:00 - 21:00</p>
-          </div>
-        </div>
+        <ContactContainer>
+          <ContactBlock>
+            <IconContainer>
+              <IconLocantion />
+            </IconContainer>
+            <ContactTitleContainer>
+              <ContactTitle>Address</ContactTitle>
+              <ContactDescription>
+                236 5th SE Avenue, New York NY10000, United States
+              </ContactDescription>
+            </ContactTitleContainer>
+          </ContactBlock>
+          <ContactBlock>
+            <IconContainer>
+              <IconPhone />
+            </IconContainer>
+            <ContactTitleContainer>
+              <ContactTitle>Phone</ContactTitle>
+              <ContactDescription>Mobile: +(84) 546-6789</ContactDescription>
+              <ContactDescription>Hotline: +(84) 456-6789</ContactDescription>
+            </ContactTitleContainer>
+          </ContactBlock>
+          <ContactBlock>
+            <IconContainer>
+              <IconClock />
+            </IconContainer>
+            <ContactTitleContainer>
+              <ContactTitle>Working Time</ContactTitle>
+              <ContactDescription>
+                Monday-Friday: 9:00 - 22:00
+              </ContactDescription>
+              <ContactDescription>
+                Saturday-Sunday: 9:00 - 21:00
+              </ContactDescription>
+            </ContactTitleContainer>
+          </ContactBlock>
+        </ContactContainer>
 
         <FormContainer onSubmit={formik.handleSubmit}>
           <FormInputContainer>
@@ -87,6 +114,7 @@ const Contact = () => {
               onBlur={formik.handleBlur}
               value={formik.values.name}
               isErro={!!formik.errors.name && formik.touched.name}
+              placeholder="Abc"
             />
             {formik.touched.name && formik.errors.name && (
               <FormInputError>{formik.errors.name}</FormInputError>
@@ -102,6 +130,7 @@ const Contact = () => {
               onBlur={formik.handleBlur}
               value={formik.values.email}
               isErro={!!formik.errors.email && formik.touched.email}
+              placeholder="Abc@def.com"
             />
             {formik.touched.email && formik.errors.email && (
               <FormInputError>{formik.errors.email}</FormInputError>
@@ -117,6 +146,7 @@ const Contact = () => {
               onBlur={formik.handleBlur}
               value={formik.values.subject}
               isErro={!!formik.errors.subject && formik.touched.subject}
+              placeholder="This is an optional"
             />
             {formik.touched.subject && formik.errors.subject && (
               <FormInputError>{formik.errors.subject}</FormInputError>
@@ -132,13 +162,14 @@ const Contact = () => {
               onBlur={formik.handleBlur}
               value={formik.values.message}
               isErro={!!formik.errors.message && formik.touched.message}
+              placeholder="Hi! i’d like to ask about"
             />
             {formik.touched.message && formik.errors.message && (
               <FormInputError>{formik.errors.message}</FormInputError>
             )}
           </FormInputContainer>
 
-          <button type="submit">Submit</button>
+          <SubmitButton type="submit">Submit</SubmitButton>
         </FormContainer>
       </MainDiv>
     </div>

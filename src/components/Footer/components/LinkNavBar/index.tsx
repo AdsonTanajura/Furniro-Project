@@ -21,7 +21,7 @@ const LinkNavBar = () => {
             <StyledLink to={'/'}>About</StyledLink>
           </li>
           <li>
-            <StyledLink to={'/'}>Contact</StyledLink>
+            <StyledLink to={'/home/contact'}>Contact</StyledLink>
           </li>
         </LinkNavBarList>
       </nav>
