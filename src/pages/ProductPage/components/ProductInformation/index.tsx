@@ -29,6 +29,7 @@ import ProductPageInputQuantity from '../ProductPageInputQuantity';
 import { useState } from 'react';
 import { useAppDispatch } from '../../../../hooks';
 import { addItem } from '../../../Cart/CartSlice';
+import { toast } from 'react-toastify';
 
 const ProductInformation = ({
   price,
@@ -52,6 +53,16 @@ const ProductInformation = ({
         quantity: inputQuantity,
       })
     );
+    toast.success(`${inputQuantity} added successfully`, {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'light',
+    });
   };
   return (
     <div>

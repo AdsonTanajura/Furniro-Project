@@ -2,6 +2,7 @@ import { Outlet, useNavigate } from 'react-router-dom';
 import { ClerkProvider } from '@clerk/clerk-react';
 import Header from '../Header';
 import Footer from '../Footer';
+import Toast from '../Toast'; // Importe o componente Toast
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
@@ -23,6 +24,7 @@ const RootLayout = () => {
         <Outlet />
       </main>
       <Footer />
+      <Toast /> {/* Adicione o ToastContainer aqui */}
     </ClerkProvider>
   );
 };

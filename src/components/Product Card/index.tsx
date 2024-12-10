@@ -20,6 +20,7 @@ import SocialMedia from './Components/SocialMedia';
 import { useNavigate } from 'react-router-dom';
 import { useAppDispatch } from '../../hooks';
 import { addItem } from '../../pages/Cart/CartSlice';
+import { toast } from 'react-toastify';
 
 const ProductCard = ({
   img,
@@ -51,6 +52,16 @@ const ProductCard = ({
         quantity: 1,
       })
     );
+    toast.success('Product added successfully', {
+      position: 'top-right',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'light',
+    });
   };
 
   useEffect(() => {
