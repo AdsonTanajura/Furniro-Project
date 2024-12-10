@@ -28,9 +28,7 @@ const Form = ({ formik }: FormProps) => {
       <FormList>
         <FormFirtLastName>
           <FormInputContainer>
-            <FormLabel isErro={!!formik.errors.firstName} htmlFor="firstName">
-              First Name
-            </FormLabel>
+            <FormLabel htmlFor="firstName">First Name</FormLabel>
             <FormInputFristLastName
               isErro={!!formik.errors.firstName}
               type="text"
@@ -45,9 +43,7 @@ const Form = ({ formik }: FormProps) => {
             )}
           </FormInputContainer>
           <FormInputContainer>
-            <FormLabel isErro={!!formik.errors.lastName} htmlFor="lastName">
-              Last Name
-            </FormLabel>
+            <FormLabel htmlFor="lastName">Last Name</FormLabel>
             <FormInputFristLastName
               isErro={!!formik.errors.lastName}
               type="text"
@@ -63,9 +59,7 @@ const Form = ({ formik }: FormProps) => {
           </FormInputContainer>
         </FormFirtLastName>
         <FormInputContainer>
-          <FormLabel isErro={!!formik.errors.companyName} htmlFor="companyName">
-            Company Name (Optional)
-          </FormLabel>
+          <FormLabel htmlFor="companyName">Company Name (Optional)</FormLabel>
           <FormInput
             isErro={!!formik.errors.companyName}
             type="text"
@@ -77,9 +71,7 @@ const Form = ({ formik }: FormProps) => {
           />
         </FormInputContainer>
         <FormInputContainer>
-          <FormLabel isErro={!!formik.errors.zipCode} htmlFor="zipCode">
-            ZIP code
-          </FormLabel>
+          <FormLabel htmlFor="zipCode">ZIP code</FormLabel>
           <FormInput
             isErro={!!formik.errors.zipCode}
             type="text"
@@ -97,9 +89,7 @@ const Form = ({ formik }: FormProps) => {
           )}
         </FormInputContainer>
         <FormInputContainer>
-          <FormLabel isErro={!!formik.errors.country} htmlFor="country">
-            Country / Region
-          </FormLabel>
+          <FormLabel htmlFor="country">Country / Region</FormLabel>
           <FormInput
             isErro={!!formik.errors.country}
             type="text"
@@ -114,12 +104,7 @@ const Form = ({ formik }: FormProps) => {
           )}
         </FormInputContainer>
         <FormInputContainer>
-          <FormLabel
-            isErro={!!formik.errors.streetAddress}
-            htmlFor="streetAddress"
-          >
-            Street address
-          </FormLabel>
+          <FormLabel htmlFor="streetAddress">Street address</FormLabel>
           <FormInput
             isErro={!!formik.errors.streetAddress}
             type="text"
@@ -134,9 +119,7 @@ const Form = ({ formik }: FormProps) => {
           )}
         </FormInputContainer>
         <FormInputContainer>
-          <FormLabel isErro={!!formik.errors.townCity} htmlFor="townCity">
-            Town / City
-          </FormLabel>
+          <FormLabel htmlFor="townCity">Town / City</FormLabel>
           <FormInput
             isErro={!!formik.errors.townCity}
             type="text"
@@ -151,9 +134,7 @@ const Form = ({ formik }: FormProps) => {
           )}
         </FormInputContainer>
         <FormInputContainer>
-          <FormLabel isErro={!!formik.errors.province} htmlFor="province">
-            Province
-          </FormLabel>
+          <FormLabel htmlFor="province">Province</FormLabel>
           <FormInput
             isErro={!!formik.errors.province}
             type="text"
@@ -168,14 +149,8 @@ const Form = ({ formik }: FormProps) => {
           )}
         </FormInputContainer>
         <FormInputContainer>
-          <FormLabel
-            isErro={!formik.errors.addOnAddress}
-            htmlFor="addOnAddress"
-          >
-            Add-on address
-          </FormLabel>
+          <FormLabel htmlFor="addOnAddress">Add-on address</FormLabel>
           <FormInput
-            isErro={!formik.errors.addOnAddress}
             type="text"
             id="addOnAddress"
             name="addOnAddress"
@@ -185,9 +160,7 @@ const Form = ({ formik }: FormProps) => {
           />
         </FormInputContainer>
         <FormInputContainer>
-          <FormLabel isErro={!!formik.errors.email} htmlFor="email">
-            Email address
-          </FormLabel>
+          <FormLabel htmlFor="email">Email address</FormLabel>
           <FormInput
             isErro={!!formik.errors.email}
             type="text"

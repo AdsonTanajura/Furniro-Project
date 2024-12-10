@@ -29,10 +29,12 @@ const CartModal = ({ setIsCartOpen }: CartModalProps) => {
   };
   const handleCheckoutButton = () => {
     navigate('home/checkout');
+    setIsCartOpen(false);
   };
 
   const handleCartButton = () => {
     navigate('home/cart');
+    setIsCartOpen(false);
   };
 
   const cart = useAppSelector((state) => state.cart);

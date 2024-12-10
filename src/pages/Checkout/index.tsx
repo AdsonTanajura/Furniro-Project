@@ -1,3 +1,4 @@
+import { toast } from 'react-toastify';
 import Baner from '../../components/Baner';
 import { useAppSelector } from '../../hooks';
 import formatCurrencyRp from '../../utils/formatCurrency';
@@ -56,9 +57,6 @@ const Checkout = () => {
     province: Yup.string()
       .min(3, 'Province must be at least 3 characters')
       .required('Province is required'),
-    addOnAddress: Yup.string()
-      .min(3, 'Additional address must be at least 3 characters')
-      .required('Additional address is required'),
     email: Yup.string()
       .email('Invalid email address')
       .required('Email address is required'),
@@ -158,11 +156,32 @@ const Checkout = () => {
             <PlaceOrderButton
               onClick={(e) => {
                 e.preventDefault(); // Previne comportamento padrão de clique
-                if (formik.isValid) {
+                if (formik.isValid && formik.dirty) {
+                  toast.success('Successfully', {
+                    position: 'top-right',
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: 'light',
+                  });
                   formik.handleSubmit(); // Chama o handler do Formik
                   console.log(formik.values);
+                  formik.resetForm();
                 } else {
-                  formik.handleSubmit(); // Chama o handler do Formik
+                  toast.error('Error', {
+                    position: 'top-right',
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: 'light',
+                  });
+                  formik.handleSubmit();
                 }
               }}
             >
