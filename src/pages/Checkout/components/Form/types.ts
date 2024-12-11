@@ -5,10 +5,10 @@ type FormValues = {
   lastName: string;
   companyName: string;
   zipCode: string;
-  country: string;
+  state: string;
   streetAddress: string;
   townCity: string;
-  province: string;
+  neighborhood: string;
   addOnAddress: string;
   email: string;
   additionalInfo: string;

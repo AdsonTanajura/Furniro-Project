@@ -19,8 +19,11 @@ const Form = ({ formik }: FormProps) => {
     }
     const result = await axios.get(`https://viacep.com.br/ws/${zipCode}/json/`);
     const data = result.data;
+    console.log('🚀 ~ handleZipCode ~ data:', data);
     formik.setFieldValue('streetAddress', data.logradouro || '');
     formik.setFieldValue('townCity', data.localidade || '');
+    formik.setFieldValue('state', data.estado || '');
+    formik.setFieldValue('neighborhood', data.bairro || '');
   };
   return (
     <FormContainer>
@@ -89,18 +92,18 @@ const Form = ({ formik }: FormProps) => {
           )}
         </FormInputContainer>
         <FormInputContainer>
-          <FormLabel htmlFor="country">Country / Region</FormLabel>
+          <FormLabel htmlFor="state">State / Region</FormLabel>
           <FormInput
-            isErro={!!formik.errors.country}
+            isErro={!!formik.errors.state}
             type="text"
-            id="country"
-            name="country"
+            id="state"
+            name="state"
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
-            value={formik.values.country}
+            value={formik.values.state}
           />
-          {formik.touched.country && formik.errors.country && (
-            <FormInputError>{formik.errors.country}</FormInputError>
+          {formik.touched.state && formik.errors.state && (
+            <FormInputError>{formik.errors.state}</FormInputError>
           )}
         </FormInputContainer>
         <FormInputContainer>
@@ -134,18 +137,18 @@ const Form = ({ formik }: FormProps) => {
           )}
         </FormInputContainer>
         <FormInputContainer>
-          <FormLabel htmlFor="province">Province</FormLabel>
+          <FormLabel htmlFor="neighborhood">Neighborhood</FormLabel>
           <FormInput
-            isErro={!!formik.errors.province}
+            isErro={!!formik.errors.neighborhood}
             type="text"
-            id="province"
-            name="province"
+            id="neighborhood"
+            name="neighborhood"
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
-            value={formik.values.province}
+            value={formik.values.neighborhood}
           />
-          {formik.touched.province && formik.errors.province && (
-            <FormInputError>{formik.errors.province}</FormInputError>
+          {formik.touched.neighborhood && formik.errors.neighborhood && (
+            <FormInputError>{formik.errors.neighborhood}</FormInputError>
           )}
         </FormInputContainer>
         <FormInputContainer>

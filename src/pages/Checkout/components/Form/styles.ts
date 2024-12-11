@@ -40,10 +40,12 @@ export const FormLabel = styled.label<FormLabelProps>`
 `;
 
 export const FormInput = styled.input<FormInputProps>`
+  color: #9f9f9f;
   border: 2px solid #9f9f9f;
   border-radius: 10px;
   min-width: 454px;
   min-height: 75px;
+  padding: 26px 28px;
 
   ${(props) =>
     props.isErro
@@ -56,10 +58,12 @@ export const FormInput = styled.input<FormInputProps>`
 `;
 
 export const FormInputFristLastName = styled.input<FormInputProps>`
+  color: #9f9f9f;
   border: 2px solid #9f9f9f;
   border-radius: 10px;
   min-width: 212px;
   min-height: 75px;
+  padding: 26px 28px;
 
   ${(props) =>
     props.isErro

@@ -1,4 +1,5 @@
-import { styled } from 'styled-components';
+import { css, styled } from 'styled-components';
+import { CheckoutItemNameProps } from './types';
 
 export const Container = styled.div`
   display: flex;
@@ -99,21 +100,24 @@ export const CheckoutItem = styled.div`
   gap: 5px;
 `;
 
-export const CheckoutItemName = styled.h3`
+export const CheckoutItemName = styled.label<CheckoutItemNameProps>`
   font-size: 16px;
-  font-weight: 400;
+
+  ${(props) =>
+    props.checked
+      ? css`
+          font-weight: 400;
+        `
+      : css`
+          font-weight: 500;
+          color: #9f9f9f;
+        `}
 `;
 
 export const CheckoutItemDesc = styled.h3`
   font-size: 16px;
   font-weight: 300;
   color: #9f9f9f;
-`;
-
-export const CheckoutItemSubName = styled.h3`
-  color: #9f9f9f;
-  font-size: 16px;
-  font-weight: 500;
 `;
 
 export const PlaceOrderButton = styled.button`

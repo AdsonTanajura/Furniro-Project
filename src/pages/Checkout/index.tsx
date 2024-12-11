@@ -9,7 +9,6 @@ import {
   CheckoutItemContainer,
   CheckoutItemDesc,
   CheckoutItemName,
-  CheckoutItemSubName,
   Container,
   EndDesc,
   PlaceOrderButton,
@@ -29,8 +28,10 @@ import {
 } from './styles';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
+import { useState } from 'react';
 
 const Checkout = () => {
+  const [payment, setPayment] = useState('1');
   const validationSchema = Yup.object({
     firstName: Yup.string()
       .min(3, 'First Name must be at least 3 characters')
@@ -45,18 +46,18 @@ const Checkout = () => {
     zipCode: Yup.string()
       .min(3, 'ZIP code must be at least 3 characters')
       .required('ZIP code is required'),
-    country: Yup.string()
-      .min(3, 'Country / Region must be at least 3 characters')
-      .required('Country / Region is required'),
+    state: Yup.string()
+      .min(3, 'State / Region must be at least 3 characters')
+      .required('State / Region is required'),
     streetAddress: Yup.string()
       .min(3, 'Street address must be at least 3 characters')
       .required('Street address is required'),
     townCity: Yup.string()
       .min(3, 'Town / City must be at least 3 characters')
       .required('Town / City is required'),
-    province: Yup.string()
-      .min(3, 'Province must be at least 3 characters')
-      .required('Province is required'),
+    neighborhood: Yup.string()
+      .min(3, 'Neighborhood must be at least 3 characters')
+      .required('Neighborhood is required'),
     email: Yup.string()
       .email('Invalid email address')
       .required('Email address is required'),
@@ -72,10 +73,10 @@ const Checkout = () => {
       lastName: '',
       companyName: '',
       zipCode: '',
-      country: '',
+      state: '',
       streetAddress: '',
       townCity: '',
-      province: '',
+      neighborhood: '',
       addOnAddress: '',
       email: '',
       additionalInfo: '',
@@ -129,8 +130,18 @@ const Checkout = () => {
           <CheckoutContainer>
             <CheckoutItemContainer>
               <CheckoutItem>
-                <input type="checkbox" />{' '}
-                <CheckoutItemName>Direct Bank Transfer</CheckoutItemName>
+                <input
+                  type="radio"
+                  id="bank-trasfer-1"
+                  checked={payment === '1'}
+                  onClick={() => setPayment('1')}
+                />{' '}
+                <CheckoutItemName
+                  checked={payment === '1'}
+                  htmlFor="bank-trasfer-1"
+                >
+                  Direct Bank Transfer
+                </CheckoutItemName>
               </CheckoutItem>
               <CheckoutItemDesc>
                 Make your payment directly into our bank account. Please use
@@ -139,12 +150,32 @@ const Checkout = () => {
               </CheckoutItemDesc>
             </CheckoutItemContainer>
             <CheckoutItem>
-              <input type="checkbox" />
-              <CheckoutItemSubName>Direct Bank Transfer</CheckoutItemSubName>
+              <input
+                type="radio"
+                checked={payment === '2'}
+                onClick={() => setPayment('2')}
+                id="bank-trasfer"
+              />
+              <CheckoutItemName
+                checked={payment === '2'}
+                htmlFor="bank-trasfer"
+              >
+                Direct Bank Transfer
+              </CheckoutItemName>
             </CheckoutItem>
             <CheckoutItem>
-              <input type="checkbox" />{' '}
-              <CheckoutItemSubName>Cash On Delivery</CheckoutItemSubName>
+              <input
+                type="radio"
+                checked={payment === '3'}
+                id="cash-on-delivery"
+                onClick={() => setPayment('3')}
+              />{' '}
+              <CheckoutItemName
+                checked={payment === '3'}
+                htmlFor="cash-on-delivery"
+              >
+                Cash On Delivery
+              </CheckoutItemName>
             </CheckoutItem>
             <EndDesc>
               Your personal data will be used to support your experience
