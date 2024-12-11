@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "build4G": "NODE_OPTIONS='--max-old-space-size=4096' vite build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
