@@ -7,7 +7,13 @@ export const ProductInformationContainer = styled.div`
   flex-direction: column;
   padding-bottom: 60px;
   border-bottom: 2px solid #d9d9d9;
-  min-width: 600px;
+  width: 100%;
+  max-width: 1440px;
+
+  @media (min-width: 1240px) {
+    width: 100%;
+    max-width: 600px;
+  }
 `;
 
 export const ProductTitle = styled.h1`
@@ -53,6 +59,7 @@ export const CustomersReview = styled.span`
 export const ProductDescription = styled.p`
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   max-width: 424px;
   font-size: 13px;
 `;
@@ -89,8 +96,7 @@ export const ProductOptionSizeButton = styled.button`
   border-radius: 5px;
   font-weight: 400;
   font-size: 13px;
-  width: 30px;
-  height: 30px;
+  padding: 30px;
   transition: all 0.2s;
 
   &:hover {
@@ -118,7 +124,8 @@ export const ProductQuantityInputContainer = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  min-width: 123px;
+  width: 100%;
+  max-width: 123px;
   min-height: 64px;
   border: 1px solid #9f9f9f;
 `;

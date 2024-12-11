@@ -1,15 +1,25 @@
 import { styled } from 'styled-components';
 
 export const Container = styled.div`
-  display: flex;
-  flex-direction: row;
-  padding: 72px 100px;
+  display: grid;
+  justify-items: center;
+  align-self: center;
+  grid-template-columns: 1fr;
+  /* padding: 72px 100px; */
+  padding: 0 16px;
   gap: 30px;
+  @media (min-width: 780px) {
+  }
+  @media (min-width: 1280px) {
+    grid-template-columns: 8fr 4fr;
+    width: 1240px;
+  }
 `;
 
 export const CartDetails = styled.div`
   display: flex;
   flex-direction: column;
+  width: 100%;
 `;
 
 export const HeaderTags = styled.div`
@@ -18,9 +28,10 @@ export const HeaderTags = styled.div`
   justify-content: space-between;
   align-items: center;
   background-color: #f9f1e7;
-  width: 817px;
+  width: 100%;
+  max-width: 817px;
   height: 55px;
-  padding: 16px 142px;
+  padding: 16px;
 `;
 
 export const Tags = styled.h2`
@@ -41,6 +52,7 @@ export const CartTotalsContainer = styled.div`
   background-color: #f9f1e7;
   padding: 15px 75px;
   max-height: 380px;
+  width: 100%;
 `;
 
 export const CartTotalsTitle = styled.h2`

@@ -2,9 +2,19 @@ import { css, styled } from 'styled-components';
 import { CheckoutItemNameProps } from './types';
 
 export const Container = styled.div`
-  display: flex;
-  flex-direction: row;
-  padding: 64px 102px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-self: center;
+  padding: 64px 12px;
+
+  @media (min-width: 824px) {
+    grid-template-columns: 1fr 1fr;
+    padding: 64px 94px;
+  }
+  @media (min-width: 1280px) {
+    max-width: 1242px;
+    grid-template-columns: 1fr 1fr;
+  }
 `;
 
 export const PorductList = styled.div`
@@ -13,6 +23,11 @@ export const PorductList = styled.div`
   padding-bottom: 34px;
   border-bottom: 2px solid #d9d9d9;
   margin-bottom: 22px;
+  align-items: center;
+
+  @media (min-width: 824px) {
+    align-items: start;
+  }
 `;
 
 export const PorductListContainer = styled.div`
@@ -26,7 +41,8 @@ export const PorductListTitle = styled.div`
   justify-content: space-between;
   flex-direction: row;
   margin-bottom: 22px;
-  min-width: 528px;
+  width: 100%;
+  max-width: 528px;
 `;
 
 export const PorductListHeader = styled.div`
@@ -34,7 +50,8 @@ export const PorductListHeader = styled.div`
   justify-content: space-between;
   flex-direction: row;
   margin-bottom: 14px;
-  min-width: 528px;
+  width: 100%;
+  max-width: 528px;
 `;
 
 export const PorductQuantity = styled.div`
@@ -86,6 +103,7 @@ export const CheckoutContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 22px;
+  max-width: 533px;
 `;
 
 export const CheckoutItemContainer = styled.div`

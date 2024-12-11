@@ -20,7 +20,7 @@ const RootLayout = () => {
       publishableKey={PUBLISHABLE_KEY}
     >
       <Header />
-      <main>
+      <main style={{ width: '100%', display: 'flex', flexDirection: 'column' }}>
         <Outlet />
       </main>
       <Footer />

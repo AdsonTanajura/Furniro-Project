@@ -38,7 +38,7 @@ const ProductPage = () => {
     <>
       {loading && <h1>Carregando...</h1>}
       {!loading && data && (
-        <section>
+        <section style={{ display: 'flex', flexDirection: 'column' }}>
           <SubHeader title={data.title} />
           <ProductContainer>
             <ProductImage img={data.img} title={data.title} />

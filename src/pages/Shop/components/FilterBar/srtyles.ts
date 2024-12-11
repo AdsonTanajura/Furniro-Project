@@ -2,11 +2,18 @@ import { styled } from 'styled-components';
 
 export const FilterContainer = styled.div`
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   background-color: #f9f1e7;
-  padding: 22px 100px;
+  padding: 22px 0px;
+
+  @media (min-width: 780px) {
+    padding: 22px 100px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
 `;
 
 export const FilterContent = styled.div`
@@ -68,7 +75,10 @@ export const InputsContainer = styled.div`
 `;
 
 export const FilterLabel = styled.label`
-  font-size: 20px;
+  font-size: 16px;
+  @media (min-width: 780px) {
+    font-size: 20px;
+  }
 `;
 
 export const FilterShowInput = styled.input`
@@ -76,8 +86,12 @@ export const FilterShowInput = styled.input`
   color: #9f9f9f;
   border: none;
   font-size: 20px;
-  width: 55px;
-  height: 55px;
+  width: 24px;
+  height: 24px;
+  @media (min-width: 780px) {
+    width: 55px;
+    height: 55px;
+  }
 `;
 
 export const FilterShortByInput = styled.input`
@@ -85,6 +99,12 @@ export const FilterShortByInput = styled.input`
   color: #9f9f9f;
   border: none;
   font-size: 20px;
-  width: 188px;
-  height: 55px;
+  width: 88px;
+
+  height: 24px;
+
+  @media (min-width: 780px) {
+    width: 188px;
+    height: 55px;
+  }
 `;

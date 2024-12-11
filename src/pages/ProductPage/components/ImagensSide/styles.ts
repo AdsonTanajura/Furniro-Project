@@ -13,7 +13,8 @@ export const ProductPreviewContainer = styled.div`
 `;
 
 export const ProductImagenPreview = styled.img`
-  width: 80px;
+  width: 100%;
+  max-width: 80px;
   height: 80px;
   border-radius: 4px;
 `;
@@ -23,7 +24,8 @@ export const ProductImagenContainer = styled.div`
 `;
 
 export const ProductImagen = styled.img`
-  width: 424px;
+  width: 100%;
+  max-width: 424px;
   height: 500px;
   border-radius: 4px;
 `;

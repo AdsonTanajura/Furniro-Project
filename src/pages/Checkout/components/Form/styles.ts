@@ -10,8 +10,15 @@ export const FormList = styled.form`
 export const FormContainer = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+
   gap: 36px;
-  padding: 35px 78px;
+
+  @media (min-width: 824px) {
+    align-items: start;
+  }
+  @media (min-width: 1280px) {
+  }
 `;
 export const FormFirtLastName = styled.div`
   display: flex;
@@ -43,7 +50,8 @@ export const FormInput = styled.input<FormInputProps>`
   color: #9f9f9f;
   border: 2px solid #9f9f9f;
   border-radius: 10px;
-  min-width: 454px;
+  width: 100%;
+  max-width: 454px;
   min-height: 75px;
   padding: 26px 28px;
 
@@ -61,7 +69,8 @@ export const FormInputFristLastName = styled.input<FormInputProps>`
   color: #9f9f9f;
   border: 2px solid #9f9f9f;
   border-radius: 10px;
-  min-width: 212px;
+  width: 100%;
+  max-width: 212px;
   min-height: 75px;
   padding: 26px 28px;
 

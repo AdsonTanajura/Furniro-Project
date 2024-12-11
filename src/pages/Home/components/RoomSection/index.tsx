@@ -18,9 +18,7 @@ const RoomSection = () => {
         </Descritpion>
         <ExploreMoreButton>Explore More</ExploreMoreButton>
       </TitleContainer>
-      <div>
-        <Carousel />
-      </div>
+      <Carousel />
     </Section>
   );
 };

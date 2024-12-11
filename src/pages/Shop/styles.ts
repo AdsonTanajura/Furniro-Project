@@ -26,7 +26,11 @@ export const PageButtonContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 38px;
+  gap: 16px;
+
+  @media (min-width: 780px) {
+    gap: 38px;
+  }
 `;
 
 export const PageButton = styled.button<PageButtonProps>`

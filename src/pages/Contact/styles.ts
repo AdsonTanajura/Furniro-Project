@@ -32,6 +32,7 @@ export const TitleContainer = styled.div`
   margin-top: 98px;
   gap: 7px;
   margin-bottom: 128px;
+  padding: 0 16px;
 `;
 
 export const Title = styled.h1`
@@ -48,10 +49,13 @@ export const Description = styled.p`
 `;
 
 export const MainDiv = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 158px;
+  justify-items: center;
+  @media (min-width: 780px) {
+    grid-template-columns: 1fr 1fr;
+  }
 `;
 
 export const FormInputContainer = styled.div`
@@ -76,7 +80,8 @@ export const FormLabel = styled.label<FormLabelProps>`
 export const FormInput = styled.input<FormInputProps>`
   border: 2px solid #9f9f9f;
   border-radius: 10px;
-  min-width: 454px;
+  width: 100%;
+  max-width: 454px;
   min-height: 75px;
   padding: 28px 31px;
   color: #9f9f9f;
@@ -100,9 +105,11 @@ export const FormInputError = styled.div`
 export const FormContainer = styled.form`
   display: flex;
   flex-direction: column;
-  width: 531px;
+  width: 100%;
+  max-width: 531px;
   height: 741px;
   gap: 8px;
+  padding: 0 16px;
 `;
 
 export const ContactContainer = styled.div`

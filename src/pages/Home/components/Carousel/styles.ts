@@ -7,7 +7,6 @@ export const CarouselContainer = styled.div`
   overflow: hidden;
   position: relative;
   width: 80%;
-  margin: auto;
 `;
 
 export const ImageContainer = styled.div<{ offset: number }>`

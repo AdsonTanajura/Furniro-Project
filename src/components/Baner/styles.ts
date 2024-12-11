@@ -5,7 +5,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   min-height: 316px;
   background-image: url('https://desafiocompass03.s3.us-east-2.amazonaws.com/ShopPageImgs/Rectangle+1.png');
   background-size: cover; /* Cobre todo o contêiner */

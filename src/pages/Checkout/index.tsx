@@ -48,7 +48,7 @@ const Checkout = () => {
       .required('ZIP code is required'),
     state: Yup.string()
       .min(3, 'State / Region must be at least 3 characters')
-      .required('State / Region is required'),
+      .required('tate / Region is required'),
     streetAddress: Yup.string()
       .min(3, 'Street address must be at least 3 characters')
       .required('Street address is required'),

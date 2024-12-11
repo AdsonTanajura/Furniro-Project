@@ -4,8 +4,12 @@ export const SubHeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
   background-color: #f9f1e7;
-  padding: 38px 100px;
+  padding: 38px 12px;
   gap: 34px;
+
+  @media (min-width: 824px) {
+    padding: 38px 100px;
+  }
 `;
 
 export const CurrentPath = styled.div`

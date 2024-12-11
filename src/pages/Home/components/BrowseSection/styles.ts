@@ -13,12 +13,8 @@ export const Section = styled.section`
 `;
 
 export const BrowseSectionTitleContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 62px;
+  text-align: center;
 `;
 
 export const BrowseSectionTitle = styled.h2`

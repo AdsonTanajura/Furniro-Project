@@ -1,13 +1,17 @@
 import { styled } from 'styled-components';
 
 export const Section = styled.section`
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr;
   background-color: #fcf8f3;
   margin-top: 69px;
   padding: 44px 0px;
-  padding-left: 102px;
+  padding-left: 20px;
   gap: 42px;
+  @media (min-width: 780px) {
+    padding-left: 102px;
+    grid-template-columns: 1fr 2fr;
+  }
 `;
 
 export const TitleContainer = styled.div`
