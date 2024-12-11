@@ -3,7 +3,6 @@ import {
   Container,
   ProductImagen,
   ProductName,
-  ProductNameContainer,
   ProductPrice,
   ProductSubtotal,
   ProductTrashButton,

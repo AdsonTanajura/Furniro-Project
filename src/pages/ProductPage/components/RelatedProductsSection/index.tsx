@@ -1,4 +1,3 @@
-import React from 'react';
 import ListProduct from '../../../../components/ListProduct';
 import { Container } from './styles';
 
