@@ -11,6 +11,7 @@ import { DataObjectProps, ProductDataProps } from './types';
 import axios from 'axios';
 import ProductCard from '../../components/Product Card';
 import Baner from '../../components/Baner';
+import LoadingSpinner from '../../components/LoadingSpinner';
 
 const BASEURL = import.meta.env.VITE_BASE_URL;
 
@@ -120,80 +121,87 @@ const Shop = () => {
   }
   return (
     <>
-      {loading && <span>Carregando</span>}
-      <Baner name="Shop" />
-      <FilterBar
-        currentPage={currentPage}
-        dataObject={dataObject}
-        filters={filters}
-        setFilters={setFilters}
-        showManyCards={showManyCards}
-        setShowManyCards={setShowManyCards}
-      />
-      <ProductList>
-        {productsList?.map((card) => (
-          <ProductCard
-            description={card.description}
-            img={card.img}
-            price={card.price}
-            title={card.title}
-            discount={card.discount}
-            isNew={card.isNew}
-            id={card.id}
-            key={card.id}
+      {loading ? (
+        <LoadingSpinner />
+      ) : (
+        <>
+          <Baner name="Shop" />
+          <FilterBar
+            currentPage={currentPage}
+            dataObject={dataObject}
+            filters={filters}
+            setFilters={setFilters}
+            showManyCards={showManyCards}
+            setShowManyCards={setShowManyCards}
           />
-        ))}
-      </ProductList>
-      <PageButtonContainer>
-        {!dataObject ? null : (
-          <>
-            {fristButton === dataObject.first ? null : (
-              <NextPageButton onClick={handleClickNexPage}>
-                Volta
-              </NextPageButton>
+          <ProductList>
+            {productsList?.map((card) => (
+              <ProductCard
+                description={card.description}
+                img={card.img}
+                price={card.price}
+                title={card.title}
+                discount={card.discount}
+                isNew={card.isNew}
+                id={card.id}
+                key={card.id}
+              />
+            ))}
+          </ProductList>
+          <PageButtonContainer>
+            {!dataObject ? null : (
+              <>
+                {fristButton === dataObject.first ? null : (
+                  <NextPageButton onClick={handleClickNexPage}>
+                    Volta
+                  </NextPageButton>
+                )}
+                {fristButton > 0 && fristButton <= dataObject.last ? (
+                  <PageButton
+                    isCurrenPage={
+                      dataObject.next
+                        ? dataObject.next - 1 === fristButton
+                        : dataObject.last === fristButton
+                    }
+                    onClick={handleClickButtonPage}
+                  >
+                    {fristButton}
+                  </PageButton>
+                ) : null}
+
+                {secondButton > 0 && secondButton <= dataObject.last ? (
+                  <PageButton
+                    isCurrenPage={
+                      dataObject.next
+                        ? dataObject.next - 1 === secondButton
+                        : dataObject.last === secondButton
+                    }
+                    onClick={handleClickButtonPage}
+                  >
+                    {secondButton}
+                  </PageButton>
+                ) : null}
+
+                {thirdButton > 0 && thirdButton <= dataObject.last ? (
+                  <PageButton
+                    isCurrenPage={
+                      dataObject.next
+                        ? dataObject.next - 1 === thirdButton
+                        : dataObject.last === thirdButton
+                    }
+                    onClick={handleClickButtonPage}
+                  >
+                    {thirdButton}
+                  </PageButton>
+                ) : null}
+                <NextPageButton onClick={handleClickNexPage}>
+                  Next
+                </NextPageButton>
+              </>
             )}
-            {fristButton > 0 && fristButton <= dataObject.last ? (
-              <PageButton
-                isCurrenPage={
-                  dataObject.next
-                    ? dataObject.next - 1 === fristButton
-                    : dataObject.last === fristButton
-                }
-                onClick={handleClickButtonPage}
-              >
-                {fristButton}
-              </PageButton>
-            ) : null}
-
-            {secondButton > 0 && secondButton <= dataObject.last ? (
-              <PageButton
-                isCurrenPage={
-                  dataObject.next
-                    ? dataObject.next - 1 === secondButton
-                    : dataObject.last === secondButton
-                }
-                onClick={handleClickButtonPage}
-              >
-                {secondButton}
-              </PageButton>
-            ) : null}
-
-            {thirdButton > 0 && thirdButton <= dataObject.last ? (
-              <PageButton
-                isCurrenPage={
-                  dataObject.next
-                    ? dataObject.next - 1 === thirdButton
-                    : dataObject.last === thirdButton
-                }
-                onClick={handleClickButtonPage}
-              >
-                {thirdButton}
-              </PageButton>
-            ) : null}
-            <NextPageButton onClick={handleClickNexPage}>Next</NextPageButton>
-          </>
-        )}
-      </PageButtonContainer>
+          </PageButtonContainer>
+        </>
+      )}
     </>
   );
 };

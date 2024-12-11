@@ -8,9 +8,9 @@ import {
   ListProductProps,
 } from './types';
 import ProductCard from '../Product Card';
+import LoadingSpinner from '../LoadingSpinner';
 
 const BASEURL = import.meta.env.VITE_BASE_URL;
-console.log('🚀 ~ BASEURL:', BASEURL);
 
 const ListProduct = ({ page, per }: ListProductProps) => {
   const [data, setData] = useState<DataProps[]>([]);
@@ -53,19 +53,22 @@ const ListProduct = ({ page, per }: ListProductProps) => {
 
   return (
     <ListCotainer>
-      {loading && <h1>Carregando</h1>}
-      {data.map((card) => (
-        <ProductCard
-          description={card.description}
-          img={card.img}
-          price={card.price}
-          title={card.title}
-          discount={card.discount}
-          isNew={card.isNew}
-          id={card.id}
-          key={card.id}
-        />
-      ))}
+      {loading ? (
+        <LoadingSpinner />
+      ) : (
+        data.map((card) => (
+          <ProductCard
+            description={card.description}
+            img={card.img}
+            price={card.price}
+            title={card.title}
+            discount={card.discount}
+            isNew={card.isNew}
+            id={card.id}
+            key={card.id}
+          />
+        ))
+      )}
 
       {apiResult?.last === apiResult?.next ? null : (
         <ShowMoreButton onClick={handleShowMore}>Show More</ShowMoreButton>

@@ -8,6 +8,7 @@ import { ProductContainer } from './styles';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { DataProps } from './type';
+import LoadingSpinner from '../../components/LoadingSpinner';
 
 const BASEURL = import.meta.env.VITE_BASE_URL;
 
@@ -21,8 +22,6 @@ const ProductPage = () => {
     try {
       const responde = await axios.get(`${BASEURL}/cards/${id}`);
       setData(responde.data);
-      console.log('🚀 ~ fetchData ~ responde:', responde);
-      console.log('🚀 ~ ProductPage ~ data:', data);
     } catch (error) {
       console.log('TiVEMOS UM ERRO', error);
     } finally {
@@ -36,21 +35,25 @@ const ProductPage = () => {
 
   return (
     <>
-      {loading && <h1>Carregando...</h1>}
-      {!loading && data && (
-        <section style={{ display: 'flex', flexDirection: 'column' }}>
-          <SubHeader title={data.title} />
-          <ProductContainer>
-            <ProductImage img={data.img} title={data.title} />
-            <ProductInformation
-              price={data.price}
-              title={data.title}
-              categories={data.categories}
-              id={data.id}
-              img={data.img}
-            />
-          </ProductContainer>
-        </section>
+      {loading ? (
+        <LoadingSpinner />
+      ) : (
+        !loading &&
+        data && (
+          <section style={{ display: 'flex', flexDirection: 'column' }}>
+            <SubHeader title={data.title} />
+            <ProductContainer>
+              <ProductImage img={data.img} title={data.title} />
+              <ProductInformation
+                price={data.price}
+                title={data.title}
+                categories={data.categories}
+                id={data.id}
+                img={data.img}
+              />
+            </ProductContainer>
+          </section>
+        )
       )}
       <DescriptionSection />
       <RelatedProductsSection />
