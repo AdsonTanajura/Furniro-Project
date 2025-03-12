@@ -75,11 +75,11 @@ const DescriptionSection = () => {
 
         <ImagemContainer>
           <img
-            src="https://desafiocompass03.s3.us-east-2.amazonaws.com/ShopPageImgs/Group+106.png"
+            src="https://res.cloudinary.com/dth7akzlq/image/upload/v1741823774/Group_106_1_s5mpog.png"
             alt=""
           />
           <img
-            src="https://desafiocompass03.s3.us-east-2.amazonaws.com/ShopPageImgs/Group+107.png"
+            src="https://res.cloudinary.com/dth7akzlq/image/upload/v1741823774/Group_106_1_s5mpog.png"
             alt=""
           />
         </ImagemContainer>
