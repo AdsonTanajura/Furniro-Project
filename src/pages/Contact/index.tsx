@@ -1,6 +1,6 @@
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
-import Baner from '../../components/Baner';
+
 import {
   ContactBlock,
   ContactContainer,
@@ -23,6 +23,7 @@ import {
   TitleContainer,
 } from './styles';
 import { toast } from 'react-toastify';
+import Banner from '../../components/Banner';
 
 const Contact = () => {
   const validationSchema = Yup.object({
@@ -66,7 +67,7 @@ const Contact = () => {
 
   return (
     <div>
-      <Baner name="Contact" />
+      <Banner name="Contact" />
       <TitleContainer>
         <Title>Get In Touch With Us</Title>
         <Description>

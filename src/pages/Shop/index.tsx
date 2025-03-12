@@ -10,13 +10,13 @@ import {
 import { DataObjectProps, ProductDataProps } from './types';
 import axios from 'axios';
 import ProductCard from '../../components/Product Card';
-import Baner from '../../components/Baner';
+
 import LoadingSpinner from '../../components/LoadingSpinner';
+import Banner from '../../components/Banner';
 
 const BASEURL = import.meta.env.VITE_BASE_URL;
 
 const Shop = () => {
-  // pegue query params
   const [data, setData] = useState<ProductDataProps[]>([]);
   const [dataObject, setDataObject] = useState<DataObjectProps>();
   const [showManyCards, setShowManyCards] = useState('16');
@@ -25,7 +25,6 @@ const Shop = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [filters, setFilters] = useState<string[]>([]);
 
-  //States para funcionalidade do botão de page
   const [currentPage, setCurrentPage] = useState(1);
   const [fristButton, setFristButton] = useState(1);
   const [secondButton, setSecondButton] = useState(2);
@@ -35,10 +34,9 @@ const Shop = () => {
     const isBack = e.currentTarget.textContent === 'Volta';
 
     if (isBack) {
-      if (currentPage <= 1) return; // Evitar páginas negativas ou zero
+      if (currentPage <= 1) return;
       setCurrentPage((currentValue) => currentValue - 1);
 
-      // Atualizar os botões ao voltar para o início de um grupo
       if ((currentPage - 1) % 3 === 0) {
         setFristButton((currentValue) => currentValue - 3);
         setSecondButton((currentValue) => currentValue - 3);
@@ -47,11 +45,9 @@ const Shop = () => {
       return;
     }
 
-    // Avançar para a próxima página
-    if (currentPage >= dataObject!.last) return; // Evitar ultrapassar a última página
+    if (currentPage >= dataObject!.last) return;
     setCurrentPage((currentValue) => currentValue + 1);
 
-    // Atualizar os botões ao avançar para um novo grupo
     if (currentPage % 3 === 0) {
       setFristButton((currentValue) => currentValue + 3);
       setSecondButton((currentValue) => currentValue + 3);
@@ -109,7 +105,7 @@ const Shop = () => {
         setLoading(false);
       }
     },
-    [] // Sem dependências mutáveis (data ou dataObject)
+    []
   );
 
   useEffect(() => {
@@ -125,7 +121,7 @@ const Shop = () => {
         <LoadingSpinner />
       ) : (
         <>
-          <Baner name="Shop" />
+          <Banner name="Shop" />
           <FilterBar
             currentPage={currentPage}
             dataObject={dataObject}

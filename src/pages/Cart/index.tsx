@@ -1,4 +1,3 @@
-import Baner from '../../components/Baner';
 import ProductItem from './components/ProductItem';
 import { useAppSelector } from '../../hooks';
 
@@ -20,6 +19,7 @@ import {
 import { useSelector } from 'react-redux';
 import formatCurrencyRp from '../../utils/formatCurrency';
 import { useNavigate } from 'react-router-dom';
+import Banner from '../../components/Banner';
 
 const Cart = () => {
   const cart = useAppSelector((state) => state.cart);
@@ -33,7 +33,7 @@ const Cart = () => {
   };
   return (
     <>
-      <Baner name="Cart" />
+      <Banner name="Cart" />
       <Container>
         <CartDetails>
           <HeaderTags>

@@ -1,5 +1,4 @@
 import { toast } from 'react-toastify';
-import Baner from '../../components/Baner';
 import { useAppSelector } from '../../hooks';
 import formatCurrencyRp from '../../utils/formatCurrency';
 import Form from './components/Form';
@@ -29,6 +28,7 @@ import {
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { useState } from 'react';
+import Banner from '../../components/Banner';
 
 const Checkout = () => {
   const [payment, setPayment] = useState('1');
@@ -91,7 +91,7 @@ const Checkout = () => {
 
   return (
     <>
-      <Baner name="Checkout" />
+      <Banner name="Checkout" />
       <Container>
         <Form formik={formik} />
         <PorductListContainer>
