@@ -7,10 +7,9 @@ import {
 } from './styles';
 
 const images = [
-  'https://desafiocompass03.s3.us-east-2.amazonaws.com/Carousel/cr1.jpg',
-  'https://desafiocompass03.s3.us-east-2.amazonaws.com/Carousel/cr2.jpg',
-  'https://desafiocompass03.s3.us-east-2.amazonaws.com/Carousel/cr3.jpg',
-  'https://desafiocompass03.s3.us-east-2.amazonaws.com/Carousel/cr4.jpg',
+  'https://res.cloudinary.com/dth7akzlq/image/upload/v1741822097/Rectangle_24_elmwix.png',
+  'https://res.cloudinary.com/dth7akzlq/image/upload/v1741822097/Rectangle_25_1_dkydzx.png',
+  'https://res.cloudinary.com/dth7akzlq/image/upload/v1741822097/Rectangle_26_3_ameljo.png',
 ];
 
 const Carousel: React.FC = () => {

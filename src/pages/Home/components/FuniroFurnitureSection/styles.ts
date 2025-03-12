@@ -26,5 +26,5 @@ export const BackgroundImg = styled.div`
   background-position: center;
   height: 724px;
   width: 100%;
-  background-image: url('https://desafiocompass03.s3.us-east-2.amazonaws.com/fluxo/Images.png');
+  background-image: url('https://res.cloudinary.com/dth7akzlq/image/upload/v1741822274/Images_1_pv0oqn.png');
 `;

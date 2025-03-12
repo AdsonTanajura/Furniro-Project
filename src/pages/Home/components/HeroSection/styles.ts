@@ -18,9 +18,9 @@ export const HeroBackgroundContainer = styled.div`
   width: 100vw;
   max-width: 1440px;
   position: relative;
-  background-image: url('https://desafiocompass03.s3.us-east-2.amazonaws.com/sessao1Img.jpg'); /* Caminho da sua imagem */
-  background-size: cover; /* Cobre todo o contêiner */
-  background-position: center; /* Centraliza a imagem */
+  background-image: url('https://res.cloudinary.com/dth7akzlq/image/upload/v1741821433/scandinavian-interior-mockup-wall-decal-background_1_riqie9.jpg');
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 
   @media (max-width: 780px) {

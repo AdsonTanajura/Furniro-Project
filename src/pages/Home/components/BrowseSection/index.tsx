@@ -23,21 +23,21 @@ const BrowseSection = () => {
       <BrowseCardList>
         <BrowseCard onClick={() => navigate('/home/shop?category=dining')}>
           <img
-            src="https://desafiocompass03.s3.us-east-2.amazonaws.com/sectiom3Img3.jpg"
+            src="https://res.cloudinary.com/dth7akzlq/image/upload/v1741821697/image_106_bvdmxk.png"
             alt=""
           />
           <BrowseCardDescription>Dining</BrowseCardDescription>
         </BrowseCard>
         <BrowseCard onClick={() => navigate('/home/shop?category=living')}>
           <img
-            src="https://desafiocompass03.s3.us-east-2.amazonaws.com/section2Img1.png"
+            src="https://res.cloudinary.com/dth7akzlq/image/upload/v1741821697/image_100_xk7ekp.png"
             alt=""
           />
           <BrowseCardDescription>Living</BrowseCardDescription>
         </BrowseCard>
         <BrowseCard onClick={() => navigate('/home/shop?category=bedroom')}>
           <img
-            src="https://desafiocompass03.s3.us-east-2.amazonaws.com/section2Img2.png"
+            src="https://res.cloudinary.com/dth7akzlq/image/upload/v1741821697/image_101_vogt9m.png"
             alt=""
           />
           <BrowseCardDescription>Bedroom</BrowseCardDescription>
