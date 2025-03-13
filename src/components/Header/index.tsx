@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 
 import Logo from '../../assets/Logo.svg';
 
@@ -10,7 +10,6 @@ import {
   MenuList,
   BurgerMenuButton,
   MobileMenuContainer,
-  Test,
 } from './styled';
 import CartModal from './components/CartModal';
 import UserMenu from './components/UserMenu';
@@ -18,13 +17,22 @@ import UserMenu from './components/UserMenu';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isCartOpen, setIsCartOpen] = useState(false);
+  const [headerHeight, setHeaderHeight] = useState(147);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (ref.current) {
+      setHeaderHeight(ref.current.clientHeight);
+      console.log(headerHeight);
+    }
+  }, [isMenuOpen, headerHeight, ref.current, ref]);
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
   };
 
   return (
-    <HeaderContainer>
+    <HeaderContainer ref={ref}>
       <LogoContainer>
         <img src={Logo} alt="Logo" />
         <LogoTitel>Furniro</LogoTitel>
@@ -51,7 +59,7 @@ const Header = () => {
         <span />
       </BurgerMenuButton>
       {isMenuOpen && (
-        <MobileMenuContainer>
+        <MobileMenuContainer headerHeight={headerHeight}>
           <MenuList>
             <li>
               <MenuLink to={'/home'}>Home</MenuLink>
@@ -69,7 +77,6 @@ const Header = () => {
         </MobileMenuContainer>
       )}
       <UserMenu setIsCartOpen={setIsCartOpen} />
-      {isCartOpen && <Test></Test>}
       {isCartOpen && <CartModal setIsCartOpen={setIsCartOpen} />}
     </HeaderContainer>
   );

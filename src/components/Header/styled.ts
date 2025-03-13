@@ -13,7 +13,7 @@ export const HeaderContainer = styled.header`
 
   @media (max-width: 780px) {
     nav {
-      display: none; /* Esconde o menu principal */
+      display: none;
     }
   }
 `;
@@ -77,9 +77,13 @@ export const BurgerMenuButton = styled.button`
   }
 `;
 
-export const MobileMenuContainer = styled.div`
-  z-index: 10;
+export const MobileMenuContainer = styled.div.attrs<{ headerHeight?: number }>(
+  ({ headerHeight }) => ({
+    style: { top: `${headerHeight}px` },
+  })
+)`
   position: absolute;
+  z-index: 10;
   top: 64px;
   left: 0;
   right: 0;
@@ -90,14 +94,4 @@ export const MobileMenuContainer = styled.div`
   @media (min-width: 780px) {
     display: none;
   }
-`;
-
-export const Test = styled.div`
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5); /* Preto com 50% de opacidade */
-  z-index: 15; /* Certifique-se de que esteja acima de outros elementos */
 `;
