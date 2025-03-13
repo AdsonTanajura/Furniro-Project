@@ -14,24 +14,11 @@ export const Section = styled.section`
   }
 `;
 
-export const TitleContainer = styled.div`
+export const ContentContainer = styled.div`
   display: flex;
-  justify-content: center;
   flex-direction: column;
-`;
-
-export const Title = styled.h2`
-  font-weight: bold;
-  color: #3a3a3a;
-  line-height: 120%;
-  font-size: 40px;
-`;
-
-export const Descritpion = styled.p`
-  color: #616161;
-  font-weight: 500;
-  line-height: 150%;
-  font-size: 16px;
+  gap: 24px;
+  text-align: left;
 `;
 
 export const ExploreMoreButton = styled.button`

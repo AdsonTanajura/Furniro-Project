@@ -7,20 +7,6 @@ export const Section = styled.section`
   margin-top: 67px;
 `;
 
-export const SectionSubTitle = styled.span`
-  color: #616161;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 150%;
-`;
-
-export const SectionTitle = styled.h2`
-  color: #3a3a3a;
-  font-size: 40px;
-  font-weight: bold;
-  line-height: 120%;
-`;
-
 export const BackgroundImg = styled.div`
   margin-top: -24px;
   background-position: center;

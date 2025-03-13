@@ -1,15 +1,13 @@
-import {
-  BackgroundImg,
-  Section,
-  SectionSubTitle,
-  SectionTitle,
-} from './styles';
+import HomeSectionHeader from '../HomeSectionHeader';
+import { BackgroundImg, Section } from './styles';
 
 const FuniroFurnitureSection = () => {
   return (
     <Section>
-      <SectionSubTitle>Share your setup with</SectionSubTitle>
-      <SectionTitle>#FuniroFurniture</SectionTitle>
+      <HomeSectionHeader
+        preTitle="Share your setup with"
+        title="#FuniroFurniture"
+      />
       <BackgroundImg></BackgroundImg>
     </Section>
   );

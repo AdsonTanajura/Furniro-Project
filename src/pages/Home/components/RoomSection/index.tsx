@@ -1,23 +1,19 @@
-import {
-  Section,
-  TitleContainer,
-  Title,
-  ExploreMoreButton,
-  Descritpion,
-} from './styles';
+import { Section, ExploreMoreButton, ContentContainer } from './styles';
 import Carousel from '../Carousel';
+import HomeSectionHeader from '../HomeSectionHeader';
 
 const RoomSection = () => {
   return (
     <Section>
-      <TitleContainer>
-        <Title>50+ Beautiful rooms inspiration</Title>
-        <Descritpion>
-          Our designer already made a lot of beautiful prototipe of rooms that
-          inspire you
-        </Descritpion>
+      <ContentContainer>
+        <HomeSectionHeader
+          title="50+ Beautiful rooms inspiration"
+          subTitle="Our designer already made a lot of beautiful prototipe of rooms that
+          inspire you"
+          isTextCentet={false}
+        />
         <ExploreMoreButton>Explore More</ExploreMoreButton>
-      </TitleContainer>
+      </ContentContainer>
       <Carousel />
     </Section>
   );

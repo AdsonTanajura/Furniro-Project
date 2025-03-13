@@ -6,14 +6,10 @@ export const OurProductsSections = styled.section`
   flex-direction: column;
   align-items: center;
   padding: 0px 102px;
+
+  gap: 32px;
+
   @media (max-width: 780px) {
     padding: 0;
   }
-`;
-
-export const OurProductsSectionsTitle = styled.h2`
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 120%;
-  margin-bottom: 32px;
 `;

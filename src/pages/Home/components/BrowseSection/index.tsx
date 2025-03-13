@@ -1,8 +1,6 @@
+import HomeSectionHeader from '../HomeSectionHeader';
 import {
-  BrowseSectionTitle,
-  BrowseSectionTitleContainer,
   Section,
-  BrowseSectionDescription,
   BrowseCardList,
   BrowseCard,
   BrowseCardDescription,
@@ -13,12 +11,10 @@ const BrowseSection = () => {
   const navigate = useNavigate();
   return (
     <Section>
-      <BrowseSectionTitleContainer>
-        <BrowseSectionTitle>Browse The Range</BrowseSectionTitle>
-        <BrowseSectionDescription>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </BrowseSectionDescription>
-      </BrowseSectionTitleContainer>
+      <HomeSectionHeader
+        title="Browse The Range"
+        subTitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      />
 
       <BrowseCardList>
         <BrowseCard onClick={() => navigate('/home/shop?category=dining')}>
