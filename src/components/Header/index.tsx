@@ -1,18 +1,12 @@
 import { useState, useRef, useEffect } from 'react';
 
-import Logo from '../../assets/Logo.svg';
-
-import {
-  HeaderContainer,
-  LogoContainer,
-  LogoTitel,
-  MenuLink,
-  MenuList,
-  BurgerMenuButton,
-  MobileMenuContainer,
-} from './styled';
+import { HeaderContainer, NavContainerDesktop } from './styled';
 import CartModal from './components/CartModal';
 import UserMenu from './components/UserMenu';
+import HeaderMobileMenu from './components/HeaderMobileMenu';
+import HeaderNavBar from './components/HeaderNavBar';
+import HeaderLogo from './components/HeaderLogo';
+import HeaderBurgerMenuButton from './components/HeaderBurgerMenuButton';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,50 +27,18 @@ const Header = () => {
 
   return (
     <HeaderContainer ref={ref}>
-      <LogoContainer>
-        <img src={Logo} alt="Logo" />
-        <LogoTitel>Furniro</LogoTitel>
-      </LogoContainer>
-      <nav>
-        <MenuList>
-          <li>
-            <MenuLink to={'/home'}>Home</MenuLink>
-          </li>
-          <li>
-            <MenuLink to={'/home/shop'}>Shop</MenuLink>
-          </li>
-          <li>
-            <MenuLink to={'/'}>About</MenuLink>
-          </li>
-          <li>
-            <MenuLink to={'/home/contact'}>Contact</MenuLink>
-          </li>
-        </MenuList>
-      </nav>
-      <BurgerMenuButton onClick={toggleMenu}>
-        <span />
-        <span />
-        <span />
-      </BurgerMenuButton>
-      {isMenuOpen && (
-        <MobileMenuContainer headerHeight={headerHeight}>
-          <MenuList>
-            <li>
-              <MenuLink to={'/home'}>Home</MenuLink>
-            </li>
-            <li>
-              <MenuLink to={'/home/shop'}>Shop</MenuLink>
-            </li>
-            <li>
-              <MenuLink to={'/a'}>About</MenuLink>
-            </li>
-            <li>
-              <MenuLink to={'/home/contact'}>Contact</MenuLink>
-            </li>
-          </MenuList>
-        </MobileMenuContainer>
-      )}
+      <HeaderLogo />
+
+      <NavContainerDesktop>
+        <HeaderNavBar />
+      </NavContainerDesktop>
+
+      <HeaderBurgerMenuButton toggleMenu={toggleMenu} />
+
+      {isMenuOpen && <HeaderMobileMenu headerHeight={headerHeight} />}
+
       <UserMenu setIsCartOpen={setIsCartOpen} />
+
       {isCartOpen && <CartModal setIsCartOpen={setIsCartOpen} />}
     </HeaderContainer>
   );
