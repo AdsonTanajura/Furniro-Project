@@ -28,7 +28,7 @@ export const SectionSubTitle = styled.p`
 export const SectionTitle = styled.h2`
   color: #3a3a3a;
   /* word-break: break-all; */
-  font-size: 34px;
+  font-size: 30px;
   font-weight: bold;
   line-height: 120%;
 
