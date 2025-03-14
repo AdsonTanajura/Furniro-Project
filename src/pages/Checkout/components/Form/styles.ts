@@ -65,7 +65,7 @@ export const FormInput = styled.input<FormInputProps>`
         `}
 `;
 
-export const FormInputFristLastName = styled.input<FormInputProps>`
+export const FormInputFirstLastName = styled.input<FormInputProps>`
   color: #9f9f9f;
   border: 2px solid #9f9f9f;
   border-radius: 10px;

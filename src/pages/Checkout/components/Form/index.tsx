@@ -5,7 +5,7 @@ import {
   FormInput,
   FormInputContainer,
   FormInputError,
-  FormInputFristLastName,
+  FormInputFirstLastName,
   FormLabel,
   FormTitle,
   FormList,
@@ -47,7 +47,7 @@ const Form = ({ formik }: FormProps) => {
             <FormFirtLastName>
               <FormInputContainer>
                 <FormLabel htmlFor="firstName">First Name</FormLabel>
-                <FormInputFristLastName
+                <FormInputFirstLastName
                   isErro={!!formik.errors.firstName}
                   type="text"
                   id="firstName"
@@ -62,7 +62,7 @@ const Form = ({ formik }: FormProps) => {
               </FormInputContainer>
               <FormInputContainer>
                 <FormLabel htmlFor="lastName">Last Name</FormLabel>
-                <FormInputFristLastName
+                <FormInputFirstLastName
                   isErro={!!formik.errors.lastName}
                   type="text"
                   id="lastName"

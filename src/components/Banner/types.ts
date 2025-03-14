@@ -1,3 +1,3 @@
 export type BannerProps = {
-  name: string;
+  bannerTitle: string;
 };

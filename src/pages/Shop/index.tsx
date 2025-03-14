@@ -1,18 +1,14 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import FilterBar from './components/FilterBar';
-import {
-  NextPageButton,
-  PageButton,
-  PageButtonContainer,
-  ProductList,
-} from './styles';
+import { ProductList } from './styles';
 import { DataObjectProps, ProductDataProps } from './types';
 import axios from 'axios';
 import ProductCard from '../../components/Product Card';
 
 import LoadingSpinner from '../../components/LoadingSpinner';
 import Banner from '../../components/Banner';
+import PagesButtons from './components/PagesButtons';
 
 const BASEURL = import.meta.env.VITE_BASE_URL;
 
@@ -26,41 +22,9 @@ const Shop = () => {
   const [filters, setFilters] = useState<string[]>([]);
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [fristButton, setFristButton] = useState(1);
+  const [firstButton, setFirstButton] = useState(1);
   const [secondButton, setSecondButton] = useState(2);
   const [thirdButton, setThirdButton] = useState(3);
-
-  const handleClickNexPage = (e: React.MouseEvent<HTMLButtonElement>) => {
-    const isBack = e.currentTarget.textContent === 'Volta';
-
-    if (isBack) {
-      if (currentPage <= 1) return;
-      setCurrentPage((currentValue) => currentValue - 1);
-
-      if ((currentPage - 1) % 3 === 0) {
-        setFristButton((currentValue) => currentValue - 3);
-        setSecondButton((currentValue) => currentValue - 3);
-        setThirdButton((currentValue) => currentValue - 3);
-      }
-      return;
-    }
-
-    if (currentPage >= dataObject!.last) return;
-    setCurrentPage((currentValue) => currentValue + 1);
-
-    if (currentPage % 3 === 0) {
-      setFristButton((currentValue) => currentValue + 3);
-      setSecondButton((currentValue) => currentValue + 3);
-      setThirdButton((currentValue) => currentValue + 3);
-    }
-  };
-
-  const handleClickButtonPage = (e: React.MouseEvent<HTMLButtonElement>) => {
-    if (e.currentTarget.textContent) {
-      setCurrentPage(Number(e.currentTarget.textContent));
-      return;
-    }
-  };
 
   const [searchParams] = useSearchParams();
   useEffect(() => {
@@ -121,7 +85,7 @@ const Shop = () => {
         <LoadingSpinner />
       ) : (
         <>
-          <Banner name="Shop" />
+          <Banner bannerTitle="Shop" />
           <FilterBar
             currentPage={currentPage}
             dataObject={dataObject}
@@ -144,58 +108,17 @@ const Shop = () => {
               />
             ))}
           </ProductList>
-          <PageButtonContainer>
-            {!dataObject ? null : (
-              <>
-                {fristButton === dataObject.first ? null : (
-                  <NextPageButton onClick={handleClickNexPage}>
-                    Volta
-                  </NextPageButton>
-                )}
-                {fristButton > 0 && fristButton <= dataObject.last ? (
-                  <PageButton
-                    isCurrenPage={
-                      dataObject.next
-                        ? dataObject.next - 1 === fristButton
-                        : dataObject.last === fristButton
-                    }
-                    onClick={handleClickButtonPage}
-                  >
-                    {fristButton}
-                  </PageButton>
-                ) : null}
-
-                {secondButton > 0 && secondButton <= dataObject.last ? (
-                  <PageButton
-                    isCurrenPage={
-                      dataObject.next
-                        ? dataObject.next - 1 === secondButton
-                        : dataObject.last === secondButton
-                    }
-                    onClick={handleClickButtonPage}
-                  >
-                    {secondButton}
-                  </PageButton>
-                ) : null}
-
-                {thirdButton > 0 && thirdButton <= dataObject.last ? (
-                  <PageButton
-                    isCurrenPage={
-                      dataObject.next
-                        ? dataObject.next - 1 === thirdButton
-                        : dataObject.last === thirdButton
-                    }
-                    onClick={handleClickButtonPage}
-                  >
-                    {thirdButton}
-                  </PageButton>
-                ) : null}
-                <NextPageButton onClick={handleClickNexPage}>
-                  Next
-                </NextPageButton>
-              </>
-            )}
-          </PageButtonContainer>
+          <PagesButtons
+            firstButton={firstButton}
+            secondButton={secondButton}
+            setFirstButton={setFirstButton}
+            setSecondButton={setSecondButton}
+            setThirdButton={setThirdButton}
+            thirdButton={thirdButton}
+            dataObject={dataObject!}
+            currentPage={currentPage}
+            setCurrentPage={setCurrentPage}
+          />
         </>
       )}
     </>
