@@ -3,13 +3,19 @@ import { styled } from 'styled-components';
 export const Conatiner = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 2px;
+  @media (min-width: 768px) {
+    gap: 32px;
+  }
 `;
 
 export const Imagen = styled.img`
   border-radius: 4px;
-  max-width: 108px;
+  max-width: 50px;
   max-height: 108px;
+  @media (min-width: 768px) {
+    max-width: 108px;
+  }
 `;
 
 export const DetailsContainer = styled.div`
@@ -29,7 +35,10 @@ export const QuantityContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  gap: 15px;
+  gap: 4px;
+  @media (min-width: 768px) {
+    gap: 15px;
+  }
 `;
 
 export const Quantity = styled.span`
@@ -79,7 +88,11 @@ export const ProductList = styled.div`
 export const SubtotalContainer = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 101px;
+  gap: 25px;
+
+  @media (min-width: 768px) {
+    gap: 101px;
+  }
 `;
 
 export const Subtotal = styled.span`
