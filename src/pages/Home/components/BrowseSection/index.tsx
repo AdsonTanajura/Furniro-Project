@@ -1,4 +1,6 @@
+import { useNavigate } from 'react-router-dom';
 import HomeSectionHeader from '../HomeSectionHeader';
+
 import {
   Section,
   BrowseCardList,
@@ -6,7 +8,6 @@ import {
   BrowseCardDescription,
 } from './styles';
 
-import { useNavigate } from 'react-router-dom';
 const BrowseSection = () => {
   const navigate = useNavigate();
   return (

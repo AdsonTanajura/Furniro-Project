@@ -7,7 +7,7 @@ import {
   FetchDataProps,
   ListProductProps,
 } from './types';
-import ProductCard from '../Product Card';
+import ProductCard from '../ProductCard';
 import LoadingSpinner from '../LoadingSpinner';
 
 const BASEURL = import.meta.env.VITE_BASE_URL;

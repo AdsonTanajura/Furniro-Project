@@ -9,9 +9,9 @@ export const Container = styled.div<ContainerProps>`
   width: 285px;
   height: 446px;
   max-width: 285px;
-  background-image: url(${(props) => props.url});
-  background-size: cover; /* Cobre todo o contêiner */
-  background-position: center; /* Centraliza a imagem */
+  background-image: url(${(props) => props.$url});
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 `;
 
@@ -123,7 +123,7 @@ export const PriceContainer = styled.div`
 export const Price = styled.p<PriceProps>`
   line-height: 150%;
   ${(props) =>
-    props.isDiscount
+    props.$isDiscount
       ? css`
           color: #b0b0b0;
           font-size: 16px;

@@ -71,7 +71,7 @@ const ProductCard = ({
   }, [price, discount]);
 
   return (
-    <Container url={img}>
+    <Container $url={img}>
       <AddCardHover>
         <AddCardButton onClick={handleAddItem}>Add to cart</AddCardButton>
         <AddCardButton onClick={handleClickView}>View</AddCardButton>
@@ -90,7 +90,7 @@ const ProductCard = ({
               {discount === 100 ? 'Free' : formatCurrency(priceWithdiscount)}
             </PriceWithdiscount>
           ) : null}
-          <Price isDiscount={discount! > 0}>{formatCurrency(price)}</Price>
+          <Price $isDiscount={discount! > 0}>{formatCurrency(price)}</Price>
         </PriceContainer>
       </Details>
     </Container>

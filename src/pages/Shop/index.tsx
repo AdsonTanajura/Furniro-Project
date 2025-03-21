@@ -1,6 +1,6 @@
 import FilterBar from './components/FilterBar';
 import { ProductList } from './styles';
-import ProductCard from '../../components/Product Card';
+import ProductCard from '../../components/ProductCard';
 
 import LoadingSpinner from '../../components/LoadingSpinner';
 import Banner from '../../components/Banner';

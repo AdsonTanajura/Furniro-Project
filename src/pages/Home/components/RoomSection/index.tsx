@@ -10,7 +10,7 @@ const RoomSection = () => {
           title="50+ Beautiful rooms inspiration"
           subTitle="Our designer already made a lot of beautiful prototipe of rooms that
           inspire you"
-          isTextCentet={false}
+          isTextCenter={false}
         />
         <ExploreMoreButton>Explore More</ExploreMoreButton>
       </ContentContainer>

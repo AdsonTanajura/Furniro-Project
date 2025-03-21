@@ -9,9 +9,9 @@ export type ProductCardProps = {
 };
 
 export type ContainerProps = {
-  url: string;
+  $url: string;
 };
 
 export type PriceProps = {
-  isDiscount: boolean;
+  $isDiscount: boolean;
 };
