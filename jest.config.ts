@@ -5,7 +5,7 @@ const config: Config.InitialOptions = {
   testEnvironment: 'jsdom',
   setupFilesAfterEnv: ['./src/utils/setupTests.ts'],
   moduleNameMapper: {
-    '\\.svg$': '<rootDir>/__mocks__/svgMock.ts', // Adicione esta linha
+    '\\.svg$': '<rootDir>/__mocks__/svgMock.ts',
   },
   transform: {
     '^.+\\.tsx?$': 'ts-jest',
