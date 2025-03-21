@@ -10,10 +10,10 @@ const HomeSectionHeader = ({
   preTitle,
   subTitle,
   title,
-  isTextCentet = true,
+  isTextCenter = true,
 }: HomeSectionHeaderProps) => {
   return (
-    <SectionHeaderContainer isTextCentet={isTextCentet}>
+    <SectionHeaderContainer $isTextCenter={isTextCenter}>
       {preTitle ? <SectionPreTitle>{preTitle}</SectionPreTitle> : null}
       {title ? <SectionTitle>{title}</SectionTitle> : null}
       {subTitle ? <SectionSubTitle>{subTitle}</SectionSubTitle> : null}

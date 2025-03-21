@@ -2,7 +2,7 @@ interface HomeSectionHeaderProps {
   preTitle?: React.ReactNode;
   title?: React.ReactNode;
   subTitle?: React.ReactNode;
-  isTextCentet?: boolean;
+  isTextCenter?: boolean;
 }
 
 export default HomeSectionHeaderProps;

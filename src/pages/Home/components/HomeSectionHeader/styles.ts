@@ -1,8 +1,10 @@
 import styled, { css } from 'styled-components';
 
-export const SectionHeaderContainer = styled.div<{ isTextCentet: boolean }>`
-  ${({ isTextCentet }) =>
-    isTextCentet
+export const SectionHeaderContainer = styled.div<{
+  $isTextCenter: boolean;
+}>`
+  ${({ $isTextCenter = true }) =>
+    $isTextCenter
       ? css`
           text-align: center;
         `
