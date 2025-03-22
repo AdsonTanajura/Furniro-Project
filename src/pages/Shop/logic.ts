@@ -55,7 +55,7 @@ export const useShopLogic = () => {
           return result;
         });
       } catch (err) {
-        setError('Erro ao buscar dados');
+        setError('Error when searching for data');
         console.error(err);
       } finally {
         setLoading(false);

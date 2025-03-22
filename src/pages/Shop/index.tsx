@@ -6,6 +6,7 @@ import LoadingSpinner from '../../components/LoadingSpinner';
 import Banner from '../../components/Banner';
 import PagesButtons from './components/PagesButtons';
 import { useShopLogic } from './logic';
+import ErrorPage from '../../components/ErrorPage';
 
 const Shop = () => {
   const {
@@ -29,7 +30,7 @@ const Shop = () => {
 
   if (error) {
     console.log(error);
-    return <h1>Teve um erro! {error}</h1>;
+    return <ErrorPage errorMenssage={error} />;
   }
   return (
     <>
