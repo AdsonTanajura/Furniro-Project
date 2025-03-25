@@ -3,19 +3,5 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ],
-  "compilerOptions": {
-    "target": "ES2020",
-    "module": "ESNext",
-    "lib": ["ES2020", "DOM"],
-    "jsx": "react-jsx", // Adicione esta linha para habilitar JSX
-    "skipLibCheck": true,
-    "strict": true,
-    "esModuleInterop": true, // Adicione esta linha
-    "moduleResolution": "node",
-    "noEmit": true,
-    "composite": true // Certifique-se de que isso esteja habilitado
-  },
-
-  "include": ["svg.d.ts", "jest.d.ts"]
+  ]
 }

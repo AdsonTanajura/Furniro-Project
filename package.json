@@ -11,13 +11,18 @@
     "preview": "vite preview",
     "db": "npx json-server --watch ./mock/db.json",
     "test": "jest --passWithNoTests --coverage",
+    "test:cov": "jest --coverage",
     "test:watch": "jest --watch"
   },
   "dependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-react": "^7.26.3",
     "@clerk/clerk-react": "^5.17.2",
     "@reduxjs/toolkit": "^2.4.0",
     "axios": "^1.7.8",
     "formik": "^2.4.6",
+    "identity-obj-proxy": "^3.0.0",
+    "jest-environment-jsdom": "^29.7.0",
     "json-server": "^1.0.0-beta.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -51,5 +56,14 @@
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.15.0",
     "vite": "^6.0.1"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/setup-test.ts"
+    ],
+    "testEnvironment": "jest-environment-jsdom",
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.{js, ts, jsx, tsx}"
+    ]
   }
 }
