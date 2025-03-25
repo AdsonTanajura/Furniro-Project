@@ -59,11 +59,15 @@
   },
   "jest": {
     "setupFilesAfterEnv": [
-      "<rootDir>/setup-test.ts"
+      "<rootDir>/setup-test.tsx"
     ],
     "testEnvironment": "jest-environment-jsdom",
     "collectCoverageFrom": [
       "<rootDir>/src/**/*.{js, ts, jsx, tsx}"
-    ]
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|scss)$": "identity-obj-proxy",
+      "\\.(svg|png|jpg|jpeg|gif)$": "<rootDir>/__mocks__/svgMock.ts"
+    }
   }
 }
