@@ -9,7 +9,7 @@ const ErrorPage = ({
     <ErrorPageContainer>
       <h2>We had an error</h2>
       <span>🙀</span>
-      <p>{errorMenssage}</p>
+      <p>{!errorMenssage ? 'Sorry about what happened' : errorMenssage}</p>
     </ErrorPageContainer>
   );
 };

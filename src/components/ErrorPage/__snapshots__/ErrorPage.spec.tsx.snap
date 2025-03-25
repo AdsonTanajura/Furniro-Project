@@ -1,37 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<ErrorPage /> should be visible to users 1`] = `
-<div>
-  <div
-    class="sc-VHjGu bvRlJb"
-  >
-    <h2>
-      We had an error
-    </h2>
-    <span>
-      🙀
-    </span>
-    <p>
-      Sorry about what happened
-    </p>
-  </div>
+exports[`<ErrorPage /> should display a default message when no errorMenssage is provided 1`] = `
+<div
+  class="sc-VHjGu bvRlJb"
+>
+  <h2>
+    We had an error
+  </h2>
+  <span>
+    🙀
+  </span>
+  <p>
+    Sorry about what happened
+  </p>
+</div>
+`;
+
+exports[`<ErrorPage /> should render the error container 1`] = `
+<div
+  class="sc-VHjGu bvRlJb"
+>
+  <h2>
+    We had an error
+  </h2>
+  <span>
+    🙀
+  </span>
+  <p>
+    Sorry about what happened
+  </p>
 </div>
 `;
 
 exports[`<ErrorPage /> the error message passed in by parameter must be visible to users 1`] = `
-<div>
-  <div
-    class="sc-VHjGu bvRlJb"
-  >
-    <h2>
-      We had an error
-    </h2>
-    <span>
-      🙀
-    </span>
-    <p>
-      my bed error
-    </p>
-  </div>
+<div
+  class="sc-VHjGu bvRlJb"
+>
+  <h2>
+    We had an error
+  </h2>
+  <span>
+    🙀
+  </span>
+  <p>
+    my bed error
+  </p>
 </div>
 `;
