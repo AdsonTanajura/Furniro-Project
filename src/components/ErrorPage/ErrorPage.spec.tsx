@@ -3,6 +3,11 @@ import ErrorPage from '.';
 
 describe('<ErrorPage />', () => {
   const { getByRole, getByText, container } = render(<ErrorPage />);
+
+  it('should render the error container', () => {
+    expect(container.firstChild).toBeInTheDocument();
+  });
+
   it('should be visible to users', () => {
     const title = getByRole('heading');
     const emoji = getByText('🙀');
