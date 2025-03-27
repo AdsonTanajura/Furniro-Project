@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderBurgerMenuButton /> should render all elements correctly 1`] = `
+.c0 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.c0 span {
+  width: 24px;
+  height: 3px;
+  background-color: black;
+  border-radius: 2px;
+}
+
+@media (min-width: 780px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<button
+  class="c0"
+>
+  <span />
+  <span />
+  <span />
+</button>
+`;
+
+exports[`<HeaderBurgerMenuButton /> should return true when the button is clicked 1`] = `
+.c0 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.c0 span {
+  width: 24px;
+  height: 3px;
+  background-color: black;
+  border-radius: 2px;
+}
+
+@media (min-width: 780px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<button
+  class="c0"
+>
+  <span />
+  <span />
+  <span />
+</button>
+`;
