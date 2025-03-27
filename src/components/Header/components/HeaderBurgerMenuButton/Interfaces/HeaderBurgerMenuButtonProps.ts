@@ -1,5 +1,6 @@
 interface HeaderBurgerMenuButtonProps {
-  toggleMenu: () => void;
+  setIsMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  isMenuOpen: boolean;
 }
 
 export default HeaderBurgerMenuButtonProps;

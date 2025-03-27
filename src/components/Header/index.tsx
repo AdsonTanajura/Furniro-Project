@@ -20,10 +20,6 @@ const Header = () => {
     }
   }, [isMenuOpen, headerHeight, ref.current, ref]);
 
-  const toggleMenu = () => {
-    setIsMenuOpen((prev) => !prev);
-  };
-
   return (
     <HeaderContainer ref={ref}>
       <HeaderLogo />
@@ -32,7 +28,10 @@ const Header = () => {
         <HeaderNavBar />
       </NavContainerDesktop>
 
-      <HeaderBurgerMenuButton toggleMenu={toggleMenu} />
+      <HeaderBurgerMenuButton
+        setIsMenuOpen={setIsMenuOpen}
+        isMenuOpen={isMenuOpen}
+      />
 
       {isMenuOpen && <HeaderMobileMenu headerHeight={headerHeight} />}
 

@@ -2,8 +2,13 @@ import HeaderBurgerMenuButtonProps from './Interfaces/HeaderBurgerMenuButtonProp
 import { BurgerMenuButton } from './styles';
 
 const HeaderBurgerMenuButton = ({
-  toggleMenu,
+  setIsMenuOpen,
+  isMenuOpen,
 }: HeaderBurgerMenuButtonProps) => {
+  const toggleMenu = () => {
+    !isMenuOpen ? setIsMenuOpen(true) : setIsMenuOpen(false);
+  };
+
   return (
     <BurgerMenuButton onClick={toggleMenu}>
       <span />
