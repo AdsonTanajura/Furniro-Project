@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderNavBar /> should navigate to the correct page by clicking on the links 1`] = `
+@media (max-width: 780px) {
+
+}
+
+<div
+  data-testid="home-page"
+>
+  home Page
+</div>
+`;
+
+exports[`<HeaderNavBar /> should render all the elements of the component 1`] = `
+.c0 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 100vw;
+  max-width: 430px;
+}
+
+.c1 {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+  transition: border-bottom 0.2s;
+}
+
+.c1:hover {
+  border-bottom: 2px #000000 solid;
+}
+
+@media (max-width: 780px) {
+  .c0 {
+    flex-direction: column;
+  }
+}
+
+<nav>
+  <ul
+    class="c0"
+  >
+    <li>
+      <a
+        class="c1"
+        data-discover="true"
+        href="/home"
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        class="c1"
+        data-discover="true"
+        href="/home/shop"
+      >
+        Shop
+      </a>
+    </li>
+    <li>
+      <a
+        class="c1"
+        data-discover="true"
+        href="/a"
+      >
+        About
+      </a>
+    </li>
+    <li>
+      <a
+        class="c1"
+        data-discover="true"
+        href="/home/contact"
+      >
+        Contact
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`<HeaderNavBar /> should render the correct links 1`] = `
+.c0 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 100vw;
+  max-width: 430px;
+}
+
+.c1 {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+  transition: border-bottom 0.2s;
+}
+
+.c1:hover {
+  border-bottom: 2px #000000 solid;
+}
+
+@media (max-width: 780px) {
+  .c0 {
+    flex-direction: column;
+  }
+}
+
+<nav>
+  <ul
+    class="c0"
+  >
+    <li>
+      <a
+        class="c1"
+        data-discover="true"
+        href="/home"
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        class="c1"
+        data-discover="true"
+        href="/home/shop"
+      >
+        Shop
+      </a>
+    </li>
+    <li>
+      <a
+        class="c1"
+        data-discover="true"
+        href="/a"
+      >
+        About
+      </a>
+    </li>
+    <li>
+      <a
+        class="c1"
+        data-discover="true"
+        href="/home/contact"
+      >
+        Contact
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

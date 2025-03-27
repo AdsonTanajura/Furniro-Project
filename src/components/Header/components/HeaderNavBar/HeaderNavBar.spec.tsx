@@ -34,10 +34,12 @@ describe('<HeaderNavBar />', () => {
 
     expect(navElement).toBeInTheDocument();
     expect(navElement).toBeVisible();
+
+    expect(container.firstChild).toMatchSnapshot();
   });
 
   it('should render the correct links', () => {
-    const { getByRole } = render(
+    const { container, getByRole } = render(
       <MemoryRouter>
         <HeaderNavBar />
       </MemoryRouter>
@@ -56,10 +58,11 @@ describe('<HeaderNavBar />', () => {
       'href',
       '/home/contact'
     );
+    expect(container.firstChild).toMatchSnapshot();
   });
 
   it('should navigate to the correct page by clicking on the links', async () => {
-    const { getByRole, findByTestId } = render(
+    const { container, getByRole, findByTestId } = render(
       <MemoryRouter initialEntries={['/']}>
         <Routes>
           <Route path="/" element={<HeaderNavBar />} />
@@ -77,5 +80,7 @@ describe('<HeaderNavBar />', () => {
     await user.click(homeLink);
 
     expect(await findByTestId('home-page')).toBeInTheDocument();
+
+    expect(container.firstChild).toMatchSnapshot();
   });
 });

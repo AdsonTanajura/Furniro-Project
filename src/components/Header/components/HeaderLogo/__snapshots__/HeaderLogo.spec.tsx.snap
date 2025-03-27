@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderLogo /> should render Logo 1`] = `
+.c0 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.c1 {
+  font-size: 34px;
+  font-weight: bold;
+  font-family: 'Montserrat',sans-serif;
+}
+
+<div
+  class="c0"
+>
+  <img
+    alt="Logo"
+    src="test-file-stub"
+  />
+  <span
+    class="c1"
+  >
+    Furniro
+  </span>
+</div>
+`;

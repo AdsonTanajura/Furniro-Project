@@ -4,10 +4,11 @@ import HeaderLogo from '.';
 
 describe('<HeaderLogo />', () => {
   it('should render Logo', () => {
-    const { getByRole } = render(<HeaderLogo />);
+    const { container, getByRole } = render(<HeaderLogo />);
 
     const logo = getByRole('img');
 
     expect(logo).toBeInTheDocument();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
