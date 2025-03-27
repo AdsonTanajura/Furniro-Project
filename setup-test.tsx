@@ -4,6 +4,15 @@
 console.log('Estou falando do setup-test.ts do <rootDir>');
 import React from 'react';
 import '@testing-library/jest-dom';
+import 'fast-text-encoding';
+
+if (typeof global.TextEncoder === 'undefined') {
+  global.TextEncoder = require('util').TextEncoder;
+}
+
+if (typeof global.TextDecoder === 'undefined') {
+  global.TextDecoder = require('util').TextDecoder;
+}
 
 jest.mock('@clerk/clerk-react', () => ({
   ClerkProvider: ({ children }: { children: React.ReactNode }) => (
