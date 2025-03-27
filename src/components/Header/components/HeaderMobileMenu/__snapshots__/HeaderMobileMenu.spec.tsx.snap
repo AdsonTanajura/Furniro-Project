@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderMobileMenu /> não deve estar visível quando a largura da janela for 780px ou mais 1`] = `
+.c2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 100vw;
+  max-width: 430px;
+}
+
+.c3 {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+  transition: border-bottom 0.2s;
+}
+
+.c3:hover {
+  border-bottom: 2px #000000 solid;
+}
+
+.c0 {
+  position: absolute;
+  z-index: 10;
+  top: 150px;
+  left: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.c1 {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 780px) {
+  .c2 {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 780px) {
+  .c0 {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="menu-container-mobile"
+  >
+    <div
+      class="c1"
+      data-testid="nav-container-mobile"
+    >
+      <nav>
+        <ul
+          class="c2"
+        >
+          <li>
+            <a
+              class="c3"
+              data-discover="true"
+              href="/home"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              class="c3"
+              data-discover="true"
+              href="/home/shop"
+            >
+              Shop
+            </a>
+          </li>
+          <li>
+            <a
+              class="c3"
+              data-discover="true"
+              href="/a"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              class="c3"
+              data-discover="true"
+              href="/home/contact"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+`;

@@ -3,6 +3,7 @@
  */
 console.log('Estou falando do setup-test.ts do <rootDir>');
 import React from 'react';
+import 'jest-styled-components';
 import '@testing-library/jest-dom';
 import 'fast-text-encoding';
 
