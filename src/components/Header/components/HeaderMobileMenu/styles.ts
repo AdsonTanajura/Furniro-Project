@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-export const MobileMenuContainer = styled.div.attrs<{ headerHeight?: number }>(
-  ({ headerHeight }) => ({
-    style: { top: `${headerHeight}px` },
+export const MobileMenuContainer = styled.div.attrs<{ $headerHeight?: number }>(
+  ({ $headerHeight }) => ({
+    style: { top: `${$headerHeight}px` },
   })
 )`
   position: absolute;

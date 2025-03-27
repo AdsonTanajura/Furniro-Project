@@ -5,7 +5,7 @@ import { MobileMenuContainer, NavContainerMobile } from './styles';
 
 const HeaderMobileMenu = ({ headerHeight }: MobileMenuProps) => {
   return (
-    <MobileMenuContainer headerHeight={headerHeight}>
+    <MobileMenuContainer $headerHeight={headerHeight}>
       <NavContainerMobile>
         <HeaderNavBar />
       </NavContainerMobile>

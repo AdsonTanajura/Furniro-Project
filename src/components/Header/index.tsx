@@ -17,7 +17,6 @@ const Header = () => {
   useEffect(() => {
     if (ref.current) {
       setHeaderHeight(ref.current.clientHeight);
-      console.log(headerHeight);
     }
   }, [isMenuOpen, headerHeight, ref.current, ref]);
 
