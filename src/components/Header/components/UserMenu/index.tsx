@@ -16,14 +16,14 @@ const UserMenu = ({ setIsCartOpen }: UserMenuProps) => {
     <UserMenuContainer>
       <SignedOut>
         <StyledSignInButton>
-          <img src={userIcon} alt="" />
+          <img src={userIcon} alt="user avata" />
         </StyledSignInButton>
       </SignedOut>
       <SignedIn>
         <UserButton />
       </SignedIn>
-      <CartButton onClick={handleClickCartButton}>
-        <CartIcon />
+      <CartButton aria-label="cart" onClick={handleClickCartButton}>
+        <CartIcon data-testid="cart-icon" />
       </CartButton>
     </UserMenuContainer>
   );
