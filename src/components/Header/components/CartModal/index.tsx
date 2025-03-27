@@ -16,26 +16,14 @@ import {
   SubtotalPrice,
 } from '../CardProductItem/styles';
 import { FaWindowClose } from 'react-icons/fa';
-import { useNavigate } from 'react-router-dom';
 import { useAppSelector } from '../../../../hooks';
 import formatCurrencyRp from '../../../../utils/formatCurrency';
 import CartModalProps from './interfaces/CartModalProps';
+import { useCartModalLogic } from './logic';
 
 const CartModal = ({ setIsCartOpen }: CartModalProps) => {
-  const navigate = useNavigate();
-
-  const handleClickCloseButton = () => {
-    setIsCartOpen(false);
-  };
-  const handleCheckoutButton = () => {
-    navigate('home/checkout');
-    setIsCartOpen(false);
-  };
-
-  const handleCartButton = () => {
-    navigate('home/cart');
-    setIsCartOpen(false);
-  };
+  const { handleCartButton, handleCheckoutButton, handleClickCloseButton } =
+    useCartModalLogic({ setIsCartOpen });
 
   const cart = useAppSelector((state) => state.cart);
   return (
