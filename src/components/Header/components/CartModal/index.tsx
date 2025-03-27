@@ -16,10 +16,10 @@ import {
   SubtotalPrice,
 } from '../CardProductItem/styles';
 import { FaWindowClose } from 'react-icons/fa';
-import { CartModalProps } from './types';
 import { useNavigate } from 'react-router-dom';
 import { useAppSelector } from '../../../../hooks';
 import formatCurrencyRp from '../../../../utils/formatCurrency';
+import CartModalProps from './interfaces/CartModalProps';
 
 const CartModal = ({ setIsCartOpen }: CartModalProps) => {
   const navigate = useNavigate();

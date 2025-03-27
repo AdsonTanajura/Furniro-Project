@@ -6,7 +6,7 @@ import {
 } from './styles';
 import { SignedIn, SignedOut, UserButton } from '@clerk/clerk-react';
 import userIcon from '../../../../assets/User.svg';
-import { UserMenuProps } from './types';
+import UserMenuProps from './interfaces/UserMenuProps';
 
 const UserMenu = ({ setIsCartOpen }: UserMenuProps) => {
   const handleClickCartButton = () => {
