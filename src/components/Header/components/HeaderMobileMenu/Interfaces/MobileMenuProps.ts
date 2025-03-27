@@ -1,5 +1,5 @@
 interface HeaderMobileMenu {
-  headerHeight: number;
+  headerHeight?: number;
 }
 
 export default HeaderMobileMenu;
