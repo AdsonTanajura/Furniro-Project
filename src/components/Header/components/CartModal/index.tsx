@@ -2,7 +2,7 @@ import {
   Button,
   ButtonContainer,
   CloseButton,
-  Container,
+  CartModalContainer,
   ProductContainer,
   Title,
   TitleBorderContainer,
@@ -17,7 +17,7 @@ import {
 } from '../CardProductItem/styles';
 import { FaWindowClose } from 'react-icons/fa';
 import { useAppSelector } from '../../../../hooks';
-import formatCurrencyRp from '../../../../utils/formatCurrency';
+import formatCurrencyRp from '../../../../utils/formatCurrencyRp';
 import CartModalProps from './interfaces/CartModalProps';
 import { useCartModalLogic } from './logic';
 
@@ -27,14 +27,17 @@ const CartModal = ({ setIsCartOpen }: CartModalProps) => {
 
   const cart = useAppSelector((state) => state.cart);
   return (
-    <Container>
+    <CartModalContainer>
       <ProductContainer>
         <TitleContainer>
           <TitleBorderContainer>
             <Title>Shopping Cart</Title>
           </TitleBorderContainer>
           <div>
-            <CloseButton onClick={handleClickCloseButton}>
+            <CloseButton
+              data-testid="close-button"
+              onClick={handleClickCloseButton}
+            >
               <FaWindowClose />
             </CloseButton>
           </div>
@@ -61,7 +64,7 @@ const CartModal = ({ setIsCartOpen }: CartModalProps) => {
         <Button onClick={handleCheckoutButton}>Checkout</Button>
         <Button>Comparison</Button>
       </ButtonContainer>
-    </Container>
+    </CartModalContainer>
   );
 };
 

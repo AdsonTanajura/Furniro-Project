@@ -1,0 +1,869 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartModal /> should render the main elements 1`] = `
+.c0 {
+  position: absolute;
+  background-color: #ffffff;
+  width: 240px;
+  z-index: 20;
+  right: 0;
+  top: 0;
+  height: 100vh;
+}
+
+.c1 {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 20px;
+}
+
+.c2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.c4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.c3 {
+  flex-direction: row;
+  padding-bottom: 26px;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.c5 {
+  background-color: transparent;
+  border: none;
+  padding: 2px 4px;
+  color: #9f9f9f;
+  font-size: 20px;
+}
+
+.c5:hover {
+  color: black;
+}
+
+.c10 {
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid #d9d9d9;
+  padding: 13px 13px;
+  gap: 8px;
+}
+
+.c11 {
+  background-color: transparent;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  padding: 6px 6px;
+  transition: all 0.2s;
+  font-size: 12px;
+}
+
+.c11:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.c6 {
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  margin: 42px 0px;
+  gap: 20px;
+  height: calc(100vh - 300px);
+}
+
+.c7 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.c8 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.c9 {
+  color: #b88e2f;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .c0 {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .c1 {
+    padding: 28px 40px 24px 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c2 {
+    gap: 42px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c3 {
+    min-width: 287px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c10 {
+    padding: 26px 26px;
+    gap: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c11 {
+    padding: 6px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c7 {
+    gap: 101px;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          Shopping Cart
+        </h2>
+      </div>
+      <div>
+        <button
+          class="c5"
+          data-testid="close-button"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M464 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-83.6 290.5c4.8 4.8 4.8 12.6 0 17.4l-40.5 40.5c-4.8 4.8-12.6 4.8-17.4 0L256 313.3l-66.5 67.1c-4.8 4.8-12.6 4.8-17.4 0l-40.5-40.5c-4.8-4.8-4.8-12.6 0-17.4l67.1-66.5-67.1-66.5c-4.8-4.8-4.8-12.6 0-17.4l40.5-40.5c4.8-4.8 12.6-4.8 17.4 0l66.5 67.1 66.5-67.1c4.8-4.8 12.6-4.8 17.4 0l40.5 40.5c4.8 4.8 4.8 12.6 0 17.4L313.3 256l67.1 66.5z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="c6"
+    />
+    <div
+      class="c7"
+    >
+      <span
+        class="c8"
+      >
+        Subtotal
+      </span>
+      <span
+        class="c9"
+      >
+        Rp 0
+      </span>
+    </div>
+  </div>
+  <div
+    class="c10"
+  >
+    <button
+      class="c11"
+    >
+      Cart
+    </button>
+    <button
+      class="c11"
+    >
+      Checkout
+    </button>
+    <button
+      class="c11"
+    >
+      Comparison
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<CartModal /> should return false in the mockSetIsCartOpen when clicking the close button 1`] = `
+.c0 {
+  position: absolute;
+  background-color: #ffffff;
+  width: 240px;
+  z-index: 20;
+  right: 0;
+  top: 0;
+  height: 100vh;
+}
+
+.c1 {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 20px;
+}
+
+.c2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.c4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.c3 {
+  flex-direction: row;
+  padding-bottom: 26px;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.c5 {
+  background-color: transparent;
+  border: none;
+  padding: 2px 4px;
+  color: #9f9f9f;
+  font-size: 20px;
+}
+
+.c5:hover {
+  color: black;
+}
+
+.c10 {
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid #d9d9d9;
+  padding: 13px 13px;
+  gap: 8px;
+}
+
+.c11 {
+  background-color: transparent;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  padding: 6px 6px;
+  transition: all 0.2s;
+  font-size: 12px;
+}
+
+.c11:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.c6 {
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  margin: 42px 0px;
+  gap: 20px;
+  height: calc(100vh - 300px);
+}
+
+.c7 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.c8 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.c9 {
+  color: #b88e2f;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .c0 {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .c1 {
+    padding: 28px 40px 24px 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c2 {
+    gap: 42px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c3 {
+    min-width: 287px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c10 {
+    padding: 26px 26px;
+    gap: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c11 {
+    padding: 6px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c7 {
+    gap: 101px;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          Shopping Cart
+        </h2>
+      </div>
+      <div>
+        <button
+          class="c5"
+          data-testid="close-button"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M464 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-83.6 290.5c4.8 4.8 4.8 12.6 0 17.4l-40.5 40.5c-4.8 4.8-12.6 4.8-17.4 0L256 313.3l-66.5 67.1c-4.8 4.8-12.6 4.8-17.4 0l-40.5-40.5c-4.8-4.8-4.8-12.6 0-17.4l67.1-66.5-67.1-66.5c-4.8-4.8-4.8-12.6 0-17.4l40.5-40.5c4.8-4.8 12.6-4.8 17.4 0l66.5 67.1 66.5-67.1c4.8-4.8 12.6-4.8 17.4 0l40.5 40.5c4.8 4.8 4.8 12.6 0 17.4L313.3 256l67.1 66.5z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="c6"
+    />
+    <div
+      class="c7"
+    >
+      <span
+        class="c8"
+      >
+        Subtotal
+      </span>
+      <span
+        class="c9"
+      >
+        Rp 0
+      </span>
+    </div>
+  </div>
+  <div
+    class="c10"
+  >
+    <button
+      class="c11"
+    >
+      Cart
+    </button>
+    <button
+      class="c11"
+    >
+      Checkout
+    </button>
+    <button
+      class="c11"
+    >
+      Comparison
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<CartModal /> should take you to the Checkout page when you click on the Checkout button 1`] = `
+.c0 {
+  position: absolute;
+  background-color: #ffffff;
+  width: 240px;
+  z-index: 20;
+  right: 0;
+  top: 0;
+  height: 100vh;
+}
+
+.c1 {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 20px;
+}
+
+.c2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.c4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.c3 {
+  flex-direction: row;
+  padding-bottom: 26px;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.c5 {
+  background-color: transparent;
+  border: none;
+  padding: 2px 4px;
+  color: #9f9f9f;
+  font-size: 20px;
+}
+
+.c5:hover {
+  color: black;
+}
+
+.c10 {
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid #d9d9d9;
+  padding: 13px 13px;
+  gap: 8px;
+}
+
+.c11 {
+  background-color: transparent;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  padding: 6px 6px;
+  transition: all 0.2s;
+  font-size: 12px;
+}
+
+.c11:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.c6 {
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  margin: 42px 0px;
+  gap: 20px;
+  height: calc(100vh - 300px);
+}
+
+.c7 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.c8 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.c9 {
+  color: #b88e2f;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .c0 {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .c1 {
+    padding: 28px 40px 24px 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c2 {
+    gap: 42px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c3 {
+    min-width: 287px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c10 {
+    padding: 26px 26px;
+    gap: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c11 {
+    padding: 6px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c7 {
+    gap: 101px;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          Shopping Cart
+        </h2>
+      </div>
+      <div>
+        <button
+          class="c5"
+          data-testid="close-button"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M464 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-83.6 290.5c4.8 4.8 4.8 12.6 0 17.4l-40.5 40.5c-4.8 4.8-12.6 4.8-17.4 0L256 313.3l-66.5 67.1c-4.8 4.8-12.6 4.8-17.4 0l-40.5-40.5c-4.8-4.8-4.8-12.6 0-17.4l67.1-66.5-67.1-66.5c-4.8-4.8-4.8-12.6 0-17.4l40.5-40.5c4.8-4.8 12.6-4.8 17.4 0l66.5 67.1 66.5-67.1c4.8-4.8 12.6-4.8 17.4 0l40.5 40.5c4.8 4.8 4.8 12.6 0 17.4L313.3 256l67.1 66.5z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="c6"
+    />
+    <div
+      class="c7"
+    >
+      <span
+        class="c8"
+      >
+        Subtotal
+      </span>
+      <span
+        class="c9"
+      >
+        Rp 0
+      </span>
+    </div>
+  </div>
+  <div
+    class="c10"
+  >
+    <button
+      class="c11"
+    >
+      Cart
+    </button>
+    <button
+      class="c11"
+    >
+      Checkout
+    </button>
+    <button
+      class="c11"
+    >
+      Comparison
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<CartModal /> should take you to the cart page when you click on the cart button 1`] = `
+.c0 {
+  position: absolute;
+  background-color: #ffffff;
+  width: 240px;
+  z-index: 20;
+  right: 0;
+  top: 0;
+  height: 100vh;
+}
+
+.c1 {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 20px;
+}
+
+.c2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.c4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.c3 {
+  flex-direction: row;
+  padding-bottom: 26px;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.c5 {
+  background-color: transparent;
+  border: none;
+  padding: 2px 4px;
+  color: #9f9f9f;
+  font-size: 20px;
+}
+
+.c5:hover {
+  color: black;
+}
+
+.c10 {
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid #d9d9d9;
+  padding: 13px 13px;
+  gap: 8px;
+}
+
+.c11 {
+  background-color: transparent;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  padding: 6px 6px;
+  transition: all 0.2s;
+  font-size: 12px;
+}
+
+.c11:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.c6 {
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  margin: 42px 0px;
+  gap: 20px;
+  height: calc(100vh - 300px);
+}
+
+.c7 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.c8 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.c9 {
+  color: #b88e2f;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .c0 {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .c1 {
+    padding: 28px 40px 24px 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c2 {
+    gap: 42px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c3 {
+    min-width: 287px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c10 {
+    padding: 26px 26px;
+    gap: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c11 {
+    padding: 6px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .c7 {
+    gap: 101px;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <h2
+          class="c4"
+        >
+          Shopping Cart
+        </h2>
+      </div>
+      <div>
+        <button
+          class="c5"
+          data-testid="close-button"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M464 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-83.6 290.5c4.8 4.8 4.8 12.6 0 17.4l-40.5 40.5c-4.8 4.8-12.6 4.8-17.4 0L256 313.3l-66.5 67.1c-4.8 4.8-12.6 4.8-17.4 0l-40.5-40.5c-4.8-4.8-4.8-12.6 0-17.4l67.1-66.5-67.1-66.5c-4.8-4.8-4.8-12.6 0-17.4l40.5-40.5c4.8-4.8 12.6-4.8 17.4 0l66.5 67.1 66.5-67.1c4.8-4.8 12.6-4.8 17.4 0l40.5 40.5c4.8 4.8 4.8 12.6 0 17.4L313.3 256l67.1 66.5z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="c6"
+    />
+    <div
+      class="c7"
+    >
+      <span
+        class="c8"
+      >
+        Subtotal
+      </span>
+      <span
+        class="c9"
+      >
+        Rp 0
+      </span>
+    </div>
+  </div>
+  <div
+    class="c10"
+  >
+    <button
+      class="c11"
+    >
+      Cart
+    </button>
+    <button
+      class="c11"
+    >
+      Checkout
+    </button>
+    <button
+      class="c11"
+    >
+      Comparison
+    </button>
+  </div>
+</div>
+`;

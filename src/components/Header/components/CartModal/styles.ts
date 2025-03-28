@@ -1,6 +1,6 @@
 import { styled } from 'styled-components';
 
-export const Container = styled.div`
+export const CartModalContainer = styled.div`
   position: absolute;
   background-color: #ffffff;
   width: 240px;
