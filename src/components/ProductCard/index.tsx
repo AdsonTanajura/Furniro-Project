@@ -15,7 +15,7 @@ import {
   TagContainer,
   Title,
 } from './styles';
-import formatCurrency from '../../utils/formatCurrency';
+import formatCurrency from '../../utils/formatCurrencyRp';
 import SocialMedia from './Components/SocialMedia';
 import { useNavigate } from 'react-router-dom';
 import { useAppDispatch } from '../../hooks';

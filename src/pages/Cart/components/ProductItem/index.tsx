@@ -10,7 +10,7 @@ import {
 
 import { TbTrashFilled } from 'react-icons/tb';
 import { ProductItemProps } from './types';
-import formatCurrencyRp from '../../../../utils/formatCurrency';
+import formatCurrencyRp from '../../../../utils/formatCurrencyRp';
 import { useAppDispatch } from '../../../../hooks';
 import { addItem, removeItem } from '../../CartSlice';
 

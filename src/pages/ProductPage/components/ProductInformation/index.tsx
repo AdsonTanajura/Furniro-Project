@@ -24,7 +24,7 @@ import { IoLogoFacebook } from 'react-icons/io5';
 import { FaLinkedin } from 'react-icons/fa';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { ProductInformationProps } from './types';
-import formatCurrency from '../../../../utils/formatCurrency';
+import formatCurrency from '../../../../utils/formatCurrencyRp';
 import ProductPageInputQuantity from '../ProductPageInputQuantity';
 import { useState } from 'react';
 import { useAppDispatch } from '../../../../hooks';

@@ -1,6 +1,6 @@
 import { toast } from 'react-toastify';
 import { useAppSelector } from '../../hooks';
-import formatCurrencyRp from '../../utils/formatCurrency';
+import formatCurrencyRp from '../../utils/formatCurrencyRp';
 import Form from './components/Form';
 import {
   CheckoutContainer,

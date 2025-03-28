@@ -17,7 +17,7 @@ import {
   CartTotalsCheckOut,
 } from './styles';
 import { useSelector } from 'react-redux';
-import formatCurrencyRp from '../../utils/formatCurrency';
+import formatCurrencyRp from '../../utils/formatCurrencyRp';
 import { useNavigate } from 'react-router-dom';
 import Banner from '../../components/Banner';
 

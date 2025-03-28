@@ -13,7 +13,7 @@ import {
 
 import { RiCloseCircleFill } from 'react-icons/ri';
 import { CardProductItemProps } from './types';
-import formatCurrencyRp from '../../../../utils/formatCurrency';
+import formatCurrencyRp from '../../../../utils/formatCurrencyRp';
 import { useAppDispatch } from '../../../../hooks';
 import { removeItem } from '../../../../pages/Cart/CartSlice';
 
